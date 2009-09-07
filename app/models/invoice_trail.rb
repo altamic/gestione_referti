@@ -1,7 +1,7 @@
 class InvoiceTrail < ActiveRecord::Base
   has_one :client
   
-  validates_presence_of :last_name, :first_name, :admission_date, :admission_code, :gross_amount
+  validates_presence_of :last_name, :admission_date, :admission_code, :gross_amount
   # TODO: define 
   # partial_sum
   # partial_gross_total
@@ -16,10 +16,6 @@ class InvoiceTrail < ActiveRecord::Base
   
   def payment_status
     payed ? "payment_completed" : "payment_uncompleted"
-  end
-    
-  def full_name
-    [last_name, first_name].join(' ')
   end
 
   def payment_status_description

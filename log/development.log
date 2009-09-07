@@ -12434,3 +12434,513 @@ Completed in 24ms (View: 19, DB: 0) | 200 OK [http://bios-invoice-manager.local/
     /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
     /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
     /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/bin/passenger-spawn-server:50
+/!\ FAILSAFE /!\  Mon Sep 07 20:28:13 +0200 2009
+  Status: 500 Internal Server Error
+  undefined method `rewind' for #<TCPSocket:0x2410f80>
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/request.rb:150:in `POST'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/rack/request_handler.rb:65:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/utils.rb:176:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:149:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.1.2/bin/passenger-spawn-server:50
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:28:26) [GET]
+  [4;36;1mInvoiceTrail Load (0.2ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 153ms (View: 142, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:28:56) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (21.2ms)
+Completed in 41ms (View: 34, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:29:44) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (17.8ms)
+Completed in 32ms (View: 27, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:29:59) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (17.8ms)
+Completed in 34ms (View: 28, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:30:25) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (17.9ms)
+Completed in 99ms (View: 27, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:31:15) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (17.4ms)
+Completed in 32ms (View: 26, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:31:37) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (13.3ms)
+Completed in 26ms (View: 19, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:31:38) [GET]
+  [4;36;1mInvoiceTrail Load (0.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 23ms (View: 15, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:31:40) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (13.1ms)
+Completed in 25ms (View: 19, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:31:43) [GET]
+  [4;36;1mInvoiceTrail Load (0.4ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 21ms (View: 14, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 20:31:46) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (14.0ms)
+Completed in 26ms (View: 20, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:36:07) [GET]
+  [4;36;1mInvoiceTrail Load (0.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 36ms (View: 27, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:36:27) [GET]
+  [4;36;1mInvoiceTrail Load (0.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `calendar_date_select_tag' for #<ActionView::Helpers::FormBuilder:0x211e354>) on line #47 of app/views/invoice_trails/index.html.haml:
+44:       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+45:       
+46:       = f.label :notes_contains, t(:notes)
+47:       = f.text_field :notes_contains, :size => 15
+48: 
+49:       / \&nbsp;&nbsp;
+50:       / = f.label :payed, 'Payment Status:'
+
+    app/views/invoice_trails/index.html.haml:47:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/invoice_trails/index.html.haml:7:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (109.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:36:43) [GET]
+  [4;36;1mInvoiceTrail Load (0.2ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `calendar_date_select_tag' for #<ActionView::Helpers::FormBuilder:0x25fb624>) on line #47 of app/views/invoice_trails/index.html.haml:
+44:       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+45:       
+46:       = f.label :notes_contains, t(:notes)
+47:       = f.text_field :notes_contains, :size => 15
+48: 
+49:       / \&nbsp;&nbsp;
+50:       / = f.label :payed, 'Payment Status:'
+
+    app/views/invoice_trails/index.html.haml:47:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/invoice_trails/index.html.haml:7:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:36:44) [GET]
+  [4;35;1mInvoiceTrail Load (0.2ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `calendar_date_select_tag' for #<ActionView::Helpers::FormBuilder:0x17a43b4>) on line #47 of app/views/invoice_trails/index.html.haml:
+44:       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+45:       
+46:       = f.label :notes_contains, t(:notes)
+47:       = f.text_field :notes_contains, :size => 15
+48: 
+49:       / \&nbsp;&nbsp;
+50:       / = f.label :payed, 'Payment Status:'
+
+    app/views/invoice_trails/index.html.haml:47:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/invoice_trails/index.html.haml:7:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (56.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:36:45) [GET]
+  [4;36;1mInvoiceTrail Load (0.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `calendar_date_select_tag' for #<ActionView::Helpers::FormBuilder:0x21c5b68>) on line #47 of app/views/invoice_trails/index.html.haml:
+44:       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+45:       
+46:       = f.label :notes_contains, t(:notes)
+47:       = f.text_field :notes_contains, :size => 15
+48: 
+49:       / \&nbsp;&nbsp;
+50:       / = f.label :payed, 'Payment Status:'
+
+    app/views/invoice_trails/index.html.haml:47:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/invoice_trails/index.html.haml:7:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (120.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:36:49) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `calendar_date_select_tag' for #<ActionView::Helpers::FormBuilder:0x25ba2a0>) on line #47 of app/views/invoice_trails/index.html.haml:
+44:       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+45:       
+46:       = f.label :notes_contains, t(:notes)
+47:       = f.text_field :notes_contains, :size => 15
+48: 
+49:       / \&nbsp;&nbsp;
+50:       / = f.label :payed, 'Payment Status:'
+
+    app/views/invoice_trails/index.html.haml:47:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/invoice_trails/index.html.haml:7:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:37:26) [GET]
+  [4;36;1mInvoiceTrail Load (0.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 35ms (View: 28, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:53:15) [GET]
+  [4;36;1mInvoiceTrail Load (0.2ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 153ms (View: 144, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:55:03) [GET]
+  [4;36;1mInvoiceTrail Load (0.3ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined method `calendar_date_select_tag' for #<ActionView::Helpers::FormBuilder:0x2165664>) on line #47 of app/views/invoice_trails/index.html.haml:
+44:       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+45:       
+46:       = f.label :notes_contains, t(:notes)
+47:       = f.text_field :notes_contains, :size => 15
+48: 
+49:       / \&nbsp;&nbsp;
+50:       / = f.label :payed, 'Payment Status:'
+
+    app/views/invoice_trails/index.html.haml:47:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `call'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:163:in `form_for'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.3) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:169:in `form_for'
+    app/views/invoice_trails/index.html.haml:7:in `_run_haml_app47views47invoice_trails47index46html46haml'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.3) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (107.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:55:10) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 33ms (View: 26, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:10) [GET]
+  [4;35;1mInvoiceTrail Load (0.2ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 34ms (View: 27, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:14) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 33ms (View: 26, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:23) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 95ms (View: 27, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:27) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 34ms (View: 27, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:30) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 21ms (View: 14, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:38) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 34ms (View: 26, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:46) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 35ms (View: 28, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:51) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 33ms (View: 26, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 20:59:57) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 32ms (View: 26, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 21:00:01) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 94ms (View: 87, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 21:00:06) [GET]
+  [4;35;1mInvoiceTrail Load (0.1ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 34ms (View: 26, DB: 0) | 200 OK [http://localhost/invoice_trails]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 21:34:15) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (17.9ms)
+Completed in 36ms (View: 31, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 21:34:17) [GET]
+  [4;35;1mInvoiceTrail Load (0.2ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 23ms (View: 15, DB: 0) | 200 OK [http://localhost/invoice_trails]

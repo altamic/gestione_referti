@@ -10,9 +10,6 @@
     = f.label :last_name, t(:last_name)
     = f.text_field :last_name
   %p
-    = f.label :first_name, t(:first_name)
-    = f.text_field :first_name
-  %p
     = f.label :gross_amount, t(:gross_amount)
     = f.text_field :gross_amount, :size => 4
   %p
@@ -22,8 +19,12 @@
     = f.label :discount, t(:discount)
     = f.text_field :discount, :size => 4
   %p
-    = f.label :payed, t(:payed)
-    = f.check_box :payed
+    = f.label :payed, t(:payment_status)
+    = f.radio_button :payed, false
+    = t(:payed)
+    = f.radio_button :payed, true
+    = t(:not_payed)
+    
   - if @invoice_trail.payed
     %p
       = f.label :payment_date, t(:payment_date)

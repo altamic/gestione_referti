@@ -2,7 +2,6 @@ one:
   admission_date: 2009-09-07
   admission_code: MyString
   last_name: MyString
-  first_name: MyString
   gross_amount: 9.99
   payed_amount: false
   discount: 9.99
@@ -15,7 +14,6 @@ two:
   admission_date: 2009-09-07
   admission_code: MyString
   last_name: MyString
-  first_name: MyString
   gross_amount: 9.99
   payed_amount: false
   discount: 9.99
