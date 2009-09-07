@@ -15,13 +15,27 @@
       = f.label :admission_date_before, t(:admission_date_before)
       = f.text_field :admission_date_before, :size => 10, :class => 'date'
       \&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      = f.radio_button :payment_status, :payment_uncompleted
+      = t(:payment_uncompleted) 
+      &nbsp;
+      
+      = f.radio_button :payment_status, :payment_completed
+      = t(:payment_completed)
+      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      = f.label :invoice_number, t(:invoice_number)
+      = f.text_field :invoice_number, :size => 6
+      \&nbsp;&nbsp;&nbsp;&nbsp;
+    %p
       = f.label :last_name_contains, t(:last_name)
       = f.text_field :last_name_contains, :size => 20
       \&nbsp;&nbsp;&nbsp;&nbsp;
       = f.label :first_name_contains, t(:first_name)
       = f.text_field :first_name_contains, :size => 20
-    
-    %p
+
+      
+
       = f.label :notes_contains, t(:notes)
       = f.text_field :notes_contains, :size => 20
 
