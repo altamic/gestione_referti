@@ -11,10 +11,13 @@
 
     %p
       = f.label :admission_date_after, t(:admission_date_after)
-      = f.text_field :admission_date_after, :size => 10, :class => 'date'
+      / = f.date_select :admission_date_after, :discard_day  => true, :default => 3.months.ago
+      = f.text_field :admission_date_after, :size => 8, :default => 3.months.ago.to_s(:db)
+      
       = f.label :admission_date_before, t(:admission_date_before)
-      = f.text_field :admission_date_before, :size => 10, :class => 'date'
-      \&nbsp;&nbsp;&nbsp;&nbsp;
+      / = f.date_select :admission_date_before, :discard_day  => true
+      = f.text_field :admission_date_before, :size => 8, :default => Time.now.to_s(:db)
+      \&nbsp;&nbsp;
       
       = f.radio_button :payment_status, :payment_uncompleted
       = t(:payment_uncompleted) 
@@ -22,22 +25,26 @@
       
       = f.radio_button :payment_status, :payment_completed
       = t(:payment_completed)
-      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      \&nbsp;&nbsp;&nbsp;
       
       = f.label :invoice_number, t(:invoice_number)
       = f.text_field :invoice_number, :size => 6
-      \&nbsp;&nbsp;&nbsp;&nbsp;
-    %p
-      = f.label :last_name_contains, t(:last_name)
-      = f.text_field :last_name_contains, :size => 20
-      \&nbsp;&nbsp;&nbsp;&nbsp;
-      = f.label :first_name_contains, t(:first_name)
-      = f.text_field :first_name_contains, :size => 20
 
+    %p  
+      = f.label :admission_code, t(:admission_code)
+      = f.text_field :admission_code, :size => 6
+      \&nbsp;&nbsp;&nbsp;
       
-
+      = f.label :last_name_contains, t(:last_name)
+      = f.text_field :last_name_contains, :size => 15
+      \&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      = f.label :first_name_contains, t(:first_name)
+      = f.text_field :first_name_contains, :size => 15
+      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
       = f.label :notes_contains, t(:notes)
-      = f.text_field :notes_contains, :size => 20
+      = f.text_field :notes_contains, :size => 15
 
       / \&nbsp;&nbsp;
       / = f.label :payed, 'Payment Status:'
@@ -64,7 +71,7 @@
     %tr
       %th= order @search, :by => :id, :as =>"ID"
       %th= order @search, :by => :admission_date, :as =>t(:admission_date)
-      %th= t(:external_code)
+      %th= t(:admission_code)
       %th= order @search, :by => :full_name, :as =>t(:full_name)
       %th= order @search, :by => :gross_amount, :as =>t(:gross_amount)
       %th= order @search, :by => :payed_amount, :as =>t(:payed_amount)
@@ -77,7 +84,7 @@
       %tr
         %td= h invoice_trail.id  
         %td= h invoice_trail.admission_date
-        %td= h invoice_trail.external_code
+        %td= h invoice_trail.admission_code
         %td= h invoice_trail.full_name
         %td= h invoice_trail.gross_amount
         %td= h invoice_trail.payed_amount

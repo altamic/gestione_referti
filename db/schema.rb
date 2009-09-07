@@ -13,12 +13,12 @@ ActiveRecord::Schema.define(:version => 20090907100024) do
 
   create_table "invoice_trails", :force => true do |t|
     t.date     "admission_date"
-    t.string   "external_code"
+    t.string   "admission_code"
     t.string   "last_name"
     t.string   "first_name"
-    t.decimal  "gross_amount",   :precision => 3, :scale => 2, :default => 0.0
-    t.decimal  "payed_amount",   :precision => 3, :scale => 2, :default => 0.0
-    t.decimal  "discount",       :precision => 3, :scale => 2, :default => 0.0
+    t.decimal  "gross_amount",   :precision => 3, :scale => 2
+    t.decimal  "payed_amount",   :precision => 3, :scale => 2
+    t.decimal  "discount",       :precision => 3, :scale => 2
     t.boolean  "payed"
     t.date     "payment_date"
     t.integer  "invoice_number"

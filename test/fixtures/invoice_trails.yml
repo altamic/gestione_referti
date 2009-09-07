@@ -1,6 +1,6 @@
 one:
   admission_date: 2009-09-07
-  external_code: MyString
+  admission_code: MyString
   last_name: MyString
   first_name: MyString
   gross_amount: 9.99
@@ -13,7 +13,7 @@ one:
 
 two:
   admission_date: 2009-09-07
-  external_code: MyString
+  admission_code: MyString
   last_name: MyString
   first_name: MyString
   gross_amount: 9.99

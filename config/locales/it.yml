@@ -35,9 +35,9 @@ it:
   invoice_trails: "Accettazione Esami"
   invoice_trail:  "Accettazione Esame"
   
-  no_results: "Non ci sono risultati disponibili che soddisfano i criteri di ricerca prescelti"
+  no_results: "Non ci sono risultati che soddisfano i criteri di ricerca scelti"
   admission_date: "Data"
-  external_code: "Riferimento"
+  admission_code: "Codice Accettazione"
   last_name: "Cognome"
   first_name: "Nome"
   full_name: "Nome"

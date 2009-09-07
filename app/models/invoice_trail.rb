@@ -1,5 +1,7 @@
 class InvoiceTrail < ActiveRecord::Base
   has_one :client
+  
+  validates_presence_of :last_name, :first_name, :admission_date, :admission_code, :gross_amount
   # TODO: define 
   # partial_sum
   # partial_gross_total
@@ -20,6 +22,11 @@ class InvoiceTrail < ActiveRecord::Base
     [last_name, first_name].join(' ')
   end
 
+  def payment_status_description
+    # in attesa di pagamento da x giorni
+    # ha pagato x euro con uno sconto del x% 
+    # se giorni > 15, in x giorni
+  end
 
   private
   def self.compute_conditions(value)
