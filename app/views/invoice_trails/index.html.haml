@@ -1,27 +1,62 @@
-- title "Invoice Trails"
+- title "Invoice Trails (#{@invoice_trails_count})"
+- javascript :defaults
+
+- form_for @search do |f|
+  %fieldset
+    %legend
+      Search Criteria
+
+    %p
+      = f.label :admission_date_after, "Date between:"
+      = f.text_field :admission_date_after, :size => 10, :class => 'date'
+      = f.label :admission_date_before, "and:"
+      = f.text_field :admission_date_before, :size => 10, :class => 'date'
+      \&nbsp;&nbsp;&nbsp;&nbsp;
+      = f.label :last_name_contains, 'Name:'
+      = f.text_field :last_name_contains, :size => 30
+    
+      %p
+        = f.label :notes_contains, 'Note contains:'
+        = f.text_field :notes_contains, :size => 20
+
+        / \&nbsp;&nbsp;
+        / = f.label :payed, 'Payment Status:'
+        / \&nbsp;&nbsp;
+        / = f.radio_button :payed, true
+        / Payed&nbsp;&nbsp;
+        / = f.radio_button :payed, false
+        / Not Payed&nbsp;&nbsp;
+
+        / = f.label :invoice_is_nil, 'Invoice is nil:'
+        / \&nbsp;&nbsp;
+        / = f.check_box :invoice_is_nil, true
+        
+  %p.button
+    = f.submit 'Filter'
 
 %table
   %tr
-    %th Admission date
-    %th External code
-    %th Last name
-    %th First name
+    %th ID
+    %th Date
+    %th Admission
+    %th Name
     %th Gross amount
+    %th Discount  
     %th Payed amount
-    %th Discount
     %th Payed
     %th Payment date
     %th Invoice number
     %th Notes
   - for invoice_trail in @invoice_trails
     %tr
+      %td= h invoice_trail.id  
       %td= h invoice_trail.admission_date
       %td= h invoice_trail.external_code
-      %td= h invoice_trail.last_name
+      %td= h invoice_trail.full_name
       %td= h invoice_trail.first_name
       %td= h invoice_trail.gross_amount
+      %td= h invoice_trail.discount      
       %td= h invoice_trail.payed_amount
-      %td= h invoice_trail.discount
       %td= h invoice_trail.payed
       %td= h invoice_trail.payment_date
       %td= h invoice_trail.invoice_number

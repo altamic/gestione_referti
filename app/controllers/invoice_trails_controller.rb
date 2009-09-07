@@ -1,6 +1,7 @@
 class InvoiceTrailsController < ApplicationController
   def index
-    @invoice_trails = InvoiceTrail.all
+    @search = InvoiceTrail.search(params[:search])
+    @invoice_trails, @invoice_trails_count = @search.all.paginate(:per_page => 15, :page => params[:page]), @search.count
   end
   
   def show
