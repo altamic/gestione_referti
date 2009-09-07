@@ -1,8 +1,8 @@
-- title "Edit Invoice Trail"
+- title "#{t(:edit)} #{t(:invoice_trail)}"
+
+%p
+  = link_to "« #{t(:invoice_trails)}", invoice_trails_path
 
 = render :partial => 'form'
 
-%p
-  = link_to "Edit", edit_invoice_trail_path(@invoice_trail)
-  |
-  = link_to "View All", invoice_trails_path
+

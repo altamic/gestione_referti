@@ -1,68 +1,73 @@
-- title "Invoice Trails (#{@invoice_trails_count})"
 - javascript :defaults
+
+- title "#{t(:invoice_trails)} (#{@invoice_trails_count})"
+
+%p= link_to "#{t(:new)} #{t(:invoice_trail)}", new_invoice_trail_path
 
 - form_for @search do |f|
   %fieldset
     %legend
-      Search Criteria
+      = t(:search_criteria)
 
     %p
-      = f.label :admission_date_after, "Date between:"
+      = f.label :admission_date_after, t(:admission_date_after)
       = f.text_field :admission_date_after, :size => 10, :class => 'date'
-      = f.label :admission_date_before, "and:"
+      = f.label :admission_date_before, t(:admission_date_before)
       = f.text_field :admission_date_before, :size => 10, :class => 'date'
       \&nbsp;&nbsp;&nbsp;&nbsp;
-      = f.label :last_name_contains, 'Name:'
-      = f.text_field :last_name_contains, :size => 30
+      = f.label :last_name_contains, t(:last_name)
+      = f.text_field :last_name_contains, :size => 20
+      \&nbsp;&nbsp;&nbsp;&nbsp;
+      = f.label :first_name_contains, t(:first_name)
+      = f.text_field :first_name_contains, :size => 20
     
-      %p
-        = f.label :notes_contains, 'Note contains:'
-        = f.text_field :notes_contains, :size => 20
+    %p
+      = f.label :notes_contains, t(:notes)
+      = f.text_field :notes_contains, :size => 20
 
-        / \&nbsp;&nbsp;
-        / = f.label :payed, 'Payment Status:'
-        / \&nbsp;&nbsp;
-        / = f.radio_button :payed, true
-        / Payed&nbsp;&nbsp;
-        / = f.radio_button :payed, false
-        / Not Payed&nbsp;&nbsp;
+      / \&nbsp;&nbsp;
+      / = f.label :payed, 'Payment Status:'
+      / \&nbsp;&nbsp;
+      / = f.radio_button :payed, true
+      / Payed&nbsp;&nbsp;
+      / = f.radio_button :payed, false
+      / Not Payed&nbsp;&nbsp;
 
-        / = f.label :invoice_is_nil, 'Invoice is nil:'
-        / \&nbsp;&nbsp;
-        / = f.check_box :invoice_is_nil, true
+      / = f.label :invoice_is_nil, 'Invoice is nil:'
+      / \&nbsp;&nbsp;- javascript :defaults
+      
+      / = f.check_box :invoice_not_nil, true
         
   %p.button
-    = f.submit 'Filter'
+    = f.submit t(:filter)
 
 %table
   %tr
     %th ID
-    %th Date
-    %th Admission
-    %th Name
-    %th Gross amount
-    %th Discount  
-    %th Payed amount
-    %th Payed
-    %th Payment date
-    %th Invoice number
-    %th Notes
+    %th= t(:admission_date)
+    %th= t(:external_code)
+    %th= t(:full_name)
+    %th= t(:gross_amount)
+    %th= t(:payed_amount)
+    %th= t(:discount)     
+    %th= t(:payed)
+    %th= t(:payment_date)
+    %th= t(:invoice_number)
+    %th= t(:notes)
   - for invoice_trail in @invoice_trails
     %tr
       %td= h invoice_trail.id  
       %td= h invoice_trail.admission_date
       %td= h invoice_trail.external_code
       %td= h invoice_trail.full_name
-      %td= h invoice_trail.first_name
       %td= h invoice_trail.gross_amount
-      %td= h invoice_trail.discount      
       %td= h invoice_trail.payed_amount
+      %td= h invoice_trail.discount
       %td= h invoice_trail.payed
       %td= h invoice_trail.payment_date
       %td= h invoice_trail.invoice_number
       %td= h invoice_trail.notes
-      %td= link_to 'Show', invoice_trail
-      %td= link_to 'Edit', edit_invoice_trail_path(invoice_trail)
-      %td= link_to 'Destroy', invoice_trail, :confirm => 'Are you sure?', :method => :delete
+      %td= link_to t(:show), invoice_trail
+      %td= link_to t(:mark_as_payed), invoice_trail
 
-%p= link_to "New Invoice Trail", new_invoice_trail_path
+

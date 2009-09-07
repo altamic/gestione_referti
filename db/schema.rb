@@ -16,9 +16,9 @@ ActiveRecord::Schema.define(:version => 20090907100024) do
     t.string   "external_code"
     t.string   "last_name"
     t.string   "first_name"
-    t.decimal  "gross_amount"
-    t.boolean  "payed_amount"
-    t.decimal  "discount"
+    t.decimal  "gross_amount",   :precision => 3, :scale => 2, :default => 0.0
+    t.decimal  "payed_amount",   :precision => 3, :scale => 2, :default => 0.0
+    t.decimal  "discount",       :precision => 3, :scale => 2, :default => 0.0
     t.boolean  "payed"
     t.date     "payment_date"
     t.integer  "invoice_number"

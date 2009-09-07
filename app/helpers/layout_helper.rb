@@ -20,4 +20,8 @@ module LayoutHelper
     args = args.map { |arg| arg == :defaults ? arg : arg.to_s }
     content_for(:head) { javascript_include_tag(*args) }
   end
+  
+  def cancel_link
+    link_to  t('cancel'), url_for(:back), {:class => 'command'}
+  end
 end

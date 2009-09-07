@@ -1,5 +1,7 @@
-- title "New Invoice Trail"
+
+%p
+  = link_to "« #{t(:invoice_trails)}", invoice_trails_path
 
 = render :partial => 'form'
 
-%p= link_to "Back to List", invoice_trails_path
+

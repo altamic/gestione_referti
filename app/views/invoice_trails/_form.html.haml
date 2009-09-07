@@ -1,48 +1,43 @@
 - form_for @invoice_trail do |f|
   = f.error_messages
   %p
-    = f.label :admission_date
-    %br
+    = f.label :admission_date, t(:admission_date)
     = f.date_select :admission_date
   %p
-    = f.label :external_code
-    %br
+    = f.label :external_code, t(:external_code)
     = f.text_field :external_code
   %p
-    = f.label :last_name
-    %br
+    = f.label :last_name, t(:last_name)
     = f.text_field :last_name
   %p
-    = f.label :first_name
-    %br
+    = f.label :first_name, t(:first_name)
     = f.text_field :first_name
   %p
-    = f.label :gross_amount
-    %br
+    = f.label :gross_amount, t(:gross_amount)
     = f.text_field :gross_amount
   %p
-    = f.label :payed_amount
-    %br
+    = f.label :payed_amount, t(:payed_amount)
     = f.check_box :payed_amount
   %p
-    = f.label :discount
-    %br
+    = f.label :discount, t(:discount)
     = f.text_field :discount
   %p
-    = f.label :payed
-    %br
+    = f.label :payed, t(:payed)
     = f.check_box :payed
+  - if @invoice_trail.payed
+    %p
+      = f.label :payment_date, t(:payment_date)
+      = f.date_select :payment_date
   %p
-    = f.label :payment_date
-    %br
-    = f.date_select :payment_date
-  %p
-    = f.label :invoice_number
-    %br
+    = f.label :invoice_number, t(:invoice_number)
     = f.text_field :invoice_number
   %p
     = f.label :notes
     %br
-    = f.text_area :notes
+    = f.text_area :notes, :size => '45x4'
   %p
-    = f.submit "Submit"
+    = f.submit t(:submit)
+    = t(:or)
+    = cancel_link
+
+  
