@@ -14,13 +14,13 @@
     = f.text_field :first_name
   %p
     = f.label :gross_amount, t(:gross_amount)
-    = f.text_field :gross_amount
+    = f.text_field :gross_amount, :size => 4
   %p
     = f.label :payed_amount, t(:payed_amount)
-    = f.check_box :payed_amount
+    = f.text_field :payed_amount, :size => 4
   %p
     = f.label :discount, t(:discount)
-    = f.text_field :discount
+    = f.text_field :discount, :size => 4
   %p
     = f.label :payed, t(:payed)
     = f.check_box :payed
@@ -30,9 +30,9 @@
       = f.date_select :payment_date
   %p
     = f.label :invoice_number, t(:invoice_number)
-    = f.text_field :invoice_number
+    = f.text_field :invoice_number, :size => 8
   %p
-    = f.label :notes
+    = f.label :notes, t(:notes)
     %br
     = f.text_area :notes, :size => '45x4'
   %p

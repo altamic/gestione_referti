@@ -9,12 +9,12 @@
 it:
   site_title: "Gestione Referti Bios"
 
-  new: 'Nuovo'
+  new: 'Nuova'
   edit: 'Modifica'
   update: 'Aggiorna'
   delete: 'Elimina'
   show: 'Mostra'
-  submit: 'Invia'
+  submit: 'Salva'
   cancel: "Annulla"
   mark_as_payed: "Segna Pagato"
   confirm_delete: "Confermi di voler procedere all'eliminazione?"
@@ -29,10 +29,13 @@ it:
   admission_date_before: " al "
 
   filter: 'Filtra'
+  results: "Risultati"
+  result: "Risultato"
 
-  invoice_trails: "Pagamenti Referti"
-  invoice_trail:  "Pagamento Referto"
+  invoice_trails: "Accettazione Esami"
+  invoice_trail:  "Accettazione Esame"
   
+  no_results: "Non ci sono risultati disponibili che soddisfano i criteri di ricerca prescelti"
   admission_date: "Data"
   external_code: "Riferimento"
   last_name: "Cognome"
