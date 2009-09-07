@@ -42,3 +42,92 @@ ActionView::TemplateError (undefined method `title' for #<ActionView::Base:0x18d
 Rendered rescues/_trace (98.9ms)
 Rendered rescues/_request_and_response (1.5ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 11:52:16) [GET]
+  [4;36;1mInvoiceTrail Load (0.4ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 23ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 11:52:52) [GET]
+  [4;35;1mInvoiceTrail Load (0.3ms)[0m   [0mSELECT * FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 11:52:52) [GET]
+  [4;36;1mInvoiceTrail Load (0.3ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 11:52:59) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (298.5ms)
+Completed in 313ms (View: 308, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 11:55:50) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (136.8ms)
+Completed in 243ms (View: 237, DB: 0) | 200 OK [http://localhost/invoice_trails/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateInvoiceTrails (20090907100024)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "invoice_trails" already exists: CREATE TABLE "invoice_trails" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "admission_date" date, "external_code" varchar(255), "last_name" varchar(255), "first_name" varchar(255), "gross_amount" decimal, "payed_amount" boolean, "discount" decimal, "payed" boolean, "payment_date" date, "invoice_number" integer, "notes" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateInvoiceTrails (20090907100024)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "invoice_trails" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "admission_date" date, "external_code" varchar(255), "last_name" varchar(255), "first_name" varchar(255), "gross_amount" decimal, "payed_amount" boolean, "discount" decimal, "payed" boolean, "payment_date" date, "invoice_number" integer, "notes" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090907100024')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("invoice_trails")[0m
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-07 12:03:00) [GET]
+  [4;36;1mInvoiceTrail Load (0.4ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 124ms (View: 119, DB: 0) | 200 OK [http://bios-invoice-manager.local/]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 12:03:02) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (76.7ms)
+Completed in 91ms (View: 86, DB: 0) | 200 OK [http://bios-invoice-manager.local/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-07 12:03:49) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (30.0ms)
+Completed in 41ms (View: 33, DB: 0) | 200 OK [http://bios-invoice-manager.local/invoice_trails/new]
