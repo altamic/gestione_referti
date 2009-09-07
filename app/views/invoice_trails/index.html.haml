@@ -35,12 +35,12 @@
       = f.text_field :admission_code, :size => 6
       \&nbsp;&nbsp;&nbsp;
       
-      = f.label :full_name_contains, t(:full_name)
-      = f.text_field :full_name_contains, :size => 30
+      = f.label :full_name_like, t(:full_name)
+      = f.text_field :full_name_like, :size => 30
       \&nbsp;&nbsp;&nbsp;&nbsp;
       
-      = f.label :notes_contains, t(:notes)
-      = f.text_field :notes_contains, :size => 15
+      = f.label :notes_like, t(:notes)
+      = f.text_field :notes_like, :size => 15
 
       / \&nbsp;&nbsp;
       / = f.label :payed, 'Payment Status:'
