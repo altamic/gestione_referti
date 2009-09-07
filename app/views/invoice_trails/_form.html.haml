@@ -1,0 +1,48 @@
+- form_for @invoice_trail do |f|
+  = f.error_messages
+  %p
+    = f.label :admission_date
+    %br
+    = f.date_select :admission_date
+  %p
+    = f.label :external_code
+    %br
+    = f.text_field :external_code
+  %p
+    = f.label :last_name
+    %br
+    = f.text_field :last_name
+  %p
+    = f.label :first_name
+    %br
+    = f.text_field :first_name
+  %p
+    = f.label :gross_amount
+    %br
+    = f.text_field :gross_amount
+  %p
+    = f.label :payed_amount
+    %br
+    = f.check_box :payed_amount
+  %p
+    = f.label :discount
+    %br
+    = f.text_field :discount
+  %p
+    = f.label :payed
+    %br
+    = f.check_box :payed
+  %p
+    = f.label :payment_date
+    %br
+    = f.date_select :payment_date
+  %p
+    = f.label :invoice_number
+    %br
+    = f.text_field :invoice_number
+  %p
+    = f.label :notes
+    %br
+    = f.text_area :notes
+  %p
+    = f.submit "Submit"

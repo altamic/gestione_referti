@@ -1,0 +1,25 @@
+one:
+  admission_date: 2009-09-07
+  external_code: MyString
+  last_name: MyString
+  first_name: MyString
+  gross_amount: 9.99
+  payed_amount: false
+  discount: 9.99
+  payed: false
+  payment_date: 2009-09-07
+  invoice_number: 1
+  notes: MyText
+
+two:
+  admission_date: 2009-09-07
+  external_code: MyString
+  last_name: MyString
+  first_name: MyString
+  gross_amount: 9.99
+  payed_amount: false
+  discount: 9.99
+  payed: false
+  payment_date: 2009-09-07
+  invoice_number: 1
+  notes: MyText

@@ -1,0 +1,33 @@
+- title "Invoice Trails"
+
+%table
+  %tr
+    %th Admission date
+    %th External code
+    %th Last name
+    %th First name
+    %th Gross amount
+    %th Payed amount
+    %th Discount
+    %th Payed
+    %th Payment date
+    %th Invoice number
+    %th Notes
+  - for invoice_trail in @invoice_trails
+    %tr
+      %td= h invoice_trail.admission_date
+      %td= h invoice_trail.external_code
+      %td= h invoice_trail.last_name
+      %td= h invoice_trail.first_name
+      %td= h invoice_trail.gross_amount
+      %td= h invoice_trail.payed_amount
+      %td= h invoice_trail.discount
+      %td= h invoice_trail.payed
+      %td= h invoice_trail.payment_date
+      %td= h invoice_trail.invoice_number
+      %td= h invoice_trail.notes
+      %td= link_to 'Show', invoice_trail
+      %td= link_to 'Edit', edit_invoice_trail_path(invoice_trail)
+      %td= link_to 'Destroy', invoice_trail, :confirm => 'Are you sure?', :method => :delete
+
+%p= link_to "New Invoice Trail", new_invoice_trail_path
