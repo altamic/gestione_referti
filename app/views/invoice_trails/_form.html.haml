@@ -19,14 +19,10 @@
     %strong= f.label :payed_amount, t(:payed_amount)
     = f.text_field :payed_amount, :size => 6
   %p
-    %strong= f.label :discount, t(:discount)
-    &nbsp;&nbsp;
-    = f.text_field :discount, :size => 6
-  %p
     %strong= f.label :payed, t(:payment_status)
-    = f.radio_button :payed, true
-    = t(:not_payed)
     = f.radio_button :payed, false
+    = t(:not_payed)
+    = f.radio_button :payed, true
     = t(:payed)
   - if @invoice_trail.payed
     %p

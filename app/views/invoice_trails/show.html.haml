@@ -5,7 +5,6 @@
 
 %p
   %strong=t(:admission_date)
-  \:
   =h @invoice_trail.admission_date
 %p
   %strong=t(:admission_code)
@@ -33,11 +32,12 @@
   %strong=t(:invoice_number)
   =h @invoice_trail.invoice_number
 
-%p
-  %strong
-    =t(:notes)
-  \:
-  =h @invoice_trail.notes
+- unless @invoice_trail.notes.nil?
+  %p
+    %strong
+      =t(:notes)
+    \:
+    =h @invoice_trail.notes
 
 %p
   = link_to t(:edit), edit_invoice_trail_path(@invoice_trail)

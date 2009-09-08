@@ -18,7 +18,7 @@ class InvoiceTrailsController < ApplicationController
   def create
     @invoice_trail = InvoiceTrail.new(params[:invoice_trail])
     if @invoice_trail.save
-      flash[:notice] = "Successfully created invoice trail."
+      flash[:notice] = "Creazione avvenuta con successo"
       redirect_to @invoice_trail
     else
       render :action => 'new'
@@ -32,7 +32,7 @@ class InvoiceTrailsController < ApplicationController
   def update
     @invoice_trail = InvoiceTrail.find(params[:id])
     if @invoice_trail.update_attributes(params[:invoice_trail])
-      flash[:notice] = "Successfully updated invoice trail."
+      flash[:notice] = "Aggiornamento avvenuto con successo"
       redirect_to @invoice_trail
     else
       render :action => 'edit'
@@ -42,7 +42,7 @@ class InvoiceTrailsController < ApplicationController
   def destroy
     @invoice_trail = InvoiceTrail.find(params[:id])
     @invoice_trail.destroy
-    flash[:notice] = "Successfully destroyed invoice trail."
+    flash[:notice] = "Eliminazione avvenuta con successo"
     redirect_to invoice_trails_url
   end
 end
