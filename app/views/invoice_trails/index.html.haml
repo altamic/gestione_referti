@@ -21,11 +21,11 @@
       
       = f.radio_button :payment_status, :payment_uncompleted
       = t(:payment_uncompleted)
-      &nbsp;
+      \&nbsp;&nbsp;&nbsp;
       
       = f.radio_button :payment_status, :payment_completed
       = t(:payment_completed)
-      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      \&nbsp;&nbsp;&nbsp;
       
       = f.label :invoice_number, t(:invoice_number)
       = f.text_field :invoice_number, :size => 6

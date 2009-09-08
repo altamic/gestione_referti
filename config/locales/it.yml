@@ -42,6 +42,7 @@ it:
   gross_amount: "Importo Lordo"
   discount: "Sconto Totale"
   payed: "Pagato"
+  payment_completed_without_invoice_number: "Pagati senza numero fattura"
   not_payed: "Non Pagato"
   payed_amount: "Importo Pagato"
   payment_completed: "Pagati"

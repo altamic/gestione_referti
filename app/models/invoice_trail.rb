@@ -5,8 +5,14 @@ class InvoiceTrail < ActiveRecord::Base
   # partial_gross_total
   # partial_discount
   
-  named_scope :payment_completed, :conditions => {:payed => true }
-  named_scope :payment_uncompleted, :conditions => {:payed => false }
+  named_scope :payment_uncompleted, :conditions => { :payed => false }
+              
+  named_scope :payment_completed, :conditions => { :payed => true }
+              # :conditions => ["payed = ? AND invoice_number IS NOT ?", true, nil]
+              
+  # named_scope :payment_completed_without_invoice_number, 
+  #              :conditions => { :payed => true, :invoice_number => nil }
+
   named_scope :payment_status, lambda { |value| self.send(:compute_conditions, value) }
   
   # default_value_for :payed, false
