@@ -86,7 +86,7 @@
       %th= t(:notes)
     %tbody
     - for invoice_trail in @invoice_trails
-      %tr
+      %tr{:class => cycle(nil, :alternate)}
         %td= h invoice_trail.admission_date
         %td= h invoice_trail.admission_code
         %td= h invoice_trail.full_name

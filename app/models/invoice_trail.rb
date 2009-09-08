@@ -46,6 +46,7 @@ class InvoiceTrail < ActiveRecord::Base
 
   def assign_discount
     discount = compute_discount
+    true
   end
   
 
