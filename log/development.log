@@ -24527,3 +24527,282 @@ Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 17:50:15) 
 Rendering template within layouts/application
 Rendering invoice_trails/index
 Completed in 221ms (View: 34, DB: 76) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=2&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 17:51:38) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"3"}
+  [4;36;1mInvoiceTrail Load (70.8ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 148ms (View: 34, DB: 74) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=3&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:02:50) [GET]
+  [4;36;1mInvoiceTrail Load (207.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 364ms (View: 107, DB: 209) | 200 OK [http://bios-invoice-manager.local/invoice_trails]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:03:55) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"4"}
+  [4;35;1mInvoiceTrail Load (72.4ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 220ms (View: 35, DB: 76) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=4&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:03:56) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"3"}
+  [4;36;1mInvoiceTrail Load (70.9ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 152ms (View: 34, DB: 74) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=3&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:03:57) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"2"}
+  [4;35;1mInvoiceTrail Load (72.7ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 236ms (View: 34, DB: 75) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=2&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:03:58) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"1"}
+  [4;36;1mInvoiceTrail Load (70.4ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 146ms (View: 33, DB: 73) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=1&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:08:27) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"1"}
+  [4;36;1mInvoiceTrail Load (73.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 363ms (View: 96, DB: 76) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=1&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:08:47) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"1"}
+  [4;35;1mInvoiceTrail Load (72.9ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 224ms (View: 35, DB: 77) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=1&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:08:48) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"1"}
+  [4;36;1mInvoiceTrail Load (70.0ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 148ms (View: 34, DB: 73) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=1&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-08 18:08:50) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (15.1ms)
+Completed in 36ms (View: 29, DB: 0) | 200 OK [http://bios-invoice-manager.local/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#new (for 127.0.0.1 at 2009-09-08 18:12:56) [GET]
+Rendering template within layouts/application
+Rendering invoice_trails/new
+Rendered invoice_trails/_form (95.9ms)
+Completed in 109ms (View: 102, DB: 0) | 200 OK [http://bios-invoice-manager.local/invoice_trails/new]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:01) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"1"}
+  [4;35;1mInvoiceTrail Load (69.5ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 149ms (View: 33, DB: 72) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=1&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:07) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"2"}
+  [4;36;1mInvoiceTrail Load (69.2ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 146ms (View: 34, DB: 72) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=2&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:08) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"3"}
+  [4;35;1mInvoiceTrail Load (69.4ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 151ms (View: 34, DB: 73) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=3&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:08) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"4"}
+  [4;36;1mInvoiceTrail Load (192.2ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 270ms (View: 34, DB: 195) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=4&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:09) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"5"}
+  [4;35;1mInvoiceTrail Load (71.4ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 156ms (View: 35, DB: 74) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=5&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:09) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"6"}
+  [4;36;1mInvoiceTrail Load (74.9ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 156ms (View: 35, DB: 78) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=6&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:10) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"7"}
+  [4;35;1mInvoiceTrail Load (71.0ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 240ms (View: 34, DB: 74) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=7&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:12) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"8"}
+  [4;36;1mInvoiceTrail Load (68.1ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 146ms (View: 34, DB: 71) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=8&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:21) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"7"}
+  [4;35;1mInvoiceTrail Load (168.8ms)[0m   [0mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 251ms (View: 33, DB: 172) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=7&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]
+
+
+Processing InvoiceTrailsController#index (for 127.0.0.1 at 2009-09-08 18:13:22) [GET]
+  Parameters: {"search"=>{"payment_status"=>"payment_completed", "order"=>"descend_by_admission_date"}, "page"=>"1"}
+  [4;36;1mInvoiceTrail Load (73.6ms)[0m   [0;1mSELECT * FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') ORDER BY invoice_trails.admission_date DESC[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT sum("invoice_trails".gross_amount) AS sum_gross_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT sum("invoice_trails".payed_amount) AS sum_payed_amount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT max("invoice_trails".admission_date) AS max_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT min("invoice_trails".admission_date) AS min_admission_date FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT avg("invoice_trails".discount) AS avg_discount FROM "invoice_trails" WHERE ("invoice_trails"."payed" = 't') [0m
+Rendering template within layouts/application
+Rendering invoice_trails/index
+Completed in 154ms (View: 33, DB: 76) | 200 OK [http://bios-invoice-manager.local/invoice_trails?page=1&search%5Border%5D=descend_by_admission_date&search%5Bpayment_status%5D=payment_completed]

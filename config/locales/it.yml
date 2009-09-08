@@ -38,7 +38,7 @@ it:
   no_results: "Non ci sono risultati che soddisfano i criteri di ricerca scelti"
   admission_date: "Data"
   admission_code: "Accettazione"
-  full_name: "Nome"
+  full_name: "Nominativo"
   gross_amount: "Importo Lordo"
   discount: "Sconto"
   payed: "Pagato"

@@ -17,9 +17,9 @@ class InvoiceTrail < ActiveRecord::Base
 
   named_scope :payment_status, lambda { |value| self.send(:compute_conditions, value) }
   
-  # default_value_for :gross_amount, 43.50
-  # default_value_for :payed_amount, 0.00
-  # default_value_for :payed, false
+  default_value_for :gross_amount, 43.50
+  default_value_for :payed_amount, 0.00
+  default_value_for :payed, false
   
   before_save :assign_discount
   
