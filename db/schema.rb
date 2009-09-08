@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(:version => 20090907100024) do
     t.decimal  "gross_amount",   :precision => 3, :scale => 2
     t.decimal  "payed_amount",   :precision => 3, :scale => 2
     t.decimal  "discount",       :precision => 3, :scale => 2
-    t.boolean  "payed"
+    t.boolean  "payed",          :default => false
     t.date     "payment_date"
     t.integer  "invoice_number"
     t.text     "notes"

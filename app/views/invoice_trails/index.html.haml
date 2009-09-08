@@ -25,7 +25,7 @@
       
       = f.radio_button :payment_status, :payment_completed
       = t(:payment_completed)
-      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       
       = f.label :invoice_number, t(:invoice_number)
       = f.text_field :invoice_number, :size => 6
@@ -41,19 +41,6 @@
       
       = f.label :notes_like, t(:notes)
       = f.text_field :notes_like, :size => 15
-
-      / \&nbsp;&nbsp;
-      / = f.label :payed, 'Payment Status:'
-      / \&nbsp;&nbsp;
-      / = f.radio_button :payed, true
-      / Payed&nbsp;&nbsp;
-      / = f.radio_button :payed, false
-      / Not Payed&nbsp;&nbsp;
-
-      / = f.label :invoice_is_nil, 'Invoice is nil:'
-      / \&nbsp;&nbsp;- javascript :defaults
-      
-      / = f.check_box :invoice_not_nil, true
         
   %p.button
     = f.submit t(:filter)
@@ -61,11 +48,11 @@
 - unless  @invoice_trails_count.zero?
 
   %p
-    = will_paginate @maintenances
+    %strong="#{@invoice_trails_count} #{t(inflect_result(@invoice_trails_count))}"
+    
 
   %table
     %tr
-      %th= order @search, :by => :id, :as =>"ID"
       %th= order @search, :by => :admission_date, :as =>t(:admission_date)
       %th= t(:admission_code)
       %th= order @search, :by => :full_name, :as =>t(:full_name)
@@ -78,27 +65,19 @@
       %th= t(:notes)
     - for invoice_trail in @invoice_trails
       %tr
-        %td= h invoice_trail.id  
         %td= h invoice_trail.admission_date
         %td= h invoice_trail.admission_code
         %td= h invoice_trail.full_name
-        %td= h invoice_trail.gross_amount
-        %td= h invoice_trail.payed_amount
-        %td= h invoice_trail.discount
+        %td= h number_to_currency(invoice_trail.gross_amount)
+        %td= h number_to_currency(invoice_trail.payed_amount)
+        %td= h number_to_percentage(invoice_trail.discount)
         %td= h invoice_trail.payed
         %td= h invoice_trail.payment_date
         %td= h invoice_trail.invoice_number
         %td= h invoice_trail.notes
         %td= link_to t(:show), invoice_trail
-        %td= link_to t(:mark_as_payed), invoice_trail 
-        / segna pagato dovrebbe comparire solo sulle righe in cui non compare
-        / il pagamento
-        / Pagato
-
   %p
     = will_paginate @maintenances
 
-  %p
-    %strong="#{@invoice_trails_count} #{t(inflect_result(@invoice_trails_count))}"
 - else
   %h3{:text_align => :center}=t(:no_results)

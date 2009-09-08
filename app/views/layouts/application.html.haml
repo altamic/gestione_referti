@@ -9,6 +9,7 @@
     %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
     = stylesheet_link_tag 'application'
     = yield(:head)
+    / = calendar_date_select_includes "silver"
   
   %body
     #container

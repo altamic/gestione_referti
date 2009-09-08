@@ -3,4 +3,6 @@ module InvoiceTrailsHelper
     return :results unless number == 1
     :result
   end
+  
+  
 end

@@ -4,10 +4,10 @@ class CreateInvoiceTrails < ActiveRecord::Migration
       t.date :admission_date
       t.string :admission_code
       t.string :full_name
-      t.decimal :gross_amount, :precision => 3, :scale => 2, :default => nil
-      t.decimal :payed_amount, :precision => 3, :scale => 2, :default => nil
-      t.decimal :discount,     :precision => 3, :scale => 2, :default => nil
-      t.boolean :payed, :default => false
+      t.decimal :gross_amount, :precision => 3, :scale => 2, :default => 40.0
+      t.decimal :payed_amount, :precision => 3, :scale => 2, :default => 0.0
+      t.decimal :discount,     :precision => 3, :scale => 2, :default => 0.0
+      t.boolean :payed,        :default => false
       t.date :payment_date
       t.integer :invoice_number
       t.text :notes
