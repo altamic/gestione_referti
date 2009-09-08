@@ -40,7 +40,7 @@ it:
   admission_code: "Accettazione"
   full_name: "Nome"
   gross_amount: "Importo Lordo"
-  discount: "Sconto Totale"
+  discount: "Sconto"
   payed: "Pagato"
   payment_completed_without_invoice_number: "Pagati senza numero fattura"
   not_payed: "Non Pagato"
@@ -52,16 +52,18 @@ it:
   payment_status: "Stato Pagamento"
   partial_sum: "Somma Parziale"
   
-  partial_gross_amount: "Totale Lordo Parziale"
-  partial_discount: "Totale Sconto Parziale"
-  partial_payed_amount: "Totale Pagamenti Parziale"
+  partial_gross_amount: "Totale Lordo"
+  partial_average_discount: "Sconto Medio"
+  partial_payed_amount: "Totale Pagamenti"
+  profit: "Ricavo"
+  loss: "Perdita"
   
   notes: "Note"
   
   number:
     format:
-      separator: ","
-      delimiter: "."
+      separator: "."
+      delimiter: ","
       precision: 2
       
     currency:
@@ -85,9 +87,9 @@ it:
         
     human:
       format:
-        # separator: 
-        delimiter: ""
-        precision: 1
+        separator: "."
+        delimiter: ","
+        precision: 2
       storage_units:
         format: "%n %u"
         units:

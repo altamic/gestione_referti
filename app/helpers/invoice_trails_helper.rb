@@ -4,5 +4,7 @@ module InvoiceTrailsHelper
     :result
   end
   
-  
+  def class_color(revenue)
+    revenue < 0 ? "red" : "green"
+  end
 end

@@ -50,7 +50,27 @@
 - unless  @invoice_trails_count.zero?
 
   %p
-    %strong="#{@invoice_trails_count} #{t(inflect_result(@invoice_trails_count))}"    
+    %strong="#{t(inflect_result(@invoice_trails_count))}"
+    ="#{@invoice_trails_count} in #{distance_of_time_in_words(@most_recent_date, @least_recent_date)}" 
+    \&nbsp;&nbsp;
+
+    %strong="#{t(:partial_gross_amount)}"
+    = number_to_currency(@partial_gross_amount)
+    \&nbsp;&nbsp;&nbsp;
+  
+    %strong="#{t(:partial_payed_amount)}"
+    = number_to_currency(@partial_payed_amount)
+    \&nbsp;&nbsp;&nbsp;
+
+    %strong="#{t(:partial_average_discount)}"
+    = number_to_percentage(@partial_average_discount)
+    \&nbsp;&nbsp;&nbsp;
+    
+    %strong="#{t(:profit)}"
+
+ 
+    / %strong= partial_discount
+    / ="(#{@partial_gross_amount - @partial_payed_amount})"
 
   %table
     %thead
@@ -78,11 +98,6 @@
         %td= h invoice_trail.invoice_number
         %td= h invoice_trail.notes
         %td= link_to t(:show), invoice_trail
-    %tfooter
-      %strong="#{t(:partial_gross_amount)} #{@partial_gross_amount}"
-      %strong="#{t(:partial_payed_amount)} #{@partial_payed_amount}"
-      %strong="(#{@partial_gross_amount - @partial_payed_amount})"
-
   %p
     = will_paginate @maintenances
 
