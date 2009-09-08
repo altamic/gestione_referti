@@ -1,9 +1,5 @@
 class InvoiceTrail < ActiveRecord::Base
   validates_presence_of :full_name, :admission_date, :admission_code, :gross_amount
-  # TODO: define 
-  # partial_sum
-  # partial_gross_total
-  # partial_discount
 
   named_scope :any_payment, :conditions => {}
   
@@ -48,6 +44,4 @@ class InvoiceTrail < ActiveRecord::Base
     discount = compute_discount
     true
   end
-  
-
 end
