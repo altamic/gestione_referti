@@ -66,7 +66,6 @@
     %strong="#{t(:partial_average_discount)}"
     = number_to_percentage(@partial_average_discount)
     \&nbsp;&nbsp;&nbsp;
-    
 
   %table
     %thead
@@ -77,21 +76,19 @@
         %th= order @search, :by => :gross_amount, :as =>t(:gross_amount)
         %th= order @search, :by => :payed_amount, :as =>t(:payed_amount)
         %th= order @search, :by => :discount, :as =>t(:discount)     
-        %th= t(:payed)
         %th= order @search, :by => :payment_date, :as =>t(:payment_date)
         %th= order @search, :by => :invoice_number, :as =>t(:invoice_number)
         %th= t(:notes)
     
     %tbody
     - for invoice_trail in @invoice_trails
-      %tr{:class => cycle(:odd, :even), :onclick => "this.href=http://bios-invoice-manager.local/invoice_trails/#{url_for(invoice_trail)}"}
+      %tr{:class => cycle(:odd, :even)}
         %td= h invoice_trail.admission_date
         %td= h invoice_trail.admission_code
         %td= h invoice_trail.full_name
         %td= h number_to_currency(invoice_trail.gross_amount)
         %td= h number_to_currency(invoice_trail.payed_amount)
         %td= h number_to_percentage(invoice_trail.discount)
-        %td= h invoice_trail.payed
         %td= h invoice_trail.payment_date
         %td= h invoice_trail.invoice_number
         %td= h invoice_trail.notes

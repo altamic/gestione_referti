@@ -28,7 +28,7 @@ class InvoiceTrail < ActiveRecord::Base
   end
 
   def payment_status_description
-
+    
     # se payed e' trusin attesa di pagamento da x giorni
     # ha pagato x euro con uno sconto del x% 
     # se giorni > 15, in x giorni
