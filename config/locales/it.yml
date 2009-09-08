@@ -39,7 +39,7 @@ it:
   admission_date: "Data"
   admission_code: "Codice Accettazione"
   full_name: "Nome"
-  gross_amount: "Totale Lordo"
+  gross_amount: "Importo Lordo"
   discount: "Sconto Totale"
   payed: "Pagato"
   not_payed: "Non Pagato"

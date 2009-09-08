@@ -29,14 +29,18 @@
     %p
       %strong=t(:payment_date)
       =h @invoice_trail.payment_date
-%p
-  %strong=t(:invoice_number)
-  =h @invoice_trail.invoice_number
-%p
-  %strong
-    =t(:notes)
-  \:
-  =h @invoice_trail.notes
+
+-if @invoice_trail.invoice_number
+  %p
+    %strong=t(:invoice_number)
+    =h @invoice_trail.invoice_number
+
+-if @invoice_trail.notes
+  %p
+    %strong
+      =t(:notes)
+    \:
+    =h @invoice_trail.notes
 
 %p
   = link_to t(:edit), edit_invoice_trail_path(@invoice_trail)
