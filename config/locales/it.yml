@@ -51,9 +51,11 @@ it:
   payment_date: "Data Pagamento"
   payment_status: "Stato Pagamento"
   partial_sum: "Somma Parziale"
-  partial_gross_total: "Totale Lordo Parziale"
-  partial_discount_total: "Totale Sconto Parziale"
-  partial_payed_total: "Totale Pagamenti Parziale"
+  
+  partial_gross_amount: "Totale Lordo Parziale"
+  partial_discount: "Totale Sconto Parziale"
+  partial_payed_amount: "Totale Pagamenti Parziale"
+  
   notes: "Note"
   
   number:

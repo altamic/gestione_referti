@@ -4,6 +4,8 @@
 
 %p= link_to "#{t(:new)} #{t(:invoice_trail)}", new_invoice_trail_path
 
+%p
+  
 - form_for @search do |f|
   %fieldset
     %legend
@@ -12,12 +14,12 @@
     %p
       = f.label :admission_date_after, t(:admission_date_after)
       / = f.calendar_date_select_tag :admission_date_after, :discard_day  => true, :default => 3.months.ago
-      = f.text_field :admission_date_after, :size => 8, :default => 3.months.ago.to_s(:db)
+      = f.text_field :admission_date_after, :size => 12, :default => 3.months.ago.to_s(:db)
       
       = f.label :admission_date_before, t(:admission_date_before)
       / = f.calendar_date_select_tag :admission_date_before, :discard_day  => true
-      = f.text_field :admission_date_before, :size => 8, :default => Time.now.to_s(:db)
-      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      = f.text_field :admission_date_before, :size => 12, :default => Time.now.to_s(:db)
+      \&nbsp;&nbsp;&nbsp;&nbsp;
       
       = f.radio_button :payment_status, :payment_uncompleted
       = t(:payment_uncompleted)
@@ -32,12 +34,12 @@
 
     %p  
       = f.label :admission_code, t(:admission_code)
-      = f.text_field :admission_code, :size => 6
+      = f.text_field :admission_code, :size => 8
       \&nbsp;&nbsp;&nbsp;
       
       = f.label :full_name_like, t(:full_name)
       = f.text_field :full_name_like, :size => 30
-      \&nbsp;&nbsp;&nbsp;&nbsp;
+      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       
       = f.label :notes_like, t(:notes)
       = f.text_field :notes_like, :size => 15
@@ -48,11 +50,10 @@
 - unless  @invoice_trails_count.zero?
 
   %p
-    %strong="#{@invoice_trails_count} #{t(inflect_result(@invoice_trails_count))}"
-    
+    %strong="#{@invoice_trails_count} #{t(inflect_result(@invoice_trails_count))}"    
 
   %table
-    %tr
+    %thead
       %th= order @search, :by => :admission_date, :as =>t(:admission_date)
       %th= t(:admission_code)
       %th= order @search, :by => :full_name, :as =>t(:full_name)
@@ -63,6 +64,7 @@
       %th= order @search, :by => :payment_date, :as =>t(:payment_date)
       %th= order @search, :by => :invoice_number, :as =>t(:invoice_number)
       %th= t(:notes)
+    %tbody
     - for invoice_trail in @invoice_trails
       %tr
         %td= h invoice_trail.admission_date
@@ -76,6 +78,11 @@
         %td= h invoice_trail.invoice_number
         %td= h invoice_trail.notes
         %td= link_to t(:show), invoice_trail
+    %tfooter
+      %strong="#{t(:partial_gross_amount)} #{@partial_gross_amount}"
+      %strong="#{t(:partial_payed_amount)} #{@partial_payed_amount}"
+      %strong="(#{@partial_gross_amount - @partial_payed_amount})"
+
   %p
     = will_paginate @maintenances
 

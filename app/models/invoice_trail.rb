@@ -4,6 +4,8 @@ class InvoiceTrail < ActiveRecord::Base
   # partial_sum
   # partial_gross_total
   # partial_discount
+
+  named_scope :any_payment, :conditions => {}
   
   named_scope :payment_uncompleted, :conditions => { :payed => false }
               

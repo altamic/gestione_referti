@@ -4,19 +4,23 @@
     %strong= f.label :admission_date, t(:admission_date)
     = f.date_select :admission_date
   %p
-    = f.label :admission_code, t(:admission_code)
-    = f.text_field :admission_code
+    %strong= f.label :admission_code, t(:admission_code)
+    &nbsp;    
+    = f.text_field :admission_code, :size => 10
   %p
-    = f.label :full_name, t(:full_name)
-    = f.text_field :full_name
+    %strong= f.label :full_name, t(:full_name)
+    &nbsp;
+    = f.text_field :full_name, :size => 26
   %p
     %strong= f.label :gross_amount, t(:gross_amount)
+    &nbsp;
     = f.text_field :gross_amount, :size => 6
   %p
     %strong= f.label :payed_amount, t(:payed_amount)
     = f.text_field :payed_amount, :size => 6
   %p
     %strong= f.label :discount, t(:discount)
+    &nbsp;&nbsp;
     = f.text_field :discount, :size => 6
   %p
     %strong= f.label :payed, t(:payment_status)
