@@ -1,5 +1,5 @@
 body {
-  background-color: #b88a00;
+  background-color: #ffffcc;
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 12px; }
 
@@ -10,14 +10,18 @@ h1 {
   height: 32px;
   padding-left: 90px;
   margin-top: 10px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  CCborderRadius: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  CCborderRadius: 10px;
   text-shadow: rgba(120,120,120,0.65) 2px 1px 1px; }
 
 a {
-  color: #4040ff; }
-  a img {
+  color: #4040ff;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+  a:hover img {
     border: none; }
 
 .clear {
@@ -32,9 +36,9 @@ a {
   padding: 0px 20px;
   border: solid 2px #6390c0;
   margin-top: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  CCborderRadius: 5px; }
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  CCborderRadius: 10px; }
   #container p {
     font-size: 16px; }
 
@@ -108,6 +112,7 @@ table {
   border: 2px solid = !secondary_color;
   border-collapse: collapse;
   padding-bottom: 16px;
+  margin-bottom: 12px;
   font-size: 15px;
   font-family: 'Arial Narrow', Arial, sans-serif; }
   table thead th {
@@ -165,7 +170,7 @@ table {
     .pagination a:hover, .pagination a:focus {
       border-color: #003366;
       background: #75acd7;
-      color: #75acd7; }
+      color: #003366; }
   .pagination .page_info {
     color: #aaa;
     padding-top: .8em; }

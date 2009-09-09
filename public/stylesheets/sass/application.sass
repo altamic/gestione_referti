@@ -1,4 +1,4 @@
-!primary_color = #B88A00
+!primary_color = #FFFFCC
 !secondary_color = #75acd7
 
 body
@@ -14,12 +14,15 @@ h1
   :height 32px
   :padding-left 90px
   :margin-top 10px
-  :-webkit-border-radius 5px
-  :-moz-border-radius 5px
-  :CCborderRadius 5px
+  :-webkit-border-radius 10px
+  :-moz-border-radius 10px
+  :CCborderRadius 10px
   :text-shadow rgba(120,120,120,0.65) 2px 1px 1px
 a
   :color #4040ff
+  :text-decoration none
+a:hover
+  :text-decoration underline
   img
     :border none
 
@@ -35,9 +38,9 @@ a
   :padding 0px 20px
   :border solid 2px #6390c0
   :margin-top 5px
-  :-webkit-border-radius 5px
-  :-moz-border-radius 5px
-  :CCborderRadius 5px
+  :-webkit-border-radius 10px
+  :-moz-border-radius 10px
+  :CCborderRadius 10px
   
   p
     :font-size 16px
@@ -114,6 +117,7 @@ table
   :border 2px solid = !secondary_color
   :border-collapse collapse
   :padding-bottom 16px
+  :margin-bottom 12px
   :font
     :size 15px
     :family 'Arial Narrow', Arial, sans-serif
@@ -173,8 +177,8 @@ table
     :CCborderRadius 5px
     &:hover, &:focus
       :border-color #003366
-      :background #75acd7
-      :color = !secondary_color
+      :background = !secondary_color
+      :color = #003366
   .page_info
     :color #aaa
     :padding-top .8em
