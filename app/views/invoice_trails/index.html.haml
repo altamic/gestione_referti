@@ -1,5 +1,6 @@
 - javascript :defaults
 - javascript "calendar_date_select/calendar_date_select.js", "calendar_date_select/format_italian.js"
+- javascript "table_utils.js"
 
 
 - title "#{t(:invoice_trails)}"
@@ -82,7 +83,7 @@
     
     %tbody
     - for invoice_trail in @invoice_trails
-      %tr{:class => cycle(:odd, :even)}
+      %tr{:class => cycle(:odd, :even), :onclick => "changeLocation('#{url_for(invoice_trail)}');"}
         %td= h invoice_trail.admission_date
         %td= h invoice_trail.admission_code
         %td= h invoice_trail.full_name
@@ -92,7 +93,6 @@
         %td= h invoice_trail.payment_date
         %td= h invoice_trail.invoice_number
         %td= h invoice_trail.notes
-        %td= link_to t(:show), invoice_trail
   
   = will_paginate @maintenances
 

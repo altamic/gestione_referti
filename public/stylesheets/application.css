@@ -9,7 +9,8 @@ h1 {
   padding: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  CCborderRadius: 5px; }
+  CCborderRadius: 5px;
+  text-shadow: rgba(120,120,120,0.65) 2px 1px 1px; }
 
 a {
   color: #4040ff; }
@@ -110,7 +111,8 @@ table {
     background: #03003d;
     color: white;
     text-align: center;
-    border: 1px solid white; }
+    border: 1px solid white;
+    text-shadow: rgba(120,120,120,0.65) 2px 1px 1px; }
   table thead a {
     color: inherit;
     text-decoration: none; }
