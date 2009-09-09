@@ -1,12 +1,14 @@
 body {
-  background-color: #75acd7;
+  background-color: #b88a00;
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 12px; }
 
 h1 {
   color: white;
-  background: #03003d;
+  background: #75acd7 url('/images/logo_bios_mini.png') 10px center no-repeat;
   padding: 5px;
+  height: 32px;
+  padding-left: 90px;
   margin-top: 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -109,7 +111,7 @@ table {
   font-size: 15px;
   font-family: 'Arial Narrow', Arial, sans-serif; }
   table thead th {
-    background: #03003d;
+    background: #75acd7;
     color: white;
     text-align: center;
     border: 1px solid white;
@@ -148,7 +150,7 @@ table {
     CCborderRadius: 5px; }
   .pagination span.current {
     font-weight: bold;
-    background: #03003d;
+    background: #75acd7;
     color: white;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -163,7 +165,7 @@ table {
     .pagination a:hover, .pagination a:focus {
       border-color: #003366;
       background: #75acd7;
-      color: #03003d; }
+      color: #75acd7; }
   .pagination .page_info {
     color: #aaa;
     padding-top: .8em; }
