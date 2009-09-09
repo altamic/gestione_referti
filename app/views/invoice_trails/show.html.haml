@@ -1,7 +1,9 @@
 - title t(:invoice_trail)
 
 %p
-  %strong= link_to "« #{t(:invoice_trails)}", invoice_trails_path
+  = link_to t(:edit), edit_invoice_trail_path(@invoice_trail)
+  |
+  = link_to t(:delete), @invoice_trail, :confirm => t(:confirm_delete), :method => :delete
 
 %p
   %strong=t(:admission_date)
@@ -38,9 +40,6 @@
       =t(:notes)
     \:
     =h @invoice_trail.notes
-
 %p
-  = link_to t(:edit), edit_invoice_trail_path(@invoice_trail)
-  |
-  = link_to t(:delete), @invoice_trail, :confirm => t(:confirm_delete), :method => :delete
+  %strong= link_to "« #{t(:invoice_trails)}", invoice_trails_path
 
