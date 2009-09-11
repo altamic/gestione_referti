@@ -5,6 +5,9 @@
   |
   = link_to t(:delete), @invoice_trail, :confirm => t(:confirm_delete), :method => :delete
 
+%h2
+  %strong=h @invoice_trail.full_name
+
 %p
   %strong=t(:admission_date)
   =h @invoice_trail.admission_date
@@ -12,29 +15,25 @@
   %strong=t(:admission_code)
   =h @invoice_trail.admission_code
 %p
-  %strong=t(:full_name)
-  =h @invoice_trail.full_name
-%p
   %strong=t(:gross_amount)
   =h(number_to_currency @invoice_trail.gross_amount)
-%p
-  %strong=t(:payed_amount)
-  =h(number_to_currency @invoice_trail.payed_amount)
-%p
-  %strong=t(:discount)
-  =h(number_to_percentage @invoice_trail.discount)
 %p
   %strong=t(:payed)
   =h @invoice_trail.payed
 %p
+  %strong=t(:payed_amount)
+  =h(number_to_currency @invoice_trail.payed_amount)
+%p
   %strong=t(:payment_date)
   =h @invoice_trail.payment_date
-
+%p
+  %strong=t(:discount)
+  =h(number_to_percentage @invoice_trail.discount)
 %p
   %strong=t(:invoice_number)
   =h @invoice_trail.invoice_number
 
-- unless @invoice_trail.notes.nil?
+- unless @invoice_trail.notes
   %p
     %strong
       =t(:notes)

@@ -56,7 +56,8 @@
         %th= order @search, :by => :admission_date, :as =>t(:admission_date)
         %th= t(:admission_code)
         %th{:class => "text-right"}= order @search, :by => :full_name, :as =>t(:full_name)
-        %th{:class => "text-right"}= order @search, :by => :gross_amount, :as =>t(:gross_amount)  
+        %th{:class => "text-right"}= order @search, :by => :gross_amount, :as =>t(:gross_amount)
+        %th{:class => "text-right"}= order @search, :by => :payed_amount, :as =>t(:payed_amount)        
         %th= order @search, :by => :payment_date, :as =>t(:payment_date)
         %th= order @search, :by => :invoice_number, :as =>t(:invoice_number)
         %th= t(:notes)
@@ -68,6 +69,7 @@
         %td= h invoice_trail.admission_code
         %td{:class => "text-right"}= h invoice_trail.full_name
         %td{:class => "text-right"}= h number_to_currency(invoice_trail.gross_amount)
+        %td{:class => "text-right"}= h number_to_currency(invoice_trail.payed_amount)
         %td= h invoice_trail.payment_date
         %td= h invoice_trail.invoice_number
         %td{:style => "min-width:130px"}= h invoice_trail.notes
