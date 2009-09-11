@@ -1,7 +1,7 @@
 body {
   background-color: #ffffcc;
   font-family: Arial, Verdana, Helvetica, sans-serif;
-  font-size: 12px; }
+  font-size: 13px; }
 
 h1 {
   color: white;
@@ -111,16 +111,17 @@ table {
   width: 100%;
   border: 2px solid = !secondary_color;
   border-collapse: collapse;
-  padding-bottom: 16px;
-  margin-bottom: 12px;
-  font-size: 15px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
   font-family: 'Arial Narrow', Arial, sans-serif; }
   table thead th {
     background: #75acd7;
     color: white;
     text-align: center;
-    border: 1px solid white;
-    text-shadow: rgba(120,120,120,0.65) 2px 1px 1px; }
+    text-shadow: rgba(120,120,120,0.65) 2px 1px 1px;
+    border: 1px solid #003366; }
   table thead a {
     color: inherit;
     text-decoration: none; }
@@ -128,19 +129,21 @@ table {
     text-decoration: none;
     text-decoration: underline; }
   table tbody td {
-    border: 1px solid = !secondary_color;
+    border: 1px solid #003366;
     padding: 2px 5px 2px 3px;
     text-align: center; }
   table th {
     padding: 2px 5px 2px 3px; }
   table caption {
     padding: 2px 5px 2px 3px; }
+  table tr {
+    border: 1px solid #003366; }
   table tr.odd {
     background: #e9e9e9; }
   table tr.even {
     background: #f2f6fa; }
   table tr:hover {
-    background: #75acd7; }
+    background: #AFD0E9; }
 
 .pagination {
   text-align: center;
@@ -169,7 +172,7 @@ table {
     CCborderRadius: 5px; }
     .pagination a:hover, .pagination a:focus {
       border-color: #003366;
-      background: #75acd7;
+      background: #afd0e9;
       color: #003366; }
   .pagination .page_info {
     color: #aaa;
