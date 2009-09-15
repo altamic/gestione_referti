@@ -52,9 +52,9 @@ it:
   payment_status: "Stato Pagamento"
   partial_sum: "Somma Parziale"
   
-  partial_gross_amount: "Totale Lordo"
+  partial_gross_amount: "Totale Importo Lordo"
   partial_average_discount: "Sconto Medio"
-  partial_payed_amount: "Totale Pagamenti"
+  partial_payed_amount: "Totale Importo Scontato"
   profit: "Ricavo"
   loss: "Perdita"
   
