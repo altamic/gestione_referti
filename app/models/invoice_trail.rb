@@ -1,10 +1,8 @@
 class InvoiceTrail < ActiveRecord::Base
   validates_presence_of :full_name, :admission_date, :admission_code, :gross_amount
-
-  named_scope :any_payment, :conditions => {}
   
+  named_scope :any_payment, :conditions => {}
   named_scope :payment_uncompleted, :conditions => { :payed => false }
-              
   named_scope :payment_completed, :conditions => ["payed = ? AND invoice_number IS NOT ?", true, nil]
               
   # named_scope :payment_completed_without_invoice_number, 
@@ -12,8 +10,9 @@ class InvoiceTrail < ActiveRecord::Base
 
   named_scope :payment_status, lambda { |value| self.send(:compute_conditions, value) }
   
+  default_value_for :admission_code, "#{Time.now.day}000"
   default_value_for :gross_amount, 43.50
-  default_value_for :payed_amount, 0.00
+  default_value_for :payed_amount, 43.50
   default_value_for :payed, false
   
   before_save :assign_discount
@@ -35,12 +34,11 @@ class InvoiceTrail < ActiveRecord::Base
   end
   
   def compute_discount
-    return [0.0, (1 - (payed_amount / gross_amount))*100].max if payed_amount > 0.0
-    0.0
+    (100 * [0.0, (1 - (payed_amount / gross_amount))].max) if payed_amount > 0.0
   end
 
   def assign_discount
-    discount = compute_discount
+    self.discount = compute_discount
     true
   end
 end

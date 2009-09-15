@@ -1,16 +1,16 @@
 - form_for @invoice_trail do |f|
   = f.error_messages
   %p
+    %strong= f.label :full_name, t(:full_name)
+    &nbsp;
+    = f.text_field :full_name, :size => 26
+  %p
     %strong= f.label :admission_date, t(:admission_date)
     = f.date_select :admission_date
   %p
     %strong= f.label :admission_code, t(:admission_code)
     &nbsp;    
     = f.text_field :admission_code, :size => 10
-  %p
-    %strong= f.label :full_name, t(:full_name)
-    &nbsp;
-    = f.text_field :full_name, :size => 26
   %p
     %strong= f.label :gross_amount, t(:gross_amount)
     &nbsp;
