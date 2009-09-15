@@ -12,7 +12,7 @@ class InvoiceTrail < ActiveRecord::Base
   
   default_value_for :admission_code, "#{Time.now.day}000"
   default_value_for :gross_amount, 43.50
-  default_value_for :payed_amount, 43.50
+  default_value_for :discounted_amount, 43.50
   default_value_for :payed, false
   
   before_save :assign_discount
@@ -34,7 +34,7 @@ class InvoiceTrail < ActiveRecord::Base
   end
   
   def compute_discount
-    (100 * [0.0, (1 - (payed_amount / gross_amount))].max) if payed_amount > 0.0
+    (100 * [0.0, (1 - (discounted_amount / gross_amount))].max) if discounted_amount > 0.0
   end
 
   def assign_discount

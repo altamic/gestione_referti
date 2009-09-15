@@ -18,8 +18,8 @@
   %strong=t(:gross_amount)
   =h(number_to_currency @invoice_trail.gross_amount)
 %p
-  %strong=t(:payed_amount)
-  =h(number_to_currency @invoice_trail.payed_amount)
+  %strong=t(:discounted_amount)
+  =h(number_to_currency @invoice_trail.discounted_amount)
 %p
   %strong=t(:discount)
   =h(number_to_percentage @invoice_trail.discount)

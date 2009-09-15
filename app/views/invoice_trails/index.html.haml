@@ -15,12 +15,12 @@
 
     %p
       = f.label :admission_date_after, t(:admission_date_after)
-      / = f.calendar_date_select_tag :admission_date_after, :discard_day  => true, :default => 3.months.ago
-      = f.text_field :admission_date_after, :size => 12, :default => 3.months.ago.to_s(:db)
+      = f.text_field :admission_date_after, :size => 12
+      / = f.date_select :admission_date_after, :default => 6.months.ago
       
       = f.label :admission_date_before, t(:admission_date_before)
-      / = f.calendar_date_select_tag :admission_date_before, :discard_day  => true
       = f.text_field :admission_date_before, :size => 12, :default => Time.now.to_s(:db)
+      / = f.date_select :admission_date_after, :default => Time.now
       \&nbsp;&nbsp;&nbsp;&nbsp;
       
       = f.radio_button :payment_status, :payment_uncompleted
@@ -29,7 +29,7 @@
       
       = f.radio_button :payment_status, :payment_completed
       = t(:payment_completed)
-      \&nbsp;&nbsp;&nbsp;
+      \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       
       = f.label :invoice_number, t(:invoice_number)
       = f.text_field :invoice_number, :size => 6
@@ -46,18 +46,17 @@
       = f.label :notes_like, t(:notes)
       = f.text_field :notes_like, :size => 15
         
-    %p.button.right
-      = f.submit t(:filter)
+    = f.submit t(:filter), {:class  => "button right"}
 
 - unless  @invoice_trails_count.zero?
   %table
     %thead
       %tr
         %th= order @search, :by => :admission_date, :as =>t(:admission_date)
-        %th= t(:admission_code)
+        %th= order @search, :by => :admission_code, :as =>t(:admission_code)
         %th{:class => "text-right"}= order @search, :by => :full_name, :as =>t(:full_name)
         %th{:class => "text-right"}= order @search, :by => :gross_amount, :as =>t(:gross_amount)
-        %th{:class => "text-right"}= order @search, :by => :payed_amount, :as =>t(:payed_amount)        
+        %th{:class => "text-right"}= order @search, :by => :discounted_amount, :as =>t(:discounted_amount)        
         %th= order @search, :by => :payment_date, :as =>t(:payment_date)
         %th= order @search, :by => :invoice_number, :as =>t(:invoice_number)
         %th= t(:notes)
@@ -69,7 +68,7 @@
         %td= h invoice_trail.admission_code
         %td{:class => "text-right"}= h invoice_trail.full_name
         %td{:class => "text-right"}= h number_to_currency(invoice_trail.gross_amount)
-        %td{:class => "text-right"}= h number_to_currency(invoice_trail.payed_amount)
+        %td{:class => "text-right"}= h number_to_currency(invoice_trail.discounted_amount)
         %td= h invoice_trail.payment_date
         %td= h invoice_trail.invoice_number
         %td{:style => "min-width:130px"}= h invoice_trail.notes
@@ -83,10 +82,13 @@
     = number_to_currency(@partial_gross_amount)
     \&nbsp;&nbsp;&nbsp;
 
-    %strong="#{t(:partial_payed_amount)}"
-    = number_to_currency(@partial_payed_amount)
+    %strong="#{t(:partial_discounted_amount)}"
+    = number_to_currency(@partial_discounted_amount)
     \&nbsp;&nbsp;&nbsp;
-
+    
+    %strong="#{t(:partial_average_discount)}"
+    = number_to_percentage(((1 - (@partial_discounted_amount/@partial_gross_amount))*100))
+    \&nbsp;&nbsp;&nbsp;
     
   = will_paginate @maintenances
 

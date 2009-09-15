@@ -3,7 +3,7 @@ one:
   admission_code: MyString
   full_name: MyString
   gross_amount: 9.99
-  payed_amount: false
+  discounted_amount: false
   discount: 9.99
   payed: false
   payment_date: 2009-09-07
@@ -15,7 +15,7 @@ two:
   admission_code: MyString
   full_name: MyString
   gross_amount: 9.99
-  payed_amount: false
+  discounted_amount: false
   discount: 9.99
   payed: false
   payment_date: 2009-09-07

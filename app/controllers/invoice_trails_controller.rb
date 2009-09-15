@@ -3,7 +3,7 @@ class InvoiceTrailsController < ApplicationController
     @search = InvoiceTrail.search(params[:search])
     @invoice_trails, @invoice_trails_count = @search.all.paginate(:per_page => 10, :page => params[:page]), @search.count
     @partial_gross_amount = @search.sum(:gross_amount)
-    @partial_payed_amount = @search.sum(:payed_amount)
+    @partial_discounted_amount = @search.sum(:discounted_amount)
     
     @most_recent_date = @search.maximum(:admission_date)
     @least_recent_date = @search.minimum(:admission_date)

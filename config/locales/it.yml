@@ -44,7 +44,7 @@ it:
   payed: "Pagato"
   payment_completed_without_invoice_number: "Pagati senza numero fattura"
   not_payed: "Non Pagato"
-  payed_amount: "Importo Scontato"
+  discounted_amount: "Importo Scontato"
   payment_completed: "Pagati"
   payment_uncompleted: "Non Pagati"
   invoice_number: "Fattura"
@@ -53,8 +53,8 @@ it:
   partial_sum: "Somma Parziale"
   
   partial_gross_amount: "Totale Importo Lordo"
-  partial_average_discount: "Sconto Medio"
-  partial_payed_amount: "Totale Importo Scontato"
+  partial_discounted_amount: "Totale Importo Scontato"
+  partial_average_discount: "Totale Sconto Medio"
   profit: "Ricavo"
   loss: "Perdita"
   
