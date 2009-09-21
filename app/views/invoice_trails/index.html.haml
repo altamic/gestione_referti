@@ -1,4 +1,5 @@
-- javascript :defaults
+- javascript :defaults, *italian_calendar_date_select
+- stylesheet "calendar_date_select/silver.css"
 
 - title "#{t(:invoice_trails)}"
 
@@ -12,12 +13,10 @@
 
     %p
       = f.label :admission_date_after, t(:admission_date_after)
-      = f.text_field :admission_date_after, :size => 12
-      / = f.date_select :admission_date_after, :default => 6.months.ago
-      
+      = f.calendar_date_select :admission_date_after, :month_year => true, :size => 10  
+      \&nbsp;
       = f.label :admission_date_before, t(:admission_date_before)
-      = f.text_field :admission_date_before, :size => 12, :default => Time.now.to_s(:db)
-      / = f.date_select :admission_date_after, :default => Time.now
+      = f.calendar_date_select :admission_date_before, :month_year => true, :size => 10
       \&nbsp;&nbsp;&nbsp;&nbsp;
       
       = f.radio_button :payment_status, :payment_uncompleted

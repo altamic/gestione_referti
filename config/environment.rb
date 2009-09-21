@@ -7,7 +7,7 @@ RAILS_GEM_VERSION = '2.3.4' unless defined? RAILS_GEM_VERSION
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  # config.gem "calendar_date_select", :version => '~> 1.15'
+  config.gem "calendar_date_select", :version => '~> 1.15'
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   # config.gem "bj"
