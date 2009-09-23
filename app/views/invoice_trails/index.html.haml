@@ -18,25 +18,32 @@
       = f.label :admission_date_before, t(:admission_date_before)
       = f.calendar_date_select :admission_date_before, :month_year => true, :size => 10
       \&nbsp;&nbsp;&nbsp;&nbsp;
+
+      = f.label :payment_status, t(:payment_status)
+      &nbsp;
+      = f.radio_button :payment_status, :any_payment
+      = t(:any_payment)
+      &nbsp;&nbsp;
       
       = f.radio_button :payment_status, :payment_uncompleted
       = t(:payment_uncompleted)
-      \&nbsp;&nbsp;&nbsp;
+      \&nbsp;
       
       = f.radio_button :payment_status, :payment_completed
       = t(:payment_completed)
       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      
-      = f.label :invoice_number, t(:invoice_number)
-      = f.text_field :invoice_number, :size => 6
 
     %p  
+      = f.label :invoice_number, t(:invoice_number)
+      = f.text_field :invoice_number, :size => 6
+      \&nbsp;&nbsp;&nbsp;
+            
       = f.label :admission_code_like, t(:admission_code)
       = f.text_field :admission_code_like, :size => 8
       \&nbsp;&nbsp;&nbsp;
       
       = f.label :full_name_like, t(:full_name)
-      = f.text_field :full_name_like, :size => 30
+      = f.text_field :full_name_like, :size => 22
       \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       
       = f.label :notes_like, t(:notes)

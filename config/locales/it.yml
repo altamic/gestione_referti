@@ -45,11 +45,12 @@ it:
   payment_completed_without_invoice_number: "Pagati senza numero fattura"
   not_payed: "Non Pagato"
   discounted_amount: "Importo Scontato"
+  any_payment: "Qualsiasi"
   payment_completed: "Pagati"
   payment_uncompleted: "Non Pagati"
   invoice_number: "Fattura"
   payment_date: "Data Pagamento"
-  payment_status: "Stato Pagamento"
+  payment_status: "Stato Pagamento:"
   partial_sum: "Somma Parziale"
   
   partial_gross_amount: "Totale Importo Lordo"
