@@ -1,6 +1,6 @@
 class InvoiceTrailsController < ApplicationController
   def index
-    @search = InvoiceTrail.search(params[:search])
+    @search = InvoiceTrail.descend_by_admission_date.search(params[:search])
     @invoice_trails, @invoice_trails_count = @search.all.paginate(:per_page => 10, :page => params[:page]), @search.count
     @partial_gross_amount = @search.sum(:gross_amount)
     @partial_discounted_amount = @search.sum(:discounted_amount)

@@ -1,0 +1,4 @@
+default order by date DESC
+lower case for search
+
+

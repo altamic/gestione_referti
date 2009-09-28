@@ -1,5 +1,5 @@
 class InvoiceTrail < ActiveRecord::Base
-  validates_presence_of :full_name, :admission_date, :admission_code, :gross_amount
+  validates_presence_of :full_name, :admission_date, :admission_code, :gross_amount, :discounted_amount
   
   named_scope :any_payment, :conditions => {}
   named_scope :payment_uncompleted, :conditions => { :payed => false }
