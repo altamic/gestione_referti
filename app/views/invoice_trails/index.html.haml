@@ -52,7 +52,7 @@
     = f.submit t(:filter), {:class  => "button right"}
 
 - unless  @invoice_trails_count.zero?
-  %table
+  %table{:cellspacing => "0", :cellpadding => "0"}
     %thead
       %tr
         %th= order @search, :by => :admission_date, :as =>t(:admission_date)
