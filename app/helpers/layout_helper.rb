@@ -17,7 +17,7 @@ module LayoutHelper
   end
   
   def javascript(*args)
-    args = args.map { |arg| arg == :defaults ? arg : arg.to_s }
+    args = args.map { |arg| arg == :defaults ? arg : arg.to_s }.push({:cache  => true})
     content_for(:head) { javascript_include_tag(*args) }
   end
   
