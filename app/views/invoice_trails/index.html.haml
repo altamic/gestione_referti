@@ -49,6 +49,8 @@
       = f.text_field :notes_like, :size => 15
         
     = f.submit t(:filter), {:class  => "button right"}
+    \&nbsp;&nbsp;
+    =link_to t(:reset), invoice_trails_path
 
 - unless  @invoice_trails_count.zero?
   %table{:cellspacing => "0", :cellpadding => "0"}

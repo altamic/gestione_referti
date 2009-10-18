@@ -52,7 +52,7 @@ it:
   payment_date: "Data Pagamento"
   payment_status: "Stato Pagamento:"
   partial_sum: "Somma Parziale"
-  
+  reset: "Annulla"
   partial_gross_amount: "Totale Importo Lordo"
   partial_discounted_amount: "Totale Importo Scontato"
   partial_average_discount: "Totale Sconto Medio"
