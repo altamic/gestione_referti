@@ -30,6 +30,10 @@ module LayoutHelper
     content_for(:head) { javascript_include_tag(*args) }
   end
   
+  def italian_calendar_date_select
+    %w(calendar_date_select/calendar_date_select.js calendar_date_select/locale/it.js calendar_date_select/format_italian.js)
+  end
+  
   def cancel_link
     link_to  t('cancel'), url_for(:back), {:class => 'command'}
   end

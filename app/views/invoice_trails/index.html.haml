@@ -57,8 +57,8 @@
         %th= order @search, :by => :admission_date, :as =>t(:admission_date)
         %th= order @search, :by => :admission_code, :as =>t(:admission_code)
         %th{:class => "text-right"}= order @search, :by => :full_name, :as =>t(:full_name)
-        %th{:class => "text-right"}= order @search, :by => :gross_amount, :as =>t(:gross_amount)
-        %th{:class => "text-right"}= order @search, :by => :discounted_amount, :as =>t(:discounted_amount)        
+        %th{:class => "text-left"}= order @search, :by => :gross_amount, :as =>t(:gross_amount)
+        %th{:class => "text-left"}= order @search, :by => :discounted_amount, :as =>t(:discounted_amount)        
         %th= order @search, :by => :payment_date, :as =>t(:payment_date)
         %th= order @search, :by => :invoice_number, :as =>t(:invoice_number)
         %th= t(:notes)
@@ -96,4 +96,4 @@
   = will_paginate @maintenances
 
 - else
-  %h3{:text_align => :center}=t(:no_results)
+  %h3.text-center=t(:no_results)
