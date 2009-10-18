@@ -39,6 +39,25 @@ div, p, ul, h2, h3, img
   p
     :font-size 16px
     :padding 70px 0 0 43px
+  
+  #flash_notice,
+  #flash_error
+    :float right
+    :color black
+    :width 480px
+    :margin-top -48px
+    :font-size 18px
+    :padding 5px 8px
+    :text-align center
+  
+  #flash_notice
+    :background-color #CFC
+    :border solid 1px #6C6
+  
+  #flash_error
+    :background-color #FCC
+    :border solid 1px #C66
+
 
 
 #breadcrumbs
@@ -97,6 +116,54 @@ div, p, ul, h2, h3, img
     :font-weight bold
     :padding-top 2px
   
+  .fieldWithErrors
+    :display inline
+    :border 2px solid red
+    :padding 5px
+    :background #f05050
+    :-webkit-border-radius 5px
+    :-moz-border-radius 5px
+    :CCborderRadius 5px
+    
+
+  
+  #errorExplanation
+    :width 400px
+    :border 2px solid #CF0000
+    :padding 0
+    :padding-bottom 12px
+    :margin-bottom 20px
+  #errorExplanation
+    :width 400px
+    :border 2px solid #CF0000
+    :padding 0
+    :padding-bottom 12px
+    :margin-bottom 20px
+    :background white
+    :-webkit-border-radius 5px
+    :-moz-border-radius 5px
+    :CCborderRadius 5px
+    h2
+      :text-align left
+      :padding 5px 5px 5px 15px
+      :margin 0
+      :font-weight bold
+      :font-size 12px
+      :background-color #c00
+      :color #fff
+    p, ul
+      :background #e3e3e3
+    p
+      :color #333
+      :margin-bottom 0
+      :padding 8px
+      ul
+        :padding 12px 24px
+        :list-style-type none
+        li
+          :font-size 12px
+          :padding 12px 24px
+    
   table
     :width 100%
     :border 1px solid #b6b6b6
@@ -118,7 +185,7 @@ div, p, ul, h2, h3, img
         :text-decoration none
         :text-shadow rgba(120,120,120,0.95) 0px -1px 2px
         
-      a:hover
+      ahover
         :text-decoration none
         :color #003D5C
         :text-shadow rgba(120,120,120,0.95) 0px -1px 1px
