@@ -8,7 +8,9 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
   config.gem "calendar_date_select", :version => '~> 1.15'
-
+  config.gem "searchlogic", :version => '~> 2.3.5'
+  config.gem "will_paginate", :version  => '~> 2.2.2'
+  config.gem "calendar_date_select", :version  => '1.15'
   # Specify gems that this application depends on and have them installed with rake gems:install
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
