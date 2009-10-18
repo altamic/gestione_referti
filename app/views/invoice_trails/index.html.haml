@@ -3,9 +3,8 @@
 
 - title "#{t(:invoice_trails)}"
 
-%p= link_to "#{t(:new)} #{t(:invoice_trail)}", new_invoice_trail_path
+- breadcrumbs link_to "#{t(:new)} #{t(:invoice_trail)}", new_invoice_trail_path
 
-  
 - form_for @search do |f|
   %fieldset
     %legend

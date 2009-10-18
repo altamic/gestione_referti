@@ -1,9 +1,6 @@
 - title t(:invoice_trail)
 
-%p
-  = link_to t(:edit), edit_invoice_trail_path(@invoice_trail)
-  |
-  = link_to t(:delete), @invoice_trail, :confirm => t(:confirm_delete), :method => :delete
+- breadcrumbs(link_to "« #{t(:invoice_trails)}", invoice_trails_path)
 
 %h2
   %strong=h @invoice_trail.full_name
@@ -41,5 +38,8 @@
       =t(:notes)
     =h @invoice_trail.notes
 %p
-  %strong= link_to "« #{t(:invoice_trails)}", invoice_trails_path
+  %strong
+    =link_to t(:edit), edit_invoice_trail_path(@invoice_trail)
+    |
+    =link_to t(:delete), @invoice_trail, :confirm => t(:confirm_delete), :method => :delete
 

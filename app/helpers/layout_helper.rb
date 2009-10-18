@@ -12,6 +12,15 @@ module LayoutHelper
     @show_title
   end
   
+  def breadcrumbs(page_breadcrumbs, show_breadcrumbs = true)
+    @content_for_breadcrumbs = page_breadcrumbs.to_s
+    @show_breadcrumbs = show_breadcrumbs
+  end
+  
+  def show_breadcrumbs?
+    @show_breadcrumbs
+  end
+  
   def stylesheet(*args)
     content_for(:head) { stylesheet_link_tag(*args.map(&:to_s)) }
   end

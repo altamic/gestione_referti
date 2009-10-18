@@ -1,6 +1,5 @@
 !!! Strict
-%html{html_attrs}
-  
+%html{ "xml:lang" => "it-IT", :lang => "it-IT", :xmlns => "http://www.w3.org/1999/xhtml" }
   %head
     %title
       = t(:site_title)
@@ -11,11 +10,24 @@
     = yield(:head)
   
   %body
-    #container
+    #header
+      %h1
+        %a{ :href => "/" }
+          - if show_title?
+            =h yield(:title)
       - flash.each do |name, msg|
         = content_tag :div, msg, :id => "flash_#{name}"
-      
-      - if show_title?
-        %h1=h yield(:title)
-      
+    #content
+      - if show_breadcrumbs?
+        #breadcrumbs
+          = yield(:breadcrumbs)
       = yield
+    #footer
+      %p
+        %b
+          Gestione Referti Bios
+        is a
+        %a{ :href => "http://convergent.it" }
+          %span.copyright
+            convergent
+        solution

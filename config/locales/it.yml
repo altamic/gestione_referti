@@ -32,8 +32,8 @@ it:
   results: "Risultati"
   result: "Risultato"
 
-  invoice_trails: "Accettazione Esami"
-  invoice_trail:  "Accettazione Esame"
+  invoice_trails: "Elenco Accettazioni"
+  invoice_trail:  "Accettazione"
   
   no_results: "Non ci sono risultati che soddisfano i criteri di ricerca scelti"
   admission_date: "Data"

@@ -1,7 +1,6 @@
 - title "#{t(:edit)} #{t(:invoice_trail)}"
 
-%p
-  = link_to "« #{t(:invoice_trails)}", invoice_trails_path
+- breadcrumbs link_to "« #{t(:invoice_trails)}", invoice_trails_path
 
 = render :partial => 'form'
 
