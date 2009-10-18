@@ -83,6 +83,7 @@ div, p, ul, h2, h3, img
   :width 960px
   :position relative
   :margin 0 auto
+  :padding-bottom 10px
   
   h2
     :margin-bottom 10px
@@ -98,10 +99,10 @@ div, p, ul, h2, h3, img
     :text-shadow rgba(250,250,250,0.65) 0px -2px 2px
     :text-decoration none
 
-    &:hover
-      :color #00b0ff
-      :text-shadow rgba(250,250,250,0.65) 0px -2px 4px
-      :text-decoration none
+  a:hover
+    :color #00b0ff
+    :text-shadow rgba(250,250,250,0.65) 0px -2px 4px
+    :text-decoration none
 
   fieldset
     :background-color #f3f3f3
@@ -173,19 +174,18 @@ div, p, ul, h2, h3, img
     :font-size 15px
     :font-family 'Arial Narrow', Arial, sans-serif
 
-    thead
-      th
-        :background url('/images/table_header_bg.png') 0 0 repeat-x #009df2
-        :color white
-        :border 1px solid white
-        :text-align center
+    th
+      :background url('/images/table_header_bg.png') 0 0 repeat-x #009df2
+      :color white
+      :border 1px solid white
+      :text-align center
 
       a
         :color inherit
         :text-decoration none
         :text-shadow rgba(120,120,120,0.95) 0px -1px 2px
-        
-      ahover
+      
+      a:hover
         :text-decoration none
         :color #003D5C
         :text-shadow rgba(120,120,120,0.95) 0px -1px 1px
