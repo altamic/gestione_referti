@@ -1,4 +1,5 @@
 class InvoiceTrail < ActiveRecord::Base
+  
   validates_presence_of :full_name, :admission_date, :admission_code, :gross_amount, :discounted_amount
   
   named_scope :any_payment, :conditions => {}
@@ -22,12 +23,21 @@ class InvoiceTrail < ActiveRecord::Base
   end
 
   def payment_status_description
-    
-    # se payed e' trusin attesa di pagamento da x giorni
+    # se payed e' true se in attesa di pagamento da x giorni
     # ha pagato x euro con uno sconto del x% 
     # se giorni > 15, in x giorni
   end
 
+  SEARCH_CRITERIA = [
+    :admission_date_after,
+    :admission_date_before,
+    :payment_status,
+    :invoice_number, 
+    :admission_code_like,
+    :full_name_like,
+    :notes_like
+  ]
+  
   private
   def self.compute_conditions(value)
     self.send(value).proxy_options
@@ -41,4 +51,5 @@ class InvoiceTrail < ActiveRecord::Base
     self.discount = compute_discount
     true
   end
+  
 end

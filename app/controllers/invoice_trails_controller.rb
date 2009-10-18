@@ -1,6 +1,6 @@
 class InvoiceTrailsController < ApplicationController
   def index
-    @search = InvoiceTrail.descend_by_admission_date.search(params[:search])
+    @search = prepare_search(params)
     @invoice_trails, @invoice_trails_count = @search.all.paginate(:per_page => 10, :page => params[:page]), @search.count
     @partial_gross_amount = @search.sum(:gross_amount)
     @partial_discounted_amount = @search.sum(:discounted_amount)
@@ -48,5 +48,13 @@ class InvoiceTrailsController < ApplicationController
     @invoice_trail.destroy
     flash[:notice] = "Eliminazione avvenuta con successo"
     redirect_to invoice_trails_url
+  end
+  
+  private
+  def prepare_search(params = {})
+    params["search"].delete_if {|key,value| value.blank?} if params["search"]
+    # delete blank search paramaters 
+    # logger.info request_parameters.merge(query_parameters)
+    InvoiceTrail.search(params["search"])
   end
 end

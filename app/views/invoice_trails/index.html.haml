@@ -55,14 +55,15 @@
   %table{:cellspacing => "0", :cellpadding => "0"}
     %thead
       %tr
-        %th=t(:admission_date)
-        %th=t(:admission_code)
-        %th{:class => "text-right"}=t(:full_name)
-        %th{:class => "text-right"}=t(:gross_amount)
-        %th{:class => "text-right"}=t(:discounted_amount)        
-        %th=t(:payment_date)
-        %th=t(:invoice_number)
-        %th=t(:notes)
+        %th= order @search, :by => :admission_date, :as =>t(:admission_date)
+        %th= order @search, :by => :admission_code, :as =>t(:admission_code)
+        %th{:class => "text-right"}= order @search, :by => :full_name, :as =>t(:full_name)
+        %th{:class => "text-right"}= order @search, :by => :gross_amount, :as =>t(:gross_amount)
+        %th{:class => "text-right"}= order @search, :by => :discounted_amount, :as =>t(:discounted_amount)        
+        %th= order @search, :by => :payment_date, :as =>t(:payment_date)
+        %th= order @search, :by => :invoice_number, :as =>t(:invoice_number)
+        %th= t(:notes)
+        
     
     %tbody
     - for invoice_trail in @invoice_trails
