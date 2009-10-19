@@ -1,5 +1,5 @@
 class InvoiceTrailsController < ApplicationController
-  before_filter :prepare_search
+  before_filter :authenticate, :prepare_search
   
   def index
     @invoice_trails, @invoice_trails_count = @search.all.paginate(:per_page => 10, :page => params[:page]), @search.count
@@ -52,6 +52,12 @@ class InvoiceTrailsController < ApplicationController
   end
   
   private
+  def authenticate
+    authenticate_or_request_with_http_basic do |username, password|
+      username ==  APP_CONFIG[:username] && password = APP_CONFIG[:password]
+    end
+  end
+  
   def prepare_search
     params["search"] ||= {}
     if (params["search"].key? "order" and not params["search"]["order"].blank?)
@@ -59,5 +65,6 @@ class InvoiceTrailsController < ApplicationController
     else
       @search = InvoiceTrail.descend_by_admission_date.search(params["search"])
     end
+    true
   end
 end
