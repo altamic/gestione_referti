@@ -269,11 +269,12 @@ div, p, ul, h2, h3, img {
   padding: 12px 0 0; }
   #footer p {
     width: 320px;
+    text-align: center;
     margin: 0 auto;
     list-style-type: none;
     margin: 0 auto; }
     #footer p a {
-      padding: 0 10px 0;
+      padding: 0 1px 0;
       color: #010101;
       background: #F3F3F3;
       text-decoration: none; }
