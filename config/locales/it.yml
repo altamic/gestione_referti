@@ -199,6 +199,36 @@ it:
         odd: "deve essere dispari"
         even: "deve essere pari"
       models:
+        invoice_trail:
+          one: "Accettazione"
+          other: "Accettazioni"
+
+      # Translate model attribute names. Used in Model.human_attribute_name(attribute).
+        # For example,
+        #   user:
+        #     login: "Handle"
+        # will translate User attribute "login" as "Handle"
+      attributes:
+        user:
+          login: "Login"
+          email: "Email"
+          password: "Password"
+          password_confirmation: "Confirm Password"
+          crypted_password: "Crypted Password"
+          password_salt: "Password Salt"
+          persistence_token: "Persistence Token"
+          login_count: "Login Count"
+          perishable_token: "Perishable_token"
+          active: "Active?"
+          last_request_at: "Last Request At"
+          last_login_at: "Last Login At"
+          current_login_at: "Current Login At"
+          last_login_ip: "Last Login IP"
+          current_login_ip: "Current Login IP"
+          roles: "Has Roles"
+          accepted_roles: "Accepted Roles"
+        user_email:
+
        
     #       
     # attributes:
