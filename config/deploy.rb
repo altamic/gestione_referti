@@ -10,7 +10,7 @@ set :repository, "ssh://converge@convergent.it/~/repos/gestione_referti.git"
 set :scm, :git
 ssh_options[:forward_agent] = true
 set :deploy_via, :remote_cache
-# set :git_enable_submodules, 1 # if you have vendored rails
+# set :git_enable_submodules, true # if you have vendored rails
 set :branch, 'master'
 set :git_shallow_clone, 1
 set :scm_verbose, true
@@ -30,7 +30,7 @@ set :deploy_to, applicationdir
 # additional settings
 # default_run_options[:pty] = true  # Forgo errors when deploying from windows
 # ssh_options[:keys] = %w(/Users/miky/.ssh/id_dsa /Users/miky/.ssh/id_rsa)            # If you are using ssh_keys
-set :chmod755, "app config db lib public vendor script script/* public/disp*"
+set :chmod755, "app config db lib public script script/* public/disp*"
 set :use_sudo, false
  
 ### stuff to snoop on environment vars
@@ -65,9 +65,9 @@ namespace :deploy do
   
   desc "Symlink shared configs and folders on each release."
   task :symlink_shared do
-    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-    run "ln -nfs #{shared_path}/assets #{release_path}/public/assets"
-    run "ln -nfs #{shared_path}/vendor #{release_path}/vendor"
+    run "ln -nfs #{shared_path}/vendor #{current_path}/vendor"
+    run "ln -nfs #{shared_path}/config/database.yml #{current_path}/config/database.yml"
+    run "ln -nfs #{shared_path}/assets #{current_path}/public/assets"
   end
   
   #desc "Sync the public/assets directory."
@@ -77,7 +77,7 @@ namespace :deploy do
   
   desc "Sync the vendor directory."
   task :vendor do
-   system "rsync -vr --exclude='.DS_Store' vendor #{user}@#{application}:#{shared_path}/"
+   system "rsync -vr --exclude='.DS_Store' vendor #{user}@#{application}:#{shared_path}/vendor"
   end
   
   # this one added as per http://railscasts.com/episodes/164-cron-in-ruby
