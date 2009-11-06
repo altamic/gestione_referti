@@ -29,7 +29,7 @@ set :deploy_to, applicationdir
  
 # additional settings
 # default_run_options[:pty] = true  # Forgo errors when deploying from windows
-#ssh_options[:keys] = %w(/Users/miky/.ssh/id_dsa /Users/miky/.ssh/id_rsa)            # If you are using ssh_keys
+# ssh_options[:keys] = %w(/Users/miky/.ssh/id_dsa /Users/miky/.ssh/id_rsa)            # If you are using ssh_keys
 set :chmod755, "app config db lib public vendor script script/* public/disp*"
 set :use_sudo, false
  
