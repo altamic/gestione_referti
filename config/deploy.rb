@@ -10,7 +10,7 @@ set :repository, "ssh://converge@convergent.it/~/repos/gestione_referti.git"
 set :scm, :git
 ssh_options[:forward_agent] = true
 set :deploy_via, :remote_cache
-set :git_enable_submodules, 1 # if you have vendored rails
+# set :git_enable_submodules, 1 # if you have vendored rails
 set :branch, 'master'
 set :git_shallow_clone, 1
 set :scm_verbose, true
