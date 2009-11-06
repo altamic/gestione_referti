@@ -67,12 +67,18 @@ namespace :deploy do
   task :symlink_shared do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
     run "ln -nfs #{shared_path}/assets #{release_path}/public/assets"
+    run "ln -nfs #{shared_path}/vendor #{release_path}/vendor"
   end
   
   #desc "Sync the public/assets directory."
   #task :assets do
   #  system "rsync -vr --exclude='.DS_Store' public/assets #{user}@#{application}:#{shared_path}/"
   #end
+  
+  desc "Sync the vendor directory."
+  task :vendor do
+   system "rsync -vr --exclude='.DS_Store' vendor #{user}@#{application}:#{shared_path}/"
+  end
   
   # this one added as per http://railscasts.com/episodes/164-cron-in-ruby
   # desc "Update the crontab file"
