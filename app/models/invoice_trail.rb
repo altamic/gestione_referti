@@ -7,7 +7,7 @@ class InvoiceTrail < ActiveRecord::Base
   named_scope :any_payment, :conditions => {}
   named_scope :payment_uncompleted, :conditions => { :payed => false }
   named_scope :payment_completed, :conditions => ["payed = ? AND invoice_number IS NOT ?", true, nil]
-              
+  
   # named_scope :payment_completed_without_invoice_number, 
   #              :conditions => { :payed => true, :invoice_number => nil }
   
