@@ -20,8 +20,8 @@ invoice_trails:
     - "2009-02-09"
     - 09011
     - Abbate Elvira
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-09"
@@ -34,7 +34,7 @@ invoice_trails:
     - 09005
     - Adamo Emanuela
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-02-09"
@@ -46,8 +46,8 @@ invoice_trails:
     - "2009-02-14"
     - 14001
     - Adamo Martello Salvatrice
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-02-14"
@@ -59,8 +59,8 @@ invoice_trails:
     - "2009-02-17"
     - 17006
     - Adamo Martello Salvatrice
-    - 32
-    - 30
+    - 32.00
+    - 30.00
     - 6.25
     - true
     - "2009-02-19"
@@ -72,8 +72,8 @@ invoice_trails:
     - "2009-05-13"
     - 13004
     - Agosta Barbara
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-05-23"
@@ -86,7 +86,7 @@ invoice_trails:
     - 23003
     - Agosta Chiara
     - 64.35
-    - 64
+    - 64.00
     - 0.54
     - true
     - "2009-03-30"
@@ -99,7 +99,7 @@ invoice_trails:
     - 516
     - Agosta Chiara
     - 34.49
-    - 35
+    - 35.00
     - 0.00
     - true
     - "2009-06-08"
@@ -125,7 +125,7 @@ invoice_trails:
     - 23006
     - Agosta Maria
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-03-27"
@@ -176,8 +176,8 @@ invoice_trails:
     - "2009-08-31"
     - 31018
     - Alfieri Ignazio
-    - 95
-    - 95
+    - 95.00
+    - 95.00
     - 0.00
     - true
     - "2009-09-01"
@@ -190,7 +190,7 @@ invoice_trails:
     - 09006
     - Aliotta Simonetta
     - 60.02
-    - 60
+    - 60.00
     - 0.03
     - true
     - "2009-02-12"
@@ -229,7 +229,7 @@ invoice_trails:
     - 21001
     - Allegria Rosaria
     - 0.75
-    - 18
+    - 18.00
     - 0.00
     - true
     - "2009-02-21"
@@ -241,7 +241,7 @@ invoice_trails:
     - "2009-04-10"
     - 10003
     - Altamore Michelangelo
-    - 61
+    - 61.00
     - 0.00
     - 
     - false
@@ -254,8 +254,8 @@ invoice_trails:
     - "2009-04-07"
     - 3587
     - Alvarez  Sonia
-    - 50
-    - 50
+    - 50.00
+    - 50.00
     - 0.00
     - true
     - 
@@ -280,8 +280,8 @@ invoice_trails:
     - "2009-06-05"
     - 2563
     - Amore Emanuela
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-06-05"
@@ -306,8 +306,8 @@ invoice_trails:
     - "2009-04-22"
     - 22003
     - Amore Salvatore
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-24"
@@ -320,7 +320,7 @@ invoice_trails:
     - 20001
     - Antoci Graziana
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-02-20"
@@ -333,7 +333,7 @@ invoice_trails:
     - 14002
     - Aparo Teresa
     - 89.25
-    - 82
+    - 82.00
     - 8.12
     - true
     - "2009-07-16"
@@ -345,8 +345,8 @@ invoice_trails:
     - "2009-07-27"
     - 27002
     - Aprile Salvatore
-    - 80
-    - 80
+    - 80.00
+    - 80.00
     - 0.00
     - true
     - "2009-07-27"
@@ -385,7 +385,7 @@ invoice_trails:
     - 17006
     - Arcieri Emanuela
     - 68.55
-    - 65
+    - 65.00
     - 5.17
     - true
     - "2009-07-01"
@@ -398,7 +398,7 @@ invoice_trails:
     - 08009
     - Arena Giovanna
     - 97.96
-    - 70
+    - 70.00
     - 28.54
     - true
     - "2009-04-15"
@@ -410,8 +410,8 @@ invoice_trails:
     - "2009-04-08"
     - 08009
     - Arena Giovanna
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-04-15"
@@ -423,8 +423,8 @@ invoice_trails:
     - "2009-02-28"
     - 28004
     - Arena Massimo
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-03-07"
@@ -436,8 +436,8 @@ invoice_trails:
     - "2009-04-09"
     - 09006
     - Arestia Rosaria
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-05-18"
@@ -449,8 +449,8 @@ invoice_trails:
     - "2008-04-24"
     - 24003
     - Armenia Gina
-    - 42
-    - 42
+    - 42.00
+    - 42.00
     - 0.00
     - false
     - 
@@ -463,7 +463,7 @@ invoice_trails:
     - 2562
     - Armenia Giorgia
     - 85.87
-    - 86
+    - 86.00
     - 0.00
     - true
     - "2009-05-11"
@@ -475,8 +475,8 @@ invoice_trails:
     - "2009-03-09"
     - 09007
     - Armenia Salvatore
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-03-16"
@@ -488,8 +488,8 @@ invoice_trails:
     - "2009-05-29"
     - 29001
     - Armenia Veronica
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - false
     - 
@@ -501,8 +501,8 @@ invoice_trails:
     - "2009-06-13"
     - 13002
     - Armenia Veronica
-    - 33
-    - 33
+    - 33.00
+    - 33.00
     - 0.00
     - false
     - 
@@ -514,8 +514,8 @@ invoice_trails:
     - "2009-04-16"
     - 16003
     - Arruda Carlos
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-27"
@@ -528,7 +528,7 @@ invoice_trails:
     - 27003
     - Artale Maria
     - "30.4"
-    - 30
+    - 30.00
     - 1.31
     - true
     - "2009-05-28"
@@ -540,8 +540,8 @@ invoice_trails:
     - "2009-03-24"
     - 23002
     - Assenza Antonio
-    - 16
-    - 16
+    - 16.00
+    - 16.00
     - 0.00
     - true
     - "2009-03-24"
@@ -566,8 +566,8 @@ invoice_trails:
     - "2009-07-22"
     - 22002
     - Assenza Antonio
-    - 26
-    - 26
+    - 26.00
+    - 26.00
     - 0.00
     - true
     - "2009-07-24"
@@ -580,11 +580,11 @@ invoice_trails:
     - 26004
     - Assenza Claudia
     - 44.66
-    - 45
+    - 45.00
     - 0.00
     - true
     - "2009-01-27"
-    - 70
+    - 70.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -592,8 +592,8 @@ invoice_trails:
     - "2009-07-27"
     - 27003
     - Assenza Claudia
-    - 17
-    - 17
+    - 17.00
+    - 17.00
     - 0.00
     - true
     - "2009-07-31"
@@ -619,7 +619,7 @@ invoice_trails:
     - 21004
     - Assenza Giovanni
     - 79.62
-    - 70
+    - 70.00
     - 12.08
     - true
     - "2009-04-28"
@@ -632,7 +632,7 @@ invoice_trails:
     - 2051
     - Assenza Giuseppe
     - 63.75
-    - 63
+    - 63.00
     - 1.17
     - true
     - "2009-07-18"
@@ -658,7 +658,7 @@ invoice_trails:
     - 08004
     - Assenza Valeria
     - 15.69
-    - 16
+    - 16.00
     - 0.00
     - true
     - "2009-04-16"
@@ -671,7 +671,7 @@ invoice_trails:
     - 08001
     - Assenza Vincenzo
     - 30.55
-    - 30
+    - 30.00
     - 1.80
     - true
     - "2009-05-11"
@@ -684,7 +684,7 @@ invoice_trails:
     - 24010
     - Assenza Vincenzo
     - 30.55
-    - 30
+    - 30.00
     - 1.80
     - true
     - "2009-06-25"
@@ -696,8 +696,8 @@ invoice_trails:
     - "2009-03-28"
     - 28003
     - Aurnia Francesca
-    - 30
-    - 30
+    - 30.00
+    - 30.00
     - 0.00
     - true
     - "2009-03-31"
@@ -709,8 +709,8 @@ invoice_trails:
     - "2009-01-26"
     - 26007
     - Aurnia Irene
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - false
     - 
@@ -736,7 +736,7 @@ invoice_trails:
     - 30004
     - Avola Giovanna
     - "54.6"
-    - 54
+    - 54.00
     - 1.09
     - true
     - "2009-07-31"
@@ -762,11 +762,11 @@ invoice_trails:
     - 29021
     - Avveduto Concetta
     - 63.71
-    - 63
+    - 63.00
     - 1.11
     - true
     - "2009-01-31"
-    - 84
+    - 84.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -787,8 +787,8 @@ invoice_trails:
     - "2009-07-11"
     - 11002
     - Azzolina Gaetana
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-07-11"
@@ -800,8 +800,8 @@ invoice_trails:
     - "2009-04-09"
     - 09007
     - Azzolina Tania
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-04-09"
@@ -814,7 +814,7 @@ invoice_trails:
     - 23004
     - Baglieri Carmela
     - 7.37
-    - 7
+    - 7.00
     - 5.02
     - true
     - "2009-03-24"
@@ -852,8 +852,8 @@ invoice_trails:
     - "2009-06-15"
     - 15003
     - Ballaro' Debora
-    - 42
-    - 42
+    - 42.00
+    - 42.00
     - 0.00
     - true
     - "2009-06-16"
@@ -865,8 +865,8 @@ invoice_trails:
     - "2009-03-17"
     - 17005
     - Bantayeb Asmaa
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-17"
@@ -878,8 +878,8 @@ invoice_trails:
     - "2009-03-30"
     - 30007
     - Barbagallo Salvatore
-    - 52
-    - 52
+    - 52.00
+    - 52.00
     - 0.00
     - true
     - "2009-03-30"
@@ -905,7 +905,7 @@ invoice_trails:
     - 10006
     - Barone Daniela
     - 14.91
-    - 15
+    - 15.00
     - 0.00
     - true
     - "2009-06-11"
@@ -918,7 +918,7 @@ invoice_trails:
     - 26001
     - Barone Salvatore
     - 72.28
-    - 65
+    - 65.00
     - 10.07
     - true
     - "2009-03-03"
@@ -930,8 +930,8 @@ invoice_trails:
     - "2009-06-06"
     - 3073
     - Barone Salvatore
-    - 71
-    - 71
+    - 71.00
+    - 71.00
     - 0.00
     - true
     - "2009-06-11"
@@ -944,7 +944,7 @@ invoice_trails:
     - 22002
     - Barone Tommaso
     - 30.16
-    - 30
+    - 30.00
     - 0.53
     - true
     - "2009-05-23"
@@ -956,8 +956,8 @@ invoice_trails:
     - "2009-07-24"
     - 24010
     - Barone Tommaso
-    - 30
-    - 30
+    - 30.00
+    - 30.00
     - 0.00
     - true
     - "2009-07-25"
@@ -969,8 +969,8 @@ invoice_trails:
     - "2009-06-13"
     - 13004
     - Basile Concetta
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -1000,7 +1000,7 @@ invoice_trails:
     - 20.51
     - true
     - "2009-01-27"
-    - 67
+    - 67.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -1021,8 +1021,8 @@ invoice_trails:
     - "2009-06-27"
     - 27013
     - Battaglia Vincenzo
-    - 23
-    - 23
+    - 23.00
+    - 23.00
     - 0.00
     - true
     - "2009-07-02"
@@ -1035,7 +1035,7 @@ invoice_trails:
     - 1028
     - Bellaera Iacopo
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-04-02"
@@ -1060,8 +1060,8 @@ invoice_trails:
     - "2009-06-10"
     - 10003
     - Belluardo Ausilia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - false
     - 
@@ -1074,7 +1074,7 @@ invoice_trails:
     - 27005
     - Belluardo Grazia
     - 85.76
-    - 70
+    - 70.00
     - 18.37
     - true
     - "2009-02-27"
@@ -1087,7 +1087,7 @@ invoice_trails:
     - 2566
     - Belluardo Grazia
     - 118.37
-    - 90
+    - 90.00
     - 23.96
     - true
     - "2009-03-20"
@@ -1100,7 +1100,7 @@ invoice_trails:
     - 09004
     - Belluardo Maurizio
     - 14.63
-    - 15
+    - 15.00
     - 0.00
     - true
     - "2009-03-09"
@@ -1126,7 +1126,7 @@ invoice_trails:
     - 16002
     - Bissi Maria
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-03-16"
@@ -1139,7 +1139,7 @@ invoice_trails:
     - 22004
     - Bissi Maria
     - 60.41
-    - 60
+    - 60.00
     - 0.67
     - true
     - "2009-06-22"
@@ -1152,7 +1152,7 @@ invoice_trails:
     - 513
     - Bissi Maria
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-07-01"
@@ -1165,7 +1165,7 @@ invoice_trails:
     - 3588
     - Blanco Emanuele
     - 55.06
-    - 55
+    - 55.00
     - 0.10
     - true
     - "2009-04-10"
@@ -1191,11 +1191,11 @@ invoice_trails:
     - 26002
     - Blanco M. Antonietta
     - 37.18
-    - 35
+    - 35.00
     - 5.86
     - true
     - "2009-01-28"
-    - 72
+    - 72.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -1204,7 +1204,7 @@ invoice_trails:
     - 27001
     - Blanco Maria Domenica
     - 77.84
-    - 63
+    - 63.00
     - 19.06
     - true
     - "2009-03-25"
@@ -1217,7 +1217,7 @@ invoice_trails:
     - 513
     - Blandino Eliana Grazia
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-09-02"
@@ -1229,8 +1229,8 @@ invoice_trails:
     - "2009-06-06"
     - 3077
     - Blandizzi Maia Concetta
-    - 16
-    - 16
+    - 16.00
+    - 16.00
     - 0.00
     - true
     - "2009-06-12"
@@ -1269,7 +1269,7 @@ invoice_trails:
     - 13001
     - Blandizzi Maria Concetta
     - 15.96
-    - 16
+    - 16.00
     - 0.00
     - true
     - "2009-02-13"
@@ -1295,7 +1295,7 @@ invoice_trails:
     - 27001
     - Blundetto Giovanni
     - 37.71
-    - 38
+    - 38.00
     - 0.00
     - true
     - 
@@ -1308,7 +1308,7 @@ invoice_trails:
     - 1539
     - Blundetto Silvana
     - 18.91
-    - 18
+    - 18.00
     - 4.81
     - true
     - "2009-03-10"
@@ -1321,7 +1321,7 @@ invoice_trails:
     - 2563
     - Blundetto Silvana
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-03-10"
@@ -1334,7 +1334,7 @@ invoice_trails:
     - 3585
     - Blundetto Silvana
     - 18.91
-    - 18
+    - 18.00
     - 4.81
     - true
     - "2009-03-10"
@@ -1347,7 +1347,7 @@ invoice_trails:
     - 09001
     - Blundetto Silvana
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-03-10"
@@ -1360,7 +1360,7 @@ invoice_trails:
     - 10002
     - Blundetto Silvana
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-02"
@@ -1372,8 +1372,8 @@ invoice_trails:
     - "2009-03-07"
     - 3585
     - Blundetto Silvana
-    - 18
-    - 18
+    - 18.00
+    - 18.00
     - 0.00
     - true
     - "2009-03-10"
@@ -1386,7 +1386,7 @@ invoice_trails:
     - 13008
     - Bonomo Luisa
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-02-13"
@@ -1399,7 +1399,7 @@ invoice_trails:
     - 1537
     - Bonomo Stefania
     - 20.16
-    - 20
+    - 20.00
     - 0.79
     - true
     - "2009-06-03"
@@ -1411,8 +1411,8 @@ invoice_trails:
     - "2009-08-31"
     - 31020
     - Bordonaro Chiara
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-09-02"
@@ -1437,8 +1437,8 @@ invoice_trails:
     - "2009-07-27"
     - 27005
     - Boutayeb Asmaa
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-08-06"
@@ -1476,8 +1476,8 @@ invoice_trails:
     - "2009-06-27"
     - 27006
     - Brancato Giovanni
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-07-02"
@@ -1490,7 +1490,7 @@ invoice_trails:
     - 27004
     - Bruno Alessandra
     - 32.34
-    - 30
+    - 30.00
     - 7.23
     - true
     - "2009-05-27"
@@ -1507,7 +1507,7 @@ invoice_trails:
     - 22.78
     - true
     - "2009-02-02"
-    - 88
+    - 88.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -1516,11 +1516,11 @@ invoice_trails:
     - 10003
     - Bugliarisi Cristina
     - 18.16
-    - 18
+    - 18.00
     - 0.88
     - true
     - "2009-02-02"
-    - 88
+    - 88.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -1533,7 +1533,7 @@ invoice_trails:
     - 0.00
     - true
     - "2009-01-29"
-    - 75
+    - 75.00
     - 
     - 
     - 2009-09-08 09:58:16
@@ -1542,7 +1542,7 @@ invoice_trails:
     - 11003
     - Calabrese Marco
     - "24.7"
-    - 25
+    - 25.00
     - 0.00
     - true
     - "2009-02-14"
@@ -1568,7 +1568,7 @@ invoice_trails:
     - 10004
     - Campailla Francesco
     - 66.36
-    - 60
+    - 60.00
     - 9.58
     - true
     - "2009-03-13"
@@ -1593,8 +1593,8 @@ invoice_trails:
     - "2009-01-30"
     - 30006
     - Campailla Giovanna
-    - 55
-    - 55
+    - 55.00
+    - 55.00
     - 0.00
     - true
     - "2009-02-06"
@@ -1606,8 +1606,8 @@ invoice_trails:
     - "2009-03-11"
     - 11003
     - Campailla Giovanna
-    - 20
-    - 20
+    - 20.00
+    - 20.00
     - 0.00
     - true
     - "2009-03-14"
@@ -1620,7 +1620,7 @@ invoice_trails:
     - 07009
     - Campailla Jacopo
     - 98.74
-    - 90
+    - 90.00
     - 8.85
     - true
     - "2009-03-18"
@@ -1632,8 +1632,8 @@ invoice_trails:
     - "2009-04-16"
     - 16006
     - Campanella Salvatore
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - 
@@ -1645,8 +1645,8 @@ invoice_trails:
     - "2009-08-31"
     - 31017
     - Campanella Salvatore
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-09-02"
@@ -1658,8 +1658,8 @@ invoice_trails:
     - "2009-03-11"
     - 11001
     - Cannata Maria
-    - 60
-    - 60
+    - 60.00
+    - 60.00
     - 0.00
     - true
     - "2009-04-03"
@@ -1671,8 +1671,8 @@ invoice_trails:
     - "2009-03-30"
     - 30001
     - Cannatella Maria
-    - 50
-    - 50
+    - 50.00
+    - 50.00
     - 0.00
     - true
     - "2009-04-03"
@@ -1684,8 +1684,8 @@ invoice_trails:
     - "2009-07-30"
     - 30002
     - Cannatella Maria
-    - 50
-    - 50
+    - 50.00
+    - 50.00
     - 0.00
     - true
     - "2009-08-28"
@@ -1724,11 +1724,11 @@ invoice_trails:
     - 29022
     - Cannizzaro Giorgio
     - 26.07
-    - 25
+    - 25.00
     - 4.10
     - true
     - "2009-01-30"
-    - 77
+    - 77.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -1737,7 +1737,7 @@ invoice_trails:
     - 16002
     - Cannizzaro Giorgio
     - 30.64
-    - 25
+    - 25.00
     - 18.40
     - true
     - "2009-02-19"
@@ -1762,8 +1762,8 @@ invoice_trails:
     - "2009-05-19"
     - 19004
     - Cappello Elisa
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-05-25"
@@ -1775,8 +1775,8 @@ invoice_trails:
     - "2009-07-14"
     - 14004
     - Cappello Elisa
-    - 20
-    - 20
+    - 20.00
+    - 20.00
     - 0.00
     - true
     - "2009-07-22"
@@ -1801,8 +1801,8 @@ invoice_trails:
     - "2009-08-07"
     - 3585
     - Cappello Giovanni
-    - 61
-    - 61
+    - 61.00
+    - 61.00
     - 0.00
     - false
     - 
@@ -1840,8 +1840,8 @@ invoice_trails:
     - "2008-12-29"
     - 29021
     - Carbonaro Antonio
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -1853,8 +1853,8 @@ invoice_trails:
     - "2009-07-30"
     - 30003
     - Carbonaro Enza
-    - 50
-    - 50
+    - 50.00
+    - 50.00
     - 0.00
     - false
     - 
@@ -1932,7 +1932,7 @@ invoice_trails:
     - 25001
     - Cardella Calogero
     - 58.77
-    - 58
+    - 58.00
     - 1.31
     - true
     - "2009-03-06"
@@ -1945,7 +1945,7 @@ invoice_trails:
     - 14003
     - Carnemolla Guglielma
     - "63.5"
-    - 63
+    - 63.00
     - 0.78
     - true
     - "2009-03-05"
@@ -1957,8 +1957,8 @@ invoice_trails:
     - "2009-07-15"
     - 15002
     - Carnemolla Salvatore
-    - 67
-    - 67
+    - 67.00
+    - 67.00
     - 0.00
     - true
     - "2009-07-21"
@@ -1970,8 +1970,8 @@ invoice_trails:
     - "2009-02-07"
     - 3590
     - Carpenzano Valentina
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-07"
@@ -1984,7 +1984,7 @@ invoice_trails:
     - 22003
     - Carpintieri Domenico
     - 35.91
-    - 36
+    - 36.00
     - 0.00
     - true
     - "2009-06-25"
@@ -1996,8 +1996,8 @@ invoice_trails:
     - "2009-07-31"
     - 31002
     - Cartia Gianpiero
-    - 10
-    - 10
+    - 10.00
+    - 10.00
     - 0.00
     - true
     - "2009-09-02"
@@ -2010,7 +2010,7 @@ invoice_trails:
     - 12002
     - Caruso Emanuele
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-05-15"
@@ -2036,7 +2036,7 @@ invoice_trails:
     - 516
     - Caruso Rosario
     - 38.36
-    - 38
+    - 38.00
     - 0.93
     - true
     - "2009-04-28"
@@ -2049,7 +2049,7 @@ invoice_trails:
     - 17010
     - Caruso Rosario
     - 19.12
-    - 19
+    - 19.00
     - 0.62
     - true
     - "2009-06-19"
@@ -2061,8 +2061,8 @@ invoice_trails:
     - "2009-05-19"
     - 19001
     - Caruso Salvatore
-    - 93
-    - 93
+    - 93.00
+    - 93.00
     - 0.00
     - false
     - 
@@ -2101,7 +2101,7 @@ invoice_trails:
     - 15002
     - Caruso Tiziana
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-05-19"
@@ -2113,8 +2113,8 @@ invoice_trails:
     - "2009-05-16"
     - 16005
     - Caruso Tiziana
-    - 32
-    - 30
+    - 32.00
+    - 30.00
     - 6.25
     - true
     - "2009-05-19"
@@ -2126,8 +2126,8 @@ invoice_trails:
     - "2009-04-28"
     - 28013
     - Casa Franco
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-05-02"
@@ -2152,8 +2152,8 @@ invoice_trails:
     - "2009-05-16"
     - 16002
     - Cassarino Cristina
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - 
@@ -2170,7 +2170,7 @@ invoice_trails:
     - 17.15
     - true
     - "2009-01-29"
-    - 76
+    - 76.00
     - 
     - 
     - 2009-09-08 09:06:41
@@ -2191,8 +2191,8 @@ invoice_trails:
     - "2009-07-22"
     - 22001
     - Catania Massimo
-    - 90
-    - 90
+    - 90.00
+    - 90.00
     - 0.00
     - false
     - 
@@ -2204,8 +2204,8 @@ invoice_trails:
     - "2009-04-23"
     - 23002
     - Cataudella Gaia
-    - 7
-    - 7
+    - 7.00
+    - 7.00
     - 0.00
     - true
     - 
@@ -2230,8 +2230,8 @@ invoice_trails:
     - "2009-01-30"
     - 30005
     - Causarano Riccardo
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-02-06"
@@ -2243,8 +2243,8 @@ invoice_trails:
     - "2009-03-11"
     - 11002
     - Causarano Riccardo
-    - 20
-    - 20
+    - 20.00
+    - 20.00
     - 0.00
     - true
     - "2009-03-14"
@@ -2257,7 +2257,7 @@ invoice_trails:
     - 09003
     - Causarano Simona
     - 20.16
-    - 20
+    - 20.00
     - 0.79
     - true
     - "2009-03-11"
@@ -2270,7 +2270,7 @@ invoice_trails:
     - 25004
     - Cavallo Maria
     - 15.69
-    - 16
+    - 16.00
     - 0.00
     - true
     - "2009-02-27"
@@ -2283,7 +2283,7 @@ invoice_trails:
     - 08004
     - Cavallo Maria
     - 28.95
-    - 28
+    - 28.00
     - 3.28
     - true
     - "2009-05-11"
@@ -2296,7 +2296,7 @@ invoice_trails:
     - 29002
     - Cavallo Maria
     - "16.7"
-    - 17
+    - 17.00
     - 0.00
     - true
     - "2009-06-01"
@@ -2309,7 +2309,7 @@ invoice_trails:
     - 17012
     - Cavallo Piero Antonio
     - "37.9"
-    - 38
+    - 38.00
     - 0.00
     - true
     - "2009-07-21"
@@ -2322,11 +2322,11 @@ invoice_trails:
     - 2053
     - Celauro Simona
     - 10.16
-    - 10
+    - 10.00
     - 1.57
     - true
     - "2009-02-04"
-    - 97
+    - 97.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -2335,7 +2335,7 @@ invoice_trails:
     - 17008
     - Celestre Giovanni
     - 59.15
-    - 50
+    - 50.00
     - 15.46
     - true
     - "2009-02-18"
@@ -2347,8 +2347,8 @@ invoice_trails:
     - "2009-04-23"
     - 20003
     - Cerruto Andrea
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - false
     - 
@@ -2361,7 +2361,7 @@ invoice_trails:
     - 10002
     - Cerruto Elisa
     - 49.92
-    - 50
+    - 50.00
     - 0.00
     - true
     - "2009-02-13"
@@ -2373,8 +2373,8 @@ invoice_trails:
     - "2009-07-09"
     - 09001
     - Cerruto Elisa
-    - 63
-    - 63
+    - 63.00
+    - 63.00
     - 0.00
     - true
     - "2009-07-23"
@@ -2386,8 +2386,8 @@ invoice_trails:
     - "2009-03-17"
     - 17006
     - Cerruto Rosa
-    - 37
-    - 37
+    - 37.00
+    - 37.00
     - 0.00
     - true
     - "2009-03-27"
@@ -2399,8 +2399,8 @@ invoice_trails:
     - "2009-07-07"
     - 3587
     - Chakir Jawad
-    - 82
-    - 82
+    - 82.00
+    - 82.00
     - 0.00
     - false
     - 
@@ -2412,8 +2412,8 @@ invoice_trails:
     - "2009-05-18"
     - 18005
     - Cicero M Concetta
-    - 50
-    - 50
+    - 50.00
+    - 50.00
     - 0.00
     - true
     - "2009-05-25"
@@ -2425,12 +2425,12 @@ invoice_trails:
     - "2009-01-27"
     - 27004
     - Cicero Melania
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-01-27"
-    - 69
+    - 69.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -2439,7 +2439,7 @@ invoice_trails:
     - 3074
     - Cilia Lucia
     - 46.51
-    - 46
+    - 46.00
     - 1.09
     - true
     - "2009-07-06"
@@ -2451,8 +2451,8 @@ invoice_trails:
     - "2009-07-08"
     - 08002
     - Cilia Lucia
-    - 40
-    - 40
+    - 40.00
+    - 40.00
     - 0.00
     - true
     - "2009-07-08"
@@ -2465,7 +2465,7 @@ invoice_trails:
     - 2053
     - Cocchiara Emanuele
     - 29.92
-    - 20
+    - 20.00
     - 33.15
     - true
     - "2009-04-27"
@@ -2504,7 +2504,7 @@ invoice_trails:
     - 3591
     - Colombo Maria
     - 41.65
-    - 42
+    - 42.00
     - 0.00
     - true
     - "2009-02-10"
@@ -2517,7 +2517,7 @@ invoice_trails:
     - 3588
     - Colombo Maria
     - 65.45
-    - 65
+    - 65.00
     - 0.68
     - true
     - "2009-03-16"
@@ -2530,7 +2530,7 @@ invoice_trails:
     - 17004
     - Colombo Maria
     - 14.75
-    - 15
+    - 15.00
     - 0.00
     - true
     - "2009-03-23"
@@ -2543,7 +2543,7 @@ invoice_trails:
     - 16005
     - Colombo Maria
     - 103.95
-    - 80
+    - 80.00
     - 23.03
     - true
     - "2009-04-23"
@@ -2556,7 +2556,7 @@ invoice_trails:
     - 23004
     - Colombo Maria
     - 30.58
-    - 31
+    - 31.00
     - 0.00
     - true
     - "2009-04-30"
@@ -2569,7 +2569,7 @@ invoice_trails:
     - 24009
     - Comisi Giovanni
     - 32.54
-    - 33
+    - 33.00
     - 0.00
     - true
     - "2009-02-26"
@@ -2581,8 +2581,8 @@ invoice_trails:
     - "2009-04-18"
     - 18004
     - Corallo Andrea
-    - 48
-    - 48
+    - 48.00
+    - 48.00
     - 0.00
     - true
     - "2009-04-21"
@@ -2620,8 +2620,8 @@ invoice_trails:
     - "2009-07-23"
     - 23003
     - Crucetta Giuseppina
-    - 55
-    - 55
+    - 55.00
+    - 55.00
     - 0.00
     - true
     - "2009-07-28"
@@ -2634,7 +2634,7 @@ invoice_trails:
     - 3587
     - Cultraro A. Maria
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-02-11"
@@ -2673,7 +2673,7 @@ invoice_trails:
     - 11003
     - Da Ros Maria Antonietta
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-05-12"
@@ -2685,12 +2685,12 @@ invoice_trails:
     - "2009-03-07"
     - 3590
     - D'angelo Lucia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-07"
-    - 25
+    - 25.00
     - 
     - 
     - 2009-09-08 09:58:16
@@ -2699,7 +2699,7 @@ invoice_trails:
     - 27006
     - Denaro Sabrina Domenica
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-02-27"
@@ -2711,8 +2711,8 @@ invoice_trails:
     - "2009-08-07"
     - 3586
     - Denaro Sabrina Domenica
-    - 7
-    - 7
+    - 7.00
+    - 7.00
     - 0.00
     - true
     - "2009-08-07"
@@ -2724,8 +2724,8 @@ invoice_trails:
     - "2008-11-05"
     - 2561
     - Di Benedetto Giuseppe
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - false
     - 
@@ -2738,7 +2738,7 @@ invoice_trails:
     - 2562
     - Di Grandi Angela
     - 31.55
-    - 31
+    - 31.00
     - 1.74
     - true
     - "2009-02-07"
@@ -2764,7 +2764,7 @@ invoice_trails:
     - 30001
     - Di Grandi Raffaello
     - 53.41
-    - 53
+    - 53.00
     - 0.76
     - true
     - "2009-06-13"
@@ -2777,7 +2777,7 @@ invoice_trails:
     - 11001
     - Di Grandi Vincenzo
     - 71.68
-    - 70
+    - 70.00
     - 2.34
     - true
     - "2009-07-16"
@@ -2790,7 +2790,7 @@ invoice_trails:
     - 28005
     - Di Gregorio Carmela
     - 18.91
-    - 18
+    - 18.00
     - 4.81
     - true
     - "2009-03-31"
@@ -2802,8 +2802,8 @@ invoice_trails:
     - "2009-04-14"
     - 14004
     - Di Gregorio Carmela
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - 
@@ -2815,8 +2815,8 @@ invoice_trails:
     - "2008-09-02"
     - 02008
     - Di Lorenzo Vincenzo
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - false
     - 
@@ -2829,7 +2829,7 @@ invoice_trails:
     - 3075
     - Di Marco Maria
     - 60.62
-    - 50
+    - 50.00
     - 17.51
     - true
     - "2009-04-09"
@@ -2841,8 +2841,8 @@ invoice_trails:
     - "2009-04-14"
     - 14003
     - Di Marco Maria
-    - 60
-    - 60
+    - 60.00
+    - 60.00
     - 0.00
     - true
     - "2009-04-17"
@@ -2855,7 +2855,7 @@ invoice_trails:
     - 14003
     - Di Marco Maria
     - 60.26
-    - 60
+    - 60.00
     - 0.43
     - true
     - "2009-04-17"
@@ -2867,8 +2867,8 @@ invoice_trails:
     - "2009-02-28"
     - 28003
     - Di Martino Gianfranco
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - false
     - 
@@ -2880,12 +2880,12 @@ invoice_trails:
     - "2009-02-02"
     - 1028
     - Di Martino Mirella
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-02"
-    - 89
+    - 89.00
     - 
     - 
     - 2009-09-08 09:58:16
@@ -2894,7 +2894,7 @@ invoice_trails:
     - 2566
     - Di Martino Mirella
     - 13.16
-    - 13
+    - 13.00
     - 1.21
     - true
     - "2009-05-08"
@@ -2919,8 +2919,8 @@ invoice_trails:
     - "2009-04-29"
     - 29008
     - Di Martino Russo Carmelo
-    - 27
-    - 25
+    - 27.00
+    - 25.00
     - 7.40
     - true
     - "2009-04-30"
@@ -2946,7 +2946,7 @@ invoice_trails:
     - 25002
     - Di Martino Russo Carmelo
     - 9.58
-    - 9
+    - 9.00
     - 6.05
     - true
     - "2009-05-26"
@@ -2958,8 +2958,8 @@ invoice_trails:
     - "2009-06-24"
     - 24009
     - Di Martino Russo Carmelo
-    - 27
-    - 27
+    - 27.00
+    - 27.00
     - 0.00
     - true
     - "2009-06-26"
@@ -2971,8 +2971,8 @@ invoice_trails:
     - "2009-06-04"
     - 2050
     - Di Natale Valentina
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-06-04"
@@ -2984,8 +2984,8 @@ invoice_trails:
     - "2009-06-24"
     - 24008
     - Di Pietro Arianna
-    - 60
-    - 60
+    - 60.00
+    - 60.00
     - 0.00
     - true
     - "2009-06-26"
@@ -3024,7 +3024,7 @@ invoice_trails:
     - 19006
     - Di Raimondo Alessandra
     - 26.06
-    - 26
+    - 26.00
     - 0.23
     - true
     - "2009-02-09"
@@ -3036,8 +3036,8 @@ invoice_trails:
     - "2009-04-21"
     - 21005
     - Di Raimondo Alessandra
-    - 30
-    - 30
+    - 30.00
+    - 30.00
     - 0.00
     - true
     - "2009-04-28"
@@ -3049,12 +3049,12 @@ invoice_trails:
     - "2009-01-29"
     - 29025
     - Di Rosa Giuseppe
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-01-30"
-    - 80
+    - 80.00
     - 
     - 
     - 2009-09-08 09:58:16
@@ -3063,7 +3063,7 @@ invoice_trails:
     - 28002
     - Di Rosa Giuseppina
     - 54.44
-    - 54
+    - 54.00
     - 0.80
     - true
     - "2009-03-21"
@@ -3076,7 +3076,7 @@ invoice_trails:
     - 12001
     - Di Rosa Renato
     - 90.11
-    - 80
+    - 80.00
     - 11.21
     - true
     - "2009-02-17"
@@ -3088,8 +3088,8 @@ invoice_trails:
     - "2009-06-18"
     - 18001
     - Di Rosa Renato
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -3102,7 +3102,7 @@ invoice_trails:
     - 27001
     - Donzella Grazia
     - 91.88
-    - 90
+    - 90.00
     - 2.04
     - true
     - "2009-08-01"
@@ -3114,8 +3114,8 @@ invoice_trails:
     - "2009-08-31"
     - 31014
     - Donzella Grazia
-    - 39
-    - 39
+    - 39.00
+    - 39.00
     - 0.00
     - true
     - "2009-09-03"
@@ -3128,7 +3128,7 @@ invoice_trails:
     - 12003
     - Dragonetti Giuseppe
     - 30.16
-    - 30
+    - 30.00
     - 0.53
     - true
     - "2009-05-12"
@@ -3154,7 +3154,7 @@ invoice_trails:
     - 29001
     - Drewes Regina Petra
     - 20.16
-    - 20
+    - 20.00
     - 0.79
     - true
     - "2009-05-04"
@@ -3167,7 +3167,7 @@ invoice_trails:
     - 16003
     - Drewes Regina Petra
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-07-20"
@@ -3179,12 +3179,12 @@ invoice_trails:
     - "2009-08-31"
     - 31019
     - D'urso Federica
-    - 15
-    - 15
+    - 15.00
+    - 15.00
     - 0.00
     - true
     - "2009-09-04"
-    - 15
+    - 15.00
     - 
     - 
     - 2009-09-08 15:50:01
@@ -3193,7 +3193,7 @@ invoice_trails:
     - 2564
     - Emilio Giulia
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-03-10"
@@ -3205,8 +3205,8 @@ invoice_trails:
     - "2009-06-30"
     - 30001
     - Emilio Giulia
-    - 78
-    - 78
+    - 78.00
+    - 78.00
     - 0.00
     - true
     - "2009-07-02"
@@ -3218,8 +3218,8 @@ invoice_trails:
     - "2009-08-04"
     - 2051
     - Emilio Giulia
-    - 40
-    - 40
+    - 40.00
+    - 40.00
     - 0.00
     - false
     - 
@@ -3232,7 +3232,7 @@ invoice_trails:
     - 26003
     - Emilio Maria
     - 73.89
-    - 73
+    - 73.00
     - 1.20
     - true
     - "2009-04-03"
@@ -3283,8 +3283,8 @@ invoice_trails:
     - "2009-03-07"
     - 3587
     - Emmolo Rosario
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-03-12"
@@ -3297,7 +3297,7 @@ invoice_trails:
     - 1538
     - Falco Giovanna
     - 18.91
-    - 19
+    - 19.00
     - 0.00
     - true
     - "2009-07-08"
@@ -3310,7 +3310,7 @@ invoice_trails:
     - 14002
     - Favara Pietro
     - 80.25
-    - 80
+    - 80.00
     - 0.31
     - true
     - "2009-04-10"
@@ -3323,7 +3323,7 @@ invoice_trails:
     - 08003
     - Federico Caterina
     - 27.37
-    - 27
+    - 27.00
     - 1.35
     - true
     - "2009-05-11"
@@ -3336,7 +3336,7 @@ invoice_trails:
     - 10005
     - Federico Caterina
     - 30.64
-    - 30
+    - 30.00
     - 2.08
     - true
     - "2009-06-12"
@@ -3349,7 +3349,7 @@ invoice_trails:
     - 14003
     - Ferlisi Maria Antonietta
     - 80.25
-    - 80
+    - 80.00
     - 0.31
     - true
     - "2009-04-10"
@@ -3387,8 +3387,8 @@ invoice_trails:
     - "2009-08-05"
     - 2563
     - Ferraro Evelina
-    - 55
-    - 55
+    - 55.00
+    - 55.00
     - 0.00
     - false
     - 
@@ -3426,8 +3426,8 @@ invoice_trails:
     - "2009-05-23"
     - 23001
     - Ficili Massimo
-    - 90
-    - 70
+    - 90.00
+    - 70.00
     - 22.22
     - true
     - "2009-06-01"
@@ -3452,8 +3452,8 @@ invoice_trails:
     - "2009-03-24"
     - 24010
     - Fidone Maria
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-24"
@@ -3465,8 +3465,8 @@ invoice_trails:
     - "2009-03-10"
     - 10006
     - Figura Carmela
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-03-30"
@@ -3479,7 +3479,7 @@ invoice_trails:
     - 26003
     - Figura Carmela
     - 18.91
-    - 19
+    - 19.00
     - 0.00
     - true
     - "2009-06-05"
@@ -3492,7 +3492,7 @@ invoice_trails:
     - 514
     - Figura Carmela
     - 80.41
-    - 80
+    - 80.00
     - 0.50
     - true
     - "2009-06-25"
@@ -3505,7 +3505,7 @@ invoice_trails:
     - 1539
     - Figura Carmela
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-06-25"
@@ -3557,7 +3557,7 @@ invoice_trails:
     - 10007
     - Floridia Maria
     - 22.37
-    - 20
+    - 20.00
     - 10.59
     - true
     - "2009-03-24"
@@ -3570,7 +3570,7 @@ invoice_trails:
     - 19003
     - Floridia Maria
     - 22.37
-    - 20
+    - 20.00
     - 10.59
     - true
     - "2009-05-19"
@@ -3583,11 +3583,11 @@ invoice_trails:
     - 30002
     - Floridia Nunziata
     - 12.06
-    - 12
+    - 12.00
     - 0.49
     - true
     - "2009-02-02"
-    - 87
+    - 87.00
     - 
     - 
     - 2009-09-08 15:50:01
@@ -3595,8 +3595,8 @@ invoice_trails:
     - "2009-04-18"
     - 18002
     - Foresta Roberto
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-04-21"
@@ -3609,7 +3609,7 @@ invoice_trails:
     - 27002
     - Frasca Caccia Maria
     - 78.85
-    - 79
+    - 79.00
     - 0.00
     - true
     - "2009-04-07"
@@ -3621,8 +3621,8 @@ invoice_trails:
     - "2009-04-17"
     - 17010
     - Frasca Carmelo
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-22"
@@ -3634,8 +3634,8 @@ invoice_trails:
     - "2009-02-17"
     - 17010
     - Frasca Maria Laura
-    - 27
-    - 27
+    - 27.00
+    - 27.00
     - 0.00
     - true
     - "2009-02-20"
@@ -3648,7 +3648,7 @@ invoice_trails:
     - 11002
     - Frasca Maria Laura
     - 15.69
-    - 25
+    - 25.00
     - 0.00
     - true
     - "2009-06-01"
@@ -3687,7 +3687,7 @@ invoice_trails:
     - 15003
     - Fronte Gabriella
     - "26.6"
-    - 25
+    - 25.00
     - 6.01
     - true
     - "2009-07-20"
@@ -3700,7 +3700,7 @@ invoice_trails:
     - 11005
     - Fusca  Valentina
     - 17.91
-    - 18
+    - 18.00
     - 0.00
     - true
     - "2009-02-23"
@@ -3726,7 +3726,7 @@ invoice_trails:
     - 28008
     - Galazzo Emilia
     - 129.33
-    - 90
+    - 90.00
     - 30.41
     - true
     - "2009-05-11"
@@ -3738,8 +3738,8 @@ invoice_trails:
     - "2009-05-08"
     - 08008
     - Galazzo Giuseppe
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - false
     - 
@@ -3764,8 +3764,8 @@ invoice_trails:
     - "2009-07-28"
     - 28012
     - Galfo M. Virginia
-    - 96
-    - 75
+    - 96.00
+    - 75.00
     - 21.87
     - true
     - "2009-08-03"
@@ -3778,7 +3778,7 @@ invoice_trails:
     - 29005
     - Gallo Rosa
     - "51.2"
-    - 51
+    - 51.00
     - 0.39
     - true
     - "2009-05-04"
@@ -3804,7 +3804,7 @@ invoice_trails:
     - 2563
     - Galota Iolanda
     - 18.97
-    - 19
+    - 19.00
     - 0.00
     - true
     - "2009-02-09"
@@ -3817,7 +3817,7 @@ invoice_trails:
     - 3073
     - Garaffa Giuseppe
     - 85.15
-    - 85
+    - 85.00
     - 0.17
     - true
     - "2009-05-09"
@@ -3830,7 +3830,7 @@ invoice_trails:
     - 16006
     - Garaffa Silvana
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-02-20"
@@ -3882,7 +3882,7 @@ invoice_trails:
     - 2564
     - Garofalo Claudio
     - 108.82
-    - 90
+    - 90.00
     - 17.29
     - true
     - "2009-02-25"
@@ -3894,8 +3894,8 @@ invoice_trails:
     - "2009-02-16"
     - 16008
     - Garofalo Claudio
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-02-25"
@@ -3920,8 +3920,8 @@ invoice_trails:
     - "2009-07-07"
     - 3590
     - Garofalo Fabio
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-07-21"
@@ -3933,8 +3933,8 @@ invoice_trails:
     - "2008-09-23"
     - 23006
     - Garofalo Paolo
-    - 36
-    - 36
+    - 36.00
+    - 36.00
     - 0.00
     - false
     - 
@@ -3959,8 +3959,8 @@ invoice_trails:
     - "2009-04-16"
     - 16004
     - Gatto Maurizio
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-22"
@@ -3973,7 +3973,7 @@ invoice_trails:
     - 1541
     - Gerratana Maria
     - "88.2"
-    - 85
+    - 85.00
     - 3.62
     - true
     - "2009-03-04"
@@ -3986,7 +3986,7 @@ invoice_trails:
     - 20001
     - Gerratana Maria
     - 44.55
-    - 44
+    - 44.00
     - 1.23
     - true
     - "2009-03-23"
@@ -3999,7 +3999,7 @@ invoice_trails:
     - 515
     - Gerratana Maria
     - 20.85
-    - 20
+    - 20.00
     - 4.07
     - true
     - "2009-04-03"
@@ -4012,7 +4012,7 @@ invoice_trails:
     - 08001
     - Gerratana Maria
     - 52.17
-    - 52
+    - 52.00
     - 0.32
     - true
     - 
@@ -4039,7 +4039,7 @@ invoice_trails:
     - Gerratana Maria
     - 250
     - 215
-    - 14
+    - 14.00
     - true
     - "2009-04-21"
     - 326
@@ -4077,7 +4077,7 @@ invoice_trails:
     - 21006
     - Gerratana Maria
     - 74.16
-    - 74
+    - 74.00
     - 0.21
     - true
     - "2009-05-04"
@@ -4089,8 +4089,8 @@ invoice_trails:
     - "2009-04-08"
     - 08001
     - Gerratana Maria
-    - 52
-    - 52
+    - 52.00
+    - 52.00
     - 0.00
     - true
     - "2009-04-09"
@@ -4116,7 +4116,7 @@ invoice_trails:
     - 09002
     - Gianni  Giorgio
     - 42.81
-    - 43
+    - 43.00
     - 0.00
     - true
     - "2009-02-12"
@@ -4129,7 +4129,7 @@ invoice_trails:
     - 31001
     - Gianni Alice
     - 60.36
-    - 55
+    - 55.00
     - 8.88
     - true
     - "2009-02-13"
@@ -4142,7 +4142,7 @@ invoice_trails:
     - 20001
     - Gianni Alice
     - 35.16
-    - 40
+    - 40.00
     - 0.00
     - true
     - "2009-04-27"
@@ -4154,8 +4154,8 @@ invoice_trails:
     - "2009-02-03"
     - 1537
     - Gianni' Alice
-    - 18
-    - 15
+    - 18.00
+    - 15.00
     - 16.66
     - true
     - "2009-02-09"
@@ -4168,7 +4168,7 @@ invoice_trails:
     - 3073
     - "Giann\xC3\xAC Alice"
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-02-09"
@@ -4180,8 +4180,8 @@ invoice_trails:
     - "2009-02-27"
     - 27002
     - "Giann\xC3\xAC Alice"
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-02"
@@ -4193,8 +4193,8 @@ invoice_trails:
     - "2009-03-02"
     - 1025
     - "Giann\xC3\xAC Alice"
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-06"
@@ -4206,8 +4206,8 @@ invoice_trails:
     - "2009-03-06"
     - 3073
     - "Giann\xC3\xAC Alice"
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-06"
@@ -4220,7 +4220,7 @@ invoice_trails:
     - 28010
     - "Giann\xC3\xAC Alice"
     - 35.16
-    - 30
+    - 30.00
     - 14.67
     - true
     - "2009-04-28"
@@ -4246,7 +4246,7 @@ invoice_trails:
     - 2565
     - "Giann\xC3\xAC Emanuela"
     - 86.85
-    - 86
+    - 86.00
     - 0.97
     - true
     - "2009-05-08"
@@ -4272,7 +4272,7 @@ invoice_trails:
     - 1028
     - Gianni Giovanna
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-05-08"
@@ -4285,7 +4285,7 @@ invoice_trails:
     - 17007
     - "Giann\xC3\xAC Giovanna"
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-05-08"
@@ -4298,7 +4298,7 @@ invoice_trails:
     - 19001
     - "Giann\xC3\xAC Giovanna"
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-05-08"
@@ -4311,7 +4311,7 @@ invoice_trails:
     - 2051
     - "Giann\xC3\xAC Giovanna"
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-05-08"
@@ -4324,7 +4324,7 @@ invoice_trails:
     - 3075
     - "Giann\xC3\xAC Giovanna"
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-05-08"
@@ -4336,8 +4336,8 @@ invoice_trails:
     - "2009-02-09"
     - 09003
     - Gianni Marinella
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-14"
@@ -4349,8 +4349,8 @@ invoice_trails:
     - "2009-02-06"
     - 3074
     - "Giann\xC3\xAC Marinella"
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-07"
@@ -4362,8 +4362,8 @@ invoice_trails:
     - "2009-04-08"
     - 08002
     - "Giann\xC3\xAC Marinella"
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-04-08"
@@ -4388,8 +4388,8 @@ invoice_trails:
     - "2009-07-02"
     - 1027
     - Giannone Dalila
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-07-02"
@@ -4401,12 +4401,12 @@ invoice_trails:
     - "2009-01-20"
     - 20006
     - Giannone Giovanni
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-01-27"
-    - 68
+    - 68.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -4427,8 +4427,8 @@ invoice_trails:
     - "2009-02-13"
     - 13002
     - Giannone Lorena
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-13"
@@ -4440,8 +4440,8 @@ invoice_trails:
     - "2009-07-31"
     - 31008
     - Giannone Vincenza
-    - 7
-    - 7
+    - 7.00
+    - 7.00
     - 0.00
     - true
     - "2009-08-01"
@@ -4480,7 +4480,7 @@ invoice_trails:
     - 09010
     - Giavatto Anastasia
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-02-09"
@@ -4506,7 +4506,7 @@ invoice_trails:
     - 2049
     - Gintili Orazio
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-04-06"
@@ -4519,7 +4519,7 @@ invoice_trails:
     - 09004
     - Gintoli Irene
     - 41.74
-    - 42
+    - 42.00
     - 0.00
     - true
     - "2009-04-10"
@@ -4531,8 +4531,8 @@ invoice_trails:
     - "2009-04-09"
     - 09004
     - Gintoli Irene
-    - 42
-    - 42
+    - 42.00
+    - 42.00
     - 0.00
     - true
     - "2009-04-10"
@@ -4545,7 +4545,7 @@ invoice_trails:
     - 09004
     - Gintoli Irene
     - 41.74
-    - 42
+    - 42.00
     - 0.00
     - true
     - "2009-04-10"
@@ -4557,8 +4557,8 @@ invoice_trails:
     - "2009-05-26"
     - 26002
     - Giordanella  Maria
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-06-03"
@@ -4584,7 +4584,7 @@ invoice_trails:
     - 20004
     - Giordanella Maria
     - "112.9"
-    - 90
+    - 90.00
     - 20.28
     - true
     - "2009-06-03"
@@ -4610,7 +4610,7 @@ invoice_trails:
     - 27001
     - Girasa Carmelo
     - 35.91
-    - 36
+    - 36.00
     - 0.00
     - true
     - "2009-03-30"
@@ -4623,7 +4623,7 @@ invoice_trails:
     - 3585
     - Girasa Giuseppe
     - 35.64
-    - 35
+    - 35.00
     - 1.79
     - true
     - "2009-05-09"
@@ -4635,8 +4635,8 @@ invoice_trails:
     - "2009-03-17"
     - 17008
     - Gisana Simona
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-17"
@@ -4649,11 +4649,11 @@ invoice_trails:
     - 27001
     - Giudice Maria
     - 49.02
-    - 70
+    - 70.00
     - 0.00
     - true
     - "2009-01-30"
-    - 81
+    - 81.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -4674,8 +4674,8 @@ invoice_trails:
     - "2009-02-28"
     - 28001
     - Giuliana Rita
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -4687,12 +4687,12 @@ invoice_trails:
     - "2009-01-23"
     - 23003
     - Giunta Ferdinando
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-01-26"
-    - 66
+    - 66.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -4701,11 +4701,11 @@ invoice_trails:
     - 28002
     - Giunta Paolo
     - 86.66
-    - 86
+    - 86.00
     - 0.76
     - true
     - "2009-01-31"
-    - 85
+    - 85.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -4740,7 +4740,7 @@ invoice_trails:
     - 19002
     - Giurdanella Antonia
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-05-19"
@@ -4753,7 +4753,7 @@ invoice_trails:
     - 23004
     - Giurdanella Giorgia
     - 7.42
-    - 8
+    - 8.00
     - 0.00
     - true
     - "2009-02-23"
@@ -4766,7 +4766,7 @@ invoice_trails:
     - 1026
     - Giurdanella Giuseppa
     - 86.49
-    - 80
+    - 80.00
     - 7.50
     - true
     - "2009-03-12"
@@ -4791,8 +4791,8 @@ invoice_trails:
     - "2009-08-05"
     - 2561
     - Giurdanella Loredana
-    - 23
-    - 23
+    - 23.00
+    - 23.00
     - 0.00
     - false
     - 
@@ -4805,7 +4805,7 @@ invoice_trails:
     - 30002
     - Grasso Maria
     - 63.74
-    - 15
+    - 15.00
     - 76.46
     - true
     - "2009-04-03"
@@ -4817,8 +4817,8 @@ invoice_trails:
     - "2009-05-08"
     - 08006
     - Greco Marco
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-05-19"
@@ -4830,8 +4830,8 @@ invoice_trails:
     - "2009-03-25"
     - 25004
     - Grimaldi Antonino
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-16"
@@ -4844,7 +4844,7 @@ invoice_trails:
     - 18003
     - Guarrasi Ausilia
     - "63.5"
-    - 60
+    - 60.00
     - 5.51
     - true
     - "2009-05-11"
@@ -4908,12 +4908,12 @@ invoice_trails:
     - "2009-01-27"
     - 27003
     - Gugliotta Mario
-    - 81
-    - 80
+    - 81.00
+    - 80.00
     - 1.23
     - true
     - "2009-01-30"
-    - 82
+    - 82.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -4921,8 +4921,8 @@ invoice_trails:
     - "2009-05-12"
     - 12009
     - Gulino Antonia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-12"
@@ -4934,8 +4934,8 @@ invoice_trails:
     - "2009-06-05"
     - 2566
     - Gurrieri Annalisa
-    - 58
-    - 58
+    - 58.00
+    - 58.00
     - 0.00
     - true
     - "2009-06-05"
@@ -4948,7 +4948,7 @@ invoice_trails:
     - 2562
     - Gurrieri Lucia
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-06-10"
@@ -4961,7 +4961,7 @@ invoice_trails:
     - 08003
     - Gurrieri Lucia
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-06-10"
@@ -4973,8 +4973,8 @@ invoice_trails:
     - "2009-06-30"
     - 30002
     - Gurrieri Lucia
-    - 30
-    - 30
+    - 30.00
+    - 30.00
     - 0.00
     - true
     - "2009-07-15"
@@ -4986,8 +4986,8 @@ invoice_trails:
     - "2009-04-08"
     - 08005
     - Gurrieri Lucia
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-04-08"
@@ -5000,7 +5000,7 @@ invoice_trails:
     - 11001
     - Gurrieri Lucia
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-04-14"
@@ -5025,8 +5025,8 @@ invoice_trails:
     - "2009-01-22"
     - 22001
     - Gurrieri Luigi
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -5038,8 +5038,8 @@ invoice_trails:
     - "2009-04-14"
     - 14005
     - Herrera Juana
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-17"
@@ -5090,8 +5090,8 @@ invoice_trails:
     - "2009-03-28"
     - 28002
     - Iemmolo Concetta
-    - 69
-    - 69
+    - 69.00
+    - 69.00
     - 0.00
     - true
     - "2009-04-01"
@@ -5104,11 +5104,11 @@ invoice_trails:
     - 12005
     - Iemmolo Rosa
     - 97.96
-    - 70
+    - 70.00
     - 28.54
     - true
     - "2009-02-04"
-    - 95
+    - 95.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -5117,7 +5117,7 @@ invoice_trails:
     - 26002
     - Iemmolo Rosa
     - 105.43
-    - 90
+    - 90.00
     - 14.63
     - true
     - "2009-06-26"
@@ -5155,8 +5155,8 @@ invoice_trails:
     - "2009-07-23"
     - 23001
     - Iemmolo Rosa
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - 
@@ -5169,7 +5169,7 @@ invoice_trails:
     - 19006
     - Ignaccolo Lorenzo
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-06-19"
@@ -5182,7 +5182,7 @@ invoice_trails:
     - 16001
     - Ignaccolo Vincenzo
     - 44.29
-    - 44
+    - 44.00
     - 0.65
     - true
     - "2009-05-18"
@@ -5195,7 +5195,7 @@ invoice_trails:
     - 24011
     - Incatasciato Vittoria
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-03-25"
@@ -5207,8 +5207,8 @@ invoice_trails:
     - "2009-07-27"
     - 27004
     - Indigeno Orazio
-    - 60
-    - 50
+    - 60.00
+    - 50.00
     - 16.66
     - true
     - "2009-07-27"
@@ -5220,8 +5220,8 @@ invoice_trails:
     - "2009-04-02"
     - 1027
     - Intoci Giovanni
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-06"
@@ -5234,7 +5234,7 @@ invoice_trails:
     - 28013
     - Iozzia Chiara
     - 27.28
-    - 27
+    - 27.00
     - 1.02
     - true
     - "2009-07-29"
@@ -5247,7 +5247,7 @@ invoice_trails:
     - 15004
     - Iozzia Giorgio
     - 35.76
-    - 36
+    - 36.00
     - 0.00
     - true
     - "2009-05-28"
@@ -5260,7 +5260,7 @@ invoice_trails:
     - 08007
     - Iozzia Giuseppa
     - 48.49
-    - 48
+    - 48.00
     - 1.01
     - true
     - "2009-04-15"
@@ -5272,8 +5272,8 @@ invoice_trails:
     - "2009-04-08"
     - 08007
     - Iozzia Giuseppa
-    - 48
-    - 48
+    - 48.00
+    - 48.00
     - 0.00
     - true
     - "2009-04-15"
@@ -5299,7 +5299,7 @@ invoice_trails:
     - 24013
     - Iozzia Pierangelo
     - 39.49
-    - 35
+    - 35.00
     - 11.36
     - true
     - "2009-04-24"
@@ -5312,7 +5312,7 @@ invoice_trails:
     - 24012
     - Iozzia Vincenzo
     - 28.02
-    - 25
+    - 25.00
     - 10.77
     - true
     - "2009-04-24"
@@ -5338,7 +5338,7 @@ invoice_trails:
     - 3589
     - Italia Paolina
     - 76.35
-    - 75
+    - 75.00
     - 1.76
     - true
     - "2009-04-18"
@@ -5350,8 +5350,8 @@ invoice_trails:
     - "2009-06-13"
     - 13001
     - Italia Paolina
-    - 64
-    - 64
+    - 64.00
+    - 64.00
     - 0.00
     - true
     - "2009-06-16"
@@ -5364,7 +5364,7 @@ invoice_trails:
     - 2052
     - Iudici Francesca
     - 22.16
-    - 22
+    - 22.00
     - 0.72
     - true
     - "2009-03-05"
@@ -5377,7 +5377,7 @@ invoice_trails:
     - 17009
     - Iudici Francesca
     - 16.48
-    - 20
+    - 20.00
     - 0.00
     - true
     - "2009-04-18"
@@ -5403,7 +5403,7 @@ invoice_trails:
     - 14001
     - Iurato Gaetano
     - 46.43
-    - 40
+    - 40.00
     - 13.84
     - true
     - "2009-07-16"
@@ -5415,8 +5415,8 @@ invoice_trails:
     - "2009-07-25"
     - 25002
     - Iurato Gaetano
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - false
     - 
@@ -5468,7 +5468,7 @@ invoice_trails:
     - 2049
     - Iurato Greta
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-07-04"
@@ -5481,7 +5481,7 @@ invoice_trails:
     - 2050
     - Karbowniczek Marzena
     - 49.86
-    - 50
+    - 50.00
     - 0.00
     - true
     - "2009-08-06"
@@ -5494,7 +5494,7 @@ invoice_trails:
     - 21002
     - Karbowniczek Marzena Mal
     - 44.65
-    - 45
+    - 45.00
     - 0.00
     - true
     - "2009-05-26"
@@ -5507,11 +5507,11 @@ invoice_trails:
     - 1025
     - Karbowniczek Marzena Mal
     - "39.5"
-    - 39
+    - 39.00
     - 1.26
     - true
     - 
-    - 5
+    - 5.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -5520,7 +5520,7 @@ invoice_trails:
     - 13002
     - Karbowniczek Marzena Mal.
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-07-14"
@@ -5533,7 +5533,7 @@ invoice_trails:
     - 08002
     - Karbowniczek Marzena Malgor
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-06-10"
@@ -5550,7 +5550,7 @@ invoice_trails:
     - 3.44
     - true
     - "2009-01-30"
-    - 79
+    - 79.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -5559,11 +5559,11 @@ invoice_trails:
     - 29024
     - Karbowniczek Marzena Malgorzata
     - 60.26
-    - 60
+    - 60.00
     - 0.43
     - true
     - "2009-01-30"
-    - 79
+    - 79.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -5571,12 +5571,12 @@ invoice_trails:
     - "2008-12-22"
     - 22001
     - Karbowniczek Marzena Malgorzata
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-01-30"
-    - 79
+    - 79.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -5589,7 +5589,7 @@ invoice_trails:
     - 1.61
     - true
     - "2009-01-30"
-    - 79
+    - 79.00
     - 
     - 
     - 2009-09-08 09:06:42
@@ -5598,7 +5598,7 @@ invoice_trails:
     - 26002
     - Karbowniczek Marzena Malgorzata
     - 18.91
-    - 19
+    - 19.00
     - 0.00
     - true
     - "2009-03-23"
@@ -5611,7 +5611,7 @@ invoice_trails:
     - 27004
     - Karbowniczek Marzena Malgorzata
     - 32.66
-    - 33
+    - 33.00
     - 0.00
     - true
     - "2009-03-23"
@@ -5623,8 +5623,8 @@ invoice_trails:
     - "2009-02-28"
     - 28005
     - Karbowniczek Marzena Malgorzata
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-03-23"
@@ -5637,7 +5637,7 @@ invoice_trails:
     - 23001
     - Karbowniczek Marzena Malgorzata
     - 18.91
-    - 19
+    - 19.00
     - 0.00
     - true
     - "2009-04-30"
@@ -5650,7 +5650,7 @@ invoice_trails:
     - 29004
     - Karbowniczek Marzena Malgorzata
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-04-30"
@@ -5663,11 +5663,11 @@ invoice_trails:
     - 23004
     - La Cognata Alessandra
     - 97.96
-    - 70
+    - 70.00
     - 28.54
     - true
     - "2009-01-26"
-    - 64
+    - 64.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -5675,8 +5675,8 @@ invoice_trails:
     - "2009-02-02"
     - 1026
     - La Ferla Giuseppina
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-10"
@@ -5689,7 +5689,7 @@ invoice_trails:
     - 3075
     - La Ferla Giuseppina
     - 65.18
-    - 65
+    - 65.00
     - 0.27
     - true
     - "2009-02-10"
@@ -5701,8 +5701,8 @@ invoice_trails:
     - "2009-02-09"
     - 09004
     - La Ferla Giuseppina
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-10"
@@ -5715,7 +5715,7 @@ invoice_trails:
     - 16003
     - La Ferla Giuseppina
     - 76.06
-    - 70
+    - 70.00
     - 7.96
     - true
     - "2009-02-18"
@@ -5728,7 +5728,7 @@ invoice_trails:
     - 2564
     - La Rosa Maria Francesca
     - 97.96
-    - 70
+    - 70.00
     - 28.54
     - true
     - "2009-06-06"
@@ -5767,7 +5767,7 @@ invoice_trails:
     - 3074
     - Latino Angela
     - 51.09
-    - 51
+    - 51.00
     - 0.17
     - true
     - "2009-03-06"
@@ -5780,11 +5780,11 @@ invoice_trails:
     - 2050
     - Lauretta Giovanni
     - 31.11
-    - 31
+    - 31.00
     - 0.35
     - true
     - "2009-02-04"
-    - 96
+    - 96.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -5793,7 +5793,7 @@ invoice_trails:
     - 11002
     - Leggio Giuseppe
     - 29.12
-    - 25
+    - 25.00
     - 14.14
     - true
     - "2009-02-14"
@@ -5806,7 +5806,7 @@ invoice_trails:
     - 29001
     - Lentini Elisa
     - 15.69
-    - 16
+    - 16.00
     - 0.00
     - true
     - "2009-07-30"
@@ -5819,7 +5819,7 @@ invoice_trails:
     - 08002
     - Leocata Antonino
     - 60.62
-    - 60
+    - 60.00
     - 1.02
     - true
     - "2009-05-11"
@@ -5832,11 +5832,11 @@ invoice_trails:
     - 19003
     - Leocata Carmela
     - "60.2"
-    - 60
+    - 60.00
     - 0.33
     - true
     - "2009-01-23"
-    - 61
+    - 61.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -5845,7 +5845,7 @@ invoice_trails:
     - 2561
     - Leocata Corrado
     - 34.78
-    - 35
+    - 35.00
     - 0.00
     - true
     - "2009-02-07"
@@ -5858,7 +5858,7 @@ invoice_trails:
     - 16007
     - Leocata Irene
     - 29.21
-    - 29
+    - 29.00
     - 0.71
     - true
     - "2009-02-18"
@@ -5871,7 +5871,7 @@ invoice_trails:
     - 30005
     - Leocata Irene
     - "74.4"
-    - 74
+    - 74.00
     - 0.53
     - true
     - "2009-04-02"
@@ -5884,7 +5884,7 @@ invoice_trails:
     - 1025
     - Leocata Irene
     - 96.08
-    - 90
+    - 90.00
     - 6.32
     - true
     - "2009-05-07"
@@ -5910,7 +5910,7 @@ invoice_trails:
     - 28009
     - Leocata Irene
     - 35.75
-    - 35
+    - 35.00
     - 2.09
     - true
     - "2009-08-06"
@@ -5923,7 +5923,7 @@ invoice_trails:
     - 24015
     - Leocata Lina
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-04-24"
@@ -5936,7 +5936,7 @@ invoice_trails:
     - 24011
     - Leocata Lina
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-06-26"
@@ -5949,7 +5949,7 @@ invoice_trails:
     - 09001
     - Leocata Michele
     - 30.23
-    - 55
+    - 55.00
     - 0.00
     - true
     - "2009-04-15"
@@ -5988,7 +5988,7 @@ invoice_trails:
     - 14001
     - Lero Daniele
     - 26.33
-    - 26
+    - 26.00
     - 1.25
     - true
     - "2009-03-17"
@@ -6013,8 +6013,8 @@ invoice_trails:
     - "2009-02-17"
     - 17008
     - Linzitto Roselina
-    - 35
-    - 37
+    - 35.00
+    - 37.00
     - 0.00
     - true
     - "2009-03-09"
@@ -6027,7 +6027,7 @@ invoice_trails:
     - 16004
     - Linzitto Roselina
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-05-29"
@@ -6040,7 +6040,7 @@ invoice_trails:
     - 19002
     - Linzitto Roselina
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-05-29"
@@ -6052,8 +6052,8 @@ invoice_trails:
     - "2009-03-21"
     - 21002
     - Linzitto Roselina
-    - 30
-    - 30
+    - 30.00
+    - 30.00
     - 0.00
     - true
     - "2009-05-29"
@@ -6066,7 +6066,7 @@ invoice_trails:
     - 30004
     - Linzitto Roselina
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-05-29"
@@ -6078,8 +6078,8 @@ invoice_trails:
     - "2009-04-03"
     - 1538
     - Linzitto Roselina
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-05-29"
@@ -6091,8 +6091,8 @@ invoice_trails:
     - "2009-04-01"
     - 517
     - Linzitto Roselina
-    - 32
-    - 30
+    - 32.00
+    - 30.00
     - 6.25
     - true
     - "2009-05-29"
@@ -6117,8 +6117,8 @@ invoice_trails:
     - "2009-09-02"
     - 1027
     - Livia Rosa
-    - 40
-    - 40
+    - 40.00
+    - 40.00
     - 0.00
     - true
     - "2009-09-02"
@@ -6131,7 +6131,7 @@ invoice_trails:
     - 3076
     - Lombardo Gaetana
     - 37.86
-    - 38
+    - 38.00
     - 0.00
     - true
     - "2009-06-09"
@@ -6143,8 +6143,8 @@ invoice_trails:
     - "2009-07-13"
     - 13003
     - Lonatica  Riccardo
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -6157,7 +6157,7 @@ invoice_trails:
     - 25003
     - Lorefice Barbara
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-03-31"
@@ -6170,7 +6170,7 @@ invoice_trails:
     - 27003
     - Lorefice Barbara
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-03-31"
@@ -6183,7 +6183,7 @@ invoice_trails:
     - 28004
     - Lorefice Barbara
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-03-31"
@@ -6196,7 +6196,7 @@ invoice_trails:
     - 25001
     - Lorefice Barbara
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-06-09"
@@ -6209,7 +6209,7 @@ invoice_trails:
     - 27002
     - Lorefice Barbara
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-06-09"
@@ -6234,8 +6234,8 @@ invoice_trails:
     - "2009-02-12"
     - 12006
     - Lucenti Marco
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-02-17"
@@ -6247,8 +6247,8 @@ invoice_trails:
     - "2009-06-01"
     - 516
     - Lupo Antonino
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-06-09"
@@ -6273,8 +6273,8 @@ invoice_trails:
     - "2009-08-06"
     - 3074
     - Luziani Rosalbina
-    - 91
-    - 91
+    - 91.00
+    - 91.00
     - 0.00
     - false
     - 
@@ -6287,7 +6287,7 @@ invoice_trails:
     - 09002
     - Macauda Donatella
     - 71.51
-    - 70
+    - 70.00
     - 2.11
     - true
     - "2009-04-15"
@@ -6300,7 +6300,7 @@ invoice_trails:
     - 24010
     - Macauda Michele
     - 47.96
-    - 48
+    - 48.00
     - 0.00
     - true
     - "2009-02-25"
@@ -6365,7 +6365,7 @@ invoice_trails:
     - 3586
     - Mallia Alessandro
     - 17.91
-    - 15
+    - 15.00
     - 16.24
     - true
     - "2009-04-20"
@@ -6378,7 +6378,7 @@ invoice_trails:
     - 1027
     - Mallia Rosanna
     - 78.63
-    - 78
+    - 78.00
     - 0.80
     - true
     - "2009-02-09"
@@ -6390,8 +6390,8 @@ invoice_trails:
     - "2009-02-04"
     - 2049
     - Mallia Rosanna
-    - 28
-    - 28
+    - 28.00
+    - 28.00
     - 0.00
     - true
     - "2009-02-07"
@@ -6404,7 +6404,7 @@ invoice_trails:
     - 2049
     - Mallia Rosanna
     - 15.69
-    - 28
+    - 28.00
     - 0.00
     - true
     - "2009-03-07"
@@ -6416,8 +6416,8 @@ invoice_trails:
     - "2009-05-18"
     - 18004
     - Maltese Marcella
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-18"
@@ -6455,9 +6455,9 @@ invoice_trails:
     - "2009-03-18"
     - 18001
     - Manenti Santina
-    - 50
-    - 25
-    - 50
+    - 50.00
+    - 25.00
+    - 50.00
     - true
     - "2009-03-20"
     - 225
@@ -6469,7 +6469,7 @@ invoice_trails:
     - 1538
     - Manenti Santina
     - 20.16
-    - 20
+    - 20.00
     - 0.79
     - true
     - "2009-07-04"
@@ -6508,7 +6508,7 @@ invoice_trails:
     - 10001
     - Marina Salvatore
     - 39.66
-    - 39
+    - 39.00
     - 1.66
     - true
     - "2009-04-10"
@@ -6520,8 +6520,8 @@ invoice_trails:
     - "2009-02-16"
     - 16012
     - Martorina Rossana
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-02-25"
@@ -6534,7 +6534,7 @@ invoice_trails:
     - 26007
     - Martorina Rossana
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-04-01"
@@ -6547,7 +6547,7 @@ invoice_trails:
     - 28006
     - Martorina Rossana
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-04-01"
@@ -6560,7 +6560,7 @@ invoice_trails:
     - 30003
     - Martorina Rossana
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-01"
@@ -6572,8 +6572,8 @@ invoice_trails:
     - "2009-03-31"
     - 31005
     - Martorina Rossana
-    - 32
-    - 30
+    - 32.00
+    - 30.00
     - 6.25
     - true
     - "2009-04-01"
@@ -6585,8 +6585,8 @@ invoice_trails:
     - "2009-04-15"
     - 15001
     - Martorina Rossana
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-20"
@@ -6599,7 +6599,7 @@ invoice_trails:
     - 2052
     - Martorina Rossana
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-05-20"
@@ -6611,8 +6611,8 @@ invoice_trails:
     - "2009-05-15"
     - 15005
     - Martorina Rossana
-    - 31
-    - 31
+    - 31.00
+    - 31.00
     - 0.00
     - true
     - "2009-05-20"
@@ -6625,7 +6625,7 @@ invoice_trails:
     - 20003
     - Martorina Rossana
     - 30.21
-    - 30
+    - 30.00
     - 0.69
     - true
     - "2009-05-25"
@@ -6637,8 +6637,8 @@ invoice_trails:
     - "2009-05-25"
     - 25003
     - Martorina Rossana
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-25"
@@ -6664,7 +6664,7 @@ invoice_trails:
     - 16001
     - Masciaro Anna Maria
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-07-18"
@@ -6676,8 +6676,8 @@ invoice_trails:
     - "2009-02-13"
     - 13006
     - Mauro Davide
-    - 83
-    - 70
+    - 83.00
+    - 70.00
     - 15.66
     - true
     - "2009-02-14"
@@ -6716,7 +6716,7 @@ invoice_trails:
     - 514
     - Melilli Maria
     - 80.44
-    - 80
+    - 80.00
     - 0.54
     - true
     - 
@@ -6728,8 +6728,8 @@ invoice_trails:
     - "2009-05-06"
     - 3077
     - Melzi Elena
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-06"
@@ -6741,8 +6741,8 @@ invoice_trails:
     - "2009-04-14"
     - 14002
     - Messina Benedetta
-    - 36
-    - 36
+    - 36.00
+    - 36.00
     - 0.00
     - true
     - "2009-04-17"
@@ -6754,8 +6754,8 @@ invoice_trails:
     - "2008-11-18"
     - 18001
     - Migliore Carla
-    - 74
-    - 74
+    - 74.00
+    - 74.00
     - 0.00
     - false
     - 
@@ -6768,7 +6768,7 @@ invoice_trails:
     - 20002
     - Migliore Carmela
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-02-24"
@@ -6794,7 +6794,7 @@ invoice_trails:
     - 24009
     - Migliore Rosario
     - 80.95
-    - 50
+    - 50.00
     - 38.23
     - true
     - "2009-03-30"
@@ -6807,7 +6807,7 @@ invoice_trails:
     - 18003
     - Migliore Salvatore
     - 35.23
-    - 35
+    - 35.00
     - 0.65
     - true
     - "2009-03-20"
@@ -6820,7 +6820,7 @@ invoice_trails:
     - 31003
     - Migliorino Loredana
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-03"
@@ -6846,7 +6846,7 @@ invoice_trails:
     - 08004
     - Minio Daria
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-06-08"
@@ -6858,8 +6858,8 @@ invoice_trails:
     - "2009-06-15"
     - 15005
     - Modica Antonio
-    - 49
-    - 49
+    - 49.00
+    - 49.00
     - 0.00
     - true
     - "2009-06-16"
@@ -6871,12 +6871,12 @@ invoice_trails:
     - "2009-01-29"
     - 29028
     - Modica Cannatella Emanuela
-    - 17
-    - 17
+    - 17.00
+    - 17.00
     - 0.00
     - true
     - "2009-02-03"
-    - 93
+    - 93.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -6885,7 +6885,7 @@ invoice_trails:
     - 23003
     - Modica Cannatella Emanuela
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-10"
@@ -6898,7 +6898,7 @@ invoice_trails:
     - 25003
     - Modica Cannatella Emanuela
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-10"
@@ -6911,7 +6911,7 @@ invoice_trails:
     - 11002
     - Modica Cannatella Emanuela
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-14"
@@ -6936,8 +6936,8 @@ invoice_trails:
     - "2009-04-11"
     - 11002
     - Modica Cannatella Emanuela
-    - 32
-    - 30
+    - 32.00
+    - 30.00
     - 6.25
     - true
     - "2009-04-14"
@@ -6962,8 +6962,8 @@ invoice_trails:
     - "2009-03-04"
     - 2054
     - Modica Giovanna
-    - 45
-    - 45
+    - 45.00
+    - 45.00
     - 0.00
     - true
     - "2009-03-10"
@@ -7015,7 +7015,7 @@ invoice_trails:
     - 29003
     - Moltisanti Dionisio
     - 123.78
-    - 2
+    - 2.00
     - 98.38
     - true
     - "2009-05-13"
@@ -7028,7 +7028,7 @@ invoice_trails:
     - 20001
     - Moltisanti Silvana
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-06-25"
@@ -7040,12 +7040,12 @@ invoice_trails:
     - "2009-01-26"
     - 26001
     - Monaco Gabriella
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-01-26"
-    - 63
+    - 63.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -7054,7 +7054,7 @@ invoice_trails:
     - 09003
     - Morana Vincenza
     - 93.95
-    - 94
+    - 94.00
     - 0.00
     - true
     - "2009-04-16"
@@ -7066,8 +7066,8 @@ invoice_trails:
     - "2009-04-09"
     - 09003
     - Morana Vincenza
-    - 94
-    - 94
+    - 94.00
+    - 94.00
     - 0.00
     - true
     - "2009-04-16"
@@ -7080,7 +7080,7 @@ invoice_trails:
     - 2563
     - Morana Vincenza
     - 56.66
-    - 56
+    - 56.00
     - 1.16
     - true
     - "2009-05-08"
@@ -7093,11 +7093,11 @@ invoice_trails:
     - 1538
     - Morando Giovanna Daniela
     - 52.94
-    - 45
+    - 45.00
     - 14.99
     - true
     - "2009-02-03"
-    - 92
+    - 92.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -7106,11 +7106,11 @@ invoice_trails:
     - 21004
     - Muriana Carmela
     - "38.6"
-    - 38
+    - 38.00
     - 1.55
     - true
     - "2009-01-23"
-    - 59
+    - 59.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -7118,8 +7118,8 @@ invoice_trails:
     - "2009-06-26"
     - 26004
     - Musso Sergio
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - 
@@ -7145,7 +7145,7 @@ invoice_trails:
     - 3076
     - Napolino Ignazio
     - 62.62
-    - 60
+    - 60.00
     - 4.18
     - true
     - "2009-04-08"
@@ -7158,7 +7158,7 @@ invoice_trails:
     - 23001
     - Napolitano Giorgia
     - "61.5"
-    - 61
+    - 61.00
     - 0.81
     - true
     - "2009-03-23"
@@ -7170,8 +7170,8 @@ invoice_trails:
     - "2009-07-20"
     - 20001
     - Napolitano Giorgia
-    - 61
-    - 61
+    - 61.00
+    - 61.00
     - 0.00
     - true
     - "2009-07-20"
@@ -7184,7 +7184,7 @@ invoice_trails:
     - 27003
     - Nappone Maria
     - 95.07
-    - 80
+    - 80.00
     - 15.85
     - true
     - "2009-04-01"
@@ -7196,8 +7196,8 @@ invoice_trails:
     - "2009-01-22"
     - 22003
     - Nicastro Lucia
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-03-05"
@@ -7210,7 +7210,7 @@ invoice_trails:
     - 13005
     - Nicastro Lucia
     - 18.91
-    - 14
+    - 14.00
     - 25.96
     - true
     - "2009-03-05"
@@ -7223,7 +7223,7 @@ invoice_trails:
     - 16005
     - Nicastro Lucia
     - 46.46
-    - 40
+    - 40.00
     - 13.90
     - true
     - "2009-03-05"
@@ -7235,8 +7235,8 @@ invoice_trails:
     - "2009-02-17"
     - 17005
     - Nicastro Lucia
-    - 32
-    - 30
+    - 32.00
+    - 30.00
     - 6.25
     - true
     - "2009-03-05"
@@ -7248,8 +7248,8 @@ invoice_trails:
     - "2009-03-05"
     - 2565
     - Nicastro Lucia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-05"
@@ -7262,7 +7262,7 @@ invoice_trails:
     - 1543
     - Nicastro Roberta
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-03-04"
@@ -7288,7 +7288,7 @@ invoice_trails:
     - 17003
     - Nigro Giulia
     - 79.08
-    - 79
+    - 79.00
     - 0.10
     - true
     - "2009-04-21"
@@ -7301,11 +7301,11 @@ invoice_trails:
     - 2051
     - Nitta Maria
     - 21.65
-    - 22
+    - 22.00
     - 0.00
     - true
     - "2009-02-04"
-    - 99
+    - 99.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -7314,7 +7314,7 @@ invoice_trails:
     - 3588
     - Nitta Maria
     - 21.65
-    - 21
+    - 21.00
     - 3.00
     - true
     - "2009-02-07"
@@ -7327,7 +7327,7 @@ invoice_trails:
     - 10005
     - Nitta Maria
     - 21.65
-    - 22
+    - 22.00
     - 0.00
     - true
     - "2009-03-11"
@@ -7340,7 +7340,7 @@ invoice_trails:
     - 3073
     - Nitta Maria
     - 12.37
-    - 12
+    - 12.00
     - 2.99
     - true
     - "2009-04-07"
@@ -7365,8 +7365,8 @@ invoice_trails:
     - "2009-05-15"
     - 15001
     - Nitta Maria
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-15"
@@ -7378,8 +7378,8 @@ invoice_trails:
     - "2009-05-16"
     - 16003
     - Nitta Maria
-    - 4
-    - 4
+    - 4.00
+    - 4.00
     - 0.00
     - false
     - 
@@ -7391,8 +7391,8 @@ invoice_trails:
     - "2009-03-26"
     - 26005
     - Noto Maria
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-26"
@@ -7405,7 +7405,7 @@ invoice_trails:
     - 10002
     - Novara Dario
     - 98.14
-    - 50
+    - 50.00
     - 49.05
     - true
     - "2009-06-25"
@@ -7443,8 +7443,8 @@ invoice_trails:
     - "2009-05-08"
     - 08007
     - Occhipinti Enrico
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-05-08"
@@ -7456,8 +7456,8 @@ invoice_trails:
     - "2009-07-17"
     - 17015
     - Occhipinti Enrico
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-07-17"
@@ -7482,8 +7482,8 @@ invoice_trails:
     - "2009-06-11"
     - 11002
     - Occhipinti Rosetta
-    - 83
-    - 80
+    - 83.00
+    - 80.00
     - 3.61
     - true
     - "2009-06-18"
@@ -7496,11 +7496,11 @@ invoice_trails:
     - 29023
     - Odierna Valeria
     - 74.16
-    - 60
+    - 60.00
     - 19.09
     - true
     - "2009-01-30"
-    - 78
+    - 78.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -7508,8 +7508,8 @@ invoice_trails:
     - "2009-06-19"
     - 19005
     - Ofierski Isabella
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-07-04"
@@ -7521,8 +7521,8 @@ invoice_trails:
     - "2009-05-13"
     - 13001
     - Ofierski Krzysztof
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-05-21"
@@ -7547,8 +7547,8 @@ invoice_trails:
     - "2009-08-31"
     - 31016
     - Ottaviano Giuseppe
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-09-07"
@@ -7561,7 +7561,7 @@ invoice_trails:
     - 13004
     - Palazzolo Isabella
     - 25.37
-    - 25
+    - 25.00
     - 1.45
     - true
     - "2009-02-20"
@@ -7574,7 +7574,7 @@ invoice_trails:
     - 13005
     - Palazzolo Isabella
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-06-19"
@@ -7586,8 +7586,8 @@ invoice_trails:
     - "2009-05-07"
     - 3586
     - Palermo Giorgio
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-05-11"
@@ -7613,7 +7613,7 @@ invoice_trails:
     - 12001
     - Palermo Michele Davide
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-03-12"
@@ -7625,12 +7625,12 @@ invoice_trails:
     - "2009-01-29"
     - 29029
     - Palumbo Marzia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-01-29"
-    - 74
+    - 74.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -7639,11 +7639,11 @@ invoice_trails:
     - 30007
     - Palumbo Marzia
     - 21.84
-    - 10
+    - 10.00
     - 54.21
     - true
     - "2009-01-30"
-    - 83
+    - 83.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -7652,7 +7652,7 @@ invoice_trails:
     - 09002
     - Paolino Maria Giusi
     - 52.39
-    - 53
+    - 53.00
     - 0.00
     - true
     - "2009-03-11"
@@ -7678,7 +7678,7 @@ invoice_trails:
     - 3074
     - "Paten\xC3\xB2 Barbara"
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-06"
@@ -7691,7 +7691,7 @@ invoice_trails:
     - 2049
     - "Patern\xC3\xB2 Marco"
     - 67.94
-    - 50
+    - 50.00
     - 26.40
     - true
     - "2009-02-04"
@@ -7716,8 +7716,8 @@ invoice_trails:
     - "2009-08-05"
     - 2564
     - Pellegrino Enrico
-    - 52
-    - 52
+    - 52.00
+    - 52.00
     - 0.00
     - false
     - 
@@ -7729,8 +7729,8 @@ invoice_trails:
     - "2009-04-01"
     - 513
     - Pellegrino Giovanna
-    - 55
-    - 55
+    - 55.00
+    - 55.00
     - 0.00
     - true
     - "2009-04-08"
@@ -7743,7 +7743,7 @@ invoice_trails:
     - 2052
     - Perotto Loretto
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-02-09"
@@ -7755,8 +7755,8 @@ invoice_trails:
     - "2009-08-31"
     - 31011
     - Petillo Rachele
-    - 30
-    - 30
+    - 30.00
+    - 30.00
     - 0.00
     - false
     - 
@@ -7769,7 +7769,7 @@ invoice_trails:
     - 13003
     - Petriliggieri Simona
     - "32.6"
-    - 33
+    - 33.00
     - 0.00
     - true
     - "2009-03-11"
@@ -7807,7 +7807,7 @@ invoice_trails:
     - "2008-12-10"
     - 10003
     - Pettineo Rocco
-    - 32
+    - 32.00
     - MARITO DI GIULIANA RITA
     - 0.00
     - true
@@ -7821,7 +7821,7 @@ invoice_trails:
     - 3586
     - Piazzese Graziella
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - true
     - "2009-02-17"
@@ -7834,7 +7834,7 @@ invoice_trails:
     - 09009
     - Piazzese Graziella
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-02-17"
@@ -7846,8 +7846,8 @@ invoice_trails:
     - "2009-02-17"
     - 17003
     - Piazzese Graziella
-    - 18
-    - 16
+    - 18.00
+    - 16.00
     - 11.11
     - true
     - "2009-03-27"
@@ -7860,7 +7860,7 @@ invoice_trails:
     - 1540
     - Piazzese Graziella
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-03-27"
@@ -7873,7 +7873,7 @@ invoice_trails:
     - 23005
     - Piazzese Graziella
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-03-27"
@@ -7886,7 +7886,7 @@ invoice_trails:
     - 1025
     - Piazzese Graziella
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-07"
@@ -7899,7 +7899,7 @@ invoice_trails:
     - 2051
     - Piazzese Graziella
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-07"
@@ -7925,7 +7925,7 @@ invoice_trails:
     - 514
     - Piazzese Graziella
     - 18.91
-    - 18
+    - 18.00
     - 4.81
     - true
     - "2008-12-10"
@@ -7938,7 +7938,7 @@ invoice_trails:
     - 2050
     - Piccitto Mauro
     - 32.66
-    - 30
+    - 30.00
     - 8.14
     - true
     - "2009-04-11"
@@ -7950,8 +7950,8 @@ invoice_trails:
     - "2009-04-18"
     - 18001
     - Piccitto Mauro
-    - 60
-    - 80
+    - 60.00
+    - 80.00
     - 0.00
     - true
     - "2009-04-24"
@@ -7964,7 +7964,7 @@ invoice_trails:
     - 25001
     - Pisana Giuseppe
     - 64.14
-    - 64
+    - 64.00
     - 0.21
     - true
     - "2009-03-26"
@@ -7977,7 +7977,7 @@ invoice_trails:
     - 27011
     - Pisana Giuseppe
     - 21.39
-    - 21
+    - 21.00
     - 1.82
     - true
     - "2009-06-30"
@@ -7990,7 +7990,7 @@ invoice_trails:
     - 21007
     - Pisana Giuseppina
     - 107.39
-    - 75
+    - 75.00
     - 30.16
     - true
     - "2009-04-28"
@@ -8003,7 +8003,7 @@ invoice_trails:
     - 29007
     - Pisana Giuseppina
     - "12.8"
-    - 72
+    - 72.00
     - 0.00
     - true
     - "2009-05-11"
@@ -8028,8 +8028,8 @@ invoice_trails:
     - "2009-02-14"
     - 14002
     - Pisana Marinella
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-14"
@@ -8042,7 +8042,7 @@ invoice_trails:
     - 17006
     - Pisana Marinella
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-04-17"
@@ -8054,8 +8054,8 @@ invoice_trails:
     - "2009-05-04"
     - 2049
     - Pisana Marinella
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-04"
@@ -8067,8 +8067,8 @@ invoice_trails:
     - "2009-07-16"
     - 16004
     - Piscopo Carmelo
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-07-28"
@@ -8080,8 +8080,8 @@ invoice_trails:
     - "2009-08-31"
     - 31013
     - Pistola Eleonora
-    - 15
-    - 15
+    - 15.00
+    - 15.00
     - 0.00
     - true
     - "2009-09-03"
@@ -8094,7 +8094,7 @@ invoice_trails:
     - 09005
     - Pitino Concetta
     - 35.91
-    - 35
+    - 35.00
     - 2.53
     - true
     - "2009-03-21"
@@ -8119,8 +8119,8 @@ invoice_trails:
     - "2009-09-02"
     - 1026
     - Pitino Francesco
-    - 54
-    - 54
+    - 54.00
+    - 54.00
     - 0.00
     - true
     - "2009-09-04"
@@ -8133,7 +8133,7 @@ invoice_trails:
     - 26006
     - Pitino Simona
     - 62.58
-    - 60
+    - 60.00
     - 4.12
     - true
     - "2009-02-12"
@@ -8146,7 +8146,7 @@ invoice_trails:
     - 2562
     - Pitino Simona
     - 56.42
-    - 50
+    - 50.00
     - 11.37
     - true
     - "2009-03-06"
@@ -8159,7 +8159,7 @@ invoice_trails:
     - 08006
     - Pitino Simona
     - 78.96
-    - 65
+    - 65.00
     - 17.67
     - true
     - 
@@ -8172,10 +8172,10 @@ invoice_trails:
     - 14001
     - Pitino Simona
     - 113.85
-    - 90
+    - 90.00
     - 20.94
     - true
-    - 18
+    - 18.00
     - 412
     - 
     - 
@@ -8198,11 +8198,11 @@ invoice_trails:
     - 23002
     - Pluchino Magda
     - 31.49
-    - 31
+    - 31.00
     - 1.55
     - true
     - "2009-01-26"
-    - 65
+    - 65.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -8211,7 +8211,7 @@ invoice_trails:
     - 17007
     - Pluchino Rosa
     - 37.86
-    - 37
+    - 37.00
     - 2.27
     - true
     - "2009-04-21"
@@ -8223,8 +8223,8 @@ invoice_trails:
     - "2009-06-11"
     - 11003
     - Poidomani Anita
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-06-11"
@@ -8236,8 +8236,8 @@ invoice_trails:
     - "2009-08-31"
     - 31012
     - Profetto Veronica
-    - 77
-    - 77
+    - 77.00
+    - 77.00
     - 0.00
     - true
     - "2009-09-05"
@@ -8288,12 +8288,12 @@ invoice_trails:
     - "2009-03-10"
     - 10001
     - Puglisi Francesco
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-03-30"
-    - 32
+    - 32.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -8315,7 +8315,7 @@ invoice_trails:
     - 16001
     - Puglisi Paola
     - 56.98
-    - 57
+    - 57.00
     - 0.00
     - true
     - "2009-04-18"
@@ -8327,8 +8327,8 @@ invoice_trails:
     - "2009-08-31"
     - 31010
     - Puglisi Paola
-    - 75
-    - 75
+    - 75.00
+    - 75.00
     - 0.00
     - true
     - "2009-09-05"
@@ -8341,7 +8341,7 @@ invoice_trails:
     - 29006
     - Pulino Michele
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-05-05"
@@ -8354,11 +8354,11 @@ invoice_trails:
     - 31002
     - Puma Rosario
     - 29.92
-    - 30
+    - 30.00
     - 0.00
     - true
     - "2009-02-03"
-    - 94
+    - 94.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -8366,8 +8366,8 @@ invoice_trails:
     - "2009-03-30"
     - 30006
     - Purromedi Francesco
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-04-02"
@@ -8393,7 +8393,7 @@ invoice_trails:
     - 08008
     - Quaquero Chiara
     - 32.75
-    - 30
+    - 30.00
     - 8.39
     - true
     - "2009-04-15"
@@ -8405,8 +8405,8 @@ invoice_trails:
     - "2009-04-08"
     - 08008
     - Quaquero Chiara
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-15"
@@ -8418,8 +8418,8 @@ invoice_trails:
     - "2009-07-23"
     - 23002
     - Quaquero Chiara
-    - 45
-    - 45
+    - 45.00
+    - 45.00
     - 0.00
     - true
     - "2009-07-28"
@@ -8431,8 +8431,8 @@ invoice_trails:
     - "2009-08-05"
     - 2567
     - Quartarone Francesca
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - 
@@ -8445,7 +8445,7 @@ invoice_trails:
     - 21001
     - Radenza Valentina
     - 109.31
-    - 95
+    - 95.00
     - 13.09
     - true
     - "2009-03-21"
@@ -8457,8 +8457,8 @@ invoice_trails:
     - "2009-07-23"
     - 23004
     - Ragusa Rosario
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - 
@@ -8470,8 +8470,8 @@ invoice_trails:
     - "2009-04-17"
     - 17011
     - Raniolo Danilo
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-04-20"
@@ -8497,7 +8497,7 @@ invoice_trails:
     - 22003
     - Regali Giuseppe
     - 32.81
-    - 32
+    - 32.00
     - 2.46
     - true
     - "2009-07-27"
@@ -8510,7 +8510,7 @@ invoice_trails:
     - 29002
     - Retrime Giovanni
     - 35.91
-    - 35
+    - 35.00
     - 2.53
     - true
     - "2009-07-02"
@@ -8562,7 +8562,7 @@ invoice_trails:
     - 29001
     - Ricca Raffaele
     - 71.93
-    - 70
+    - 70.00
     - 2.68
     - true
     - "2009-07-02"
@@ -8575,7 +8575,7 @@ invoice_trails:
     - 3589
     - Rinaldi Gustavo
     - 14.27
-    - 14
+    - 14.00
     - 1.89
     - true
     - 
@@ -8587,8 +8587,8 @@ invoice_trails:
     - "2009-02-23"
     - 23002
     - Rizza Giorgia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-02-23"
@@ -8600,8 +8600,8 @@ invoice_trails:
     - "2009-03-03"
     - 1538
     - Rizza Giorgia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-03-03"
@@ -8614,7 +8614,7 @@ invoice_trails:
     - 31001
     - Rizza Giovanna
     - 20.16
-    - 20
+    - 20.00
     - 0.79
     - true
     - "2009-05-14"
@@ -8640,7 +8640,7 @@ invoice_trails:
     - 22001
     - Roccasalva Concetta
     - "35.8"
-    - 35
+    - 35.00
     - 2.23
     - true
     - "2009-05-25"
@@ -8666,7 +8666,7 @@ invoice_trails:
     - 21002
     - Roccasalva Letizia
     - 106.29
-    - 90
+    - 90.00
     - 15.32
     - true
     - "2009-04-28"
@@ -8683,7 +8683,7 @@ invoice_trails:
     - 16.91
     - true
     - "2009-01-23"
-    - 60
+    - 60.00
     - 
     - 
     - 2009-09-08 09:06:43
@@ -8691,12 +8691,12 @@ invoice_trails:
     - "2009-01-29"
     - 29027
     - Romano Giorgio
-    - 93
-    - 80
+    - 93.00
+    - 80.00
     - 13.97
     - true
     - "2009-02-03"
-    - 93
+    - 93.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -8718,7 +8718,7 @@ invoice_trails:
     - 13007
     - Rosa Gioele
     - 17.91
-    - 18
+    - 18.00
     - 0.00
     - true
     - "2009-02-23"
@@ -8731,7 +8731,7 @@ invoice_trails:
     - 24008
     - Rosa Gioele
     - 93.68
-    - 85
+    - 85.00
     - 9.26
     - true
     - "2009-03-06"
@@ -8770,11 +8770,11 @@ invoice_trails:
     - 30001
     - Ruffino Rosario
     - 10.79
-    - 11
+    - 11.00
     - 0.00
     - true
     - "2009-02-02"
-    - 90
+    - 90.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -8783,11 +8783,11 @@ invoice_trails:
     - 29026
     - Runza Francesca
     - "31.7"
-    - 39
+    - 39.00
     - 0.00
     - true
     - "2009-01-31"
-    - 86
+    - 86.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -8795,8 +8795,8 @@ invoice_trails:
     - "2009-07-31"
     - 31001
     - Runza Francesca
-    - 25
-    - 29
+    - 25.00
+    - 29.00
     - 0.00
     - true
     - "2009-07-31"
@@ -8834,8 +8834,8 @@ invoice_trails:
     - "2009-07-25"
     - 25003
     - Ruta Lina
-    - 10
-    - 10
+    - 10.00
+    - 10.00
     - 0.00
     - true
     - "2009-07-25"
@@ -8860,8 +8860,8 @@ invoice_trails:
     - "2009-07-31"
     - 31007
     - Saitta Manuela
-    - 27
-    - 27
+    - 27.00
+    - 27.00
     - 0.00
     - false
     - 
@@ -8873,8 +8873,8 @@ invoice_trails:
     - "2009-04-23"
     - 23001
     - Sallemi Sergio
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-04-28"
@@ -8899,8 +8899,8 @@ invoice_trails:
     - "2009-06-17"
     - 17009
     - Sammito  Maria
-    - 40
-    - 40
+    - 40.00
+    - 40.00
     - 0.00
     - true
     - "2009-06-19"
@@ -8913,7 +8913,7 @@ invoice_trails:
     - 13001
     - Santaera Rosario
     - 98.99
-    - 90
+    - 90.00
     - 9.08
     - true
     - "2009-03-17"
@@ -8925,8 +8925,8 @@ invoice_trails:
     - "2009-06-17"
     - 17007
     - Sava Giuseppe
-    - 32
-    - 30
+    - 32.00
+    - 30.00
     - 6.25
     - true
     - "2009-06-19"
@@ -8938,8 +8938,8 @@ invoice_trails:
     - "2009-05-12"
     - 12007
     - "Sav\xC3\xA0 Giuseppe"
-    - 40
-    - 40
+    - 40.00
+    - 40.00
     - 0.00
     - true
     - "2009-05-26"
@@ -8951,7 +8951,7 @@ invoice_trails:
     - "2009-09-04"
     - 04/004
     - Scapellaro Rosario
-    - 60
+    - 60.00
     - 200
     - 0.00
     - true
@@ -8965,7 +8965,7 @@ invoice_trails:
     - 21003
     - Scapellato Rosa
     - 99.14
-    - 95
+    - 95.00
     - 4.17
     - true
     - "2009-04-27"
@@ -8977,8 +8977,8 @@ invoice_trails:
     - "2009-07-24"
     - 24011
     - Scarso Carmelo
-    - 50
-    - 50
+    - 50.00
+    - 50.00
     - 0.00
     - true
     - "2009-07-25"
@@ -8991,7 +8991,7 @@ invoice_trails:
     - 28003
     - Scarso Genoveffa
     - 60.21
-    - 60
+    - 60.00
     - 0.34
     - true
     - "2009-02-05"
@@ -9004,7 +9004,7 @@ invoice_trails:
     - 26008
     - Scarso Genoveffa
     - 30.71
-    - 30
+    - 30.00
     - 2.31
     - true
     - "2009-04-01"
@@ -9016,8 +9016,8 @@ invoice_trails:
     - "2009-02-27"
     - 27008
     - Scarso Giovanna
-    - 16
-    - 16
+    - 16.00
+    - 16.00
     - 0.00
     - true
     - "2009-03-07"
@@ -9029,8 +9029,8 @@ invoice_trails:
     - "2009-06-09"
     - 09001
     - Scarso Giovanna
-    - 15
-    - 15
+    - 15.00
+    - 15.00
     - 0.00
     - true
     - "2009-06-13"
@@ -9056,7 +9056,7 @@ invoice_trails:
     - 3075
     - Scarso Vincenza
     - 97.62
-    - 75
+    - 75.00
     - 23.17
     - true
     - "2009-06-18"
@@ -9069,7 +9069,7 @@ invoice_trails:
     - 11004
     - Scivoletto Giorgio
     - 35.19
-    - 35
+    - 35.00
     - 0.53
     - true
     - "2009-05-14"
@@ -9081,12 +9081,12 @@ invoice_trails:
     - "2009-01-26"
     - 26005
     - Scivoletto Maria Teresa
-    - 27
-    - 27
+    - 27.00
+    - 27.00
     - 0.00
     - true
     - "2009-01-29"
-    - 73
+    - 73.00
     - 
     - 
     - 2009-09-08 09:06:44
@@ -9108,7 +9108,7 @@ invoice_trails:
     - 15006
     - Scollo Sebastiano
     - 10.48
-    - 10
+    - 10.00
     - 4.58
     - true
     - "2009-06-22"
@@ -9121,7 +9121,7 @@ invoice_trails:
     - 1537
     - Scucces Giovanna
     - 26.34
-    - 26
+    - 26.00
     - 1.29
     - true
     - "2009-03-07"
@@ -9134,11 +9134,11 @@ invoice_trails:
     - 28001
     - Sebellini Fabiana
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - 
-    - 86
+    - 86.00
     - 
     - 
     - 2009-09-08 09:06:44
@@ -9151,7 +9151,7 @@ invoice_trails:
     - 23.10
     - true
     - "2009-01-24"
-    - 62
+    - 62.00
     - 
     - 
     - 2009-09-08 09:06:44
@@ -9159,8 +9159,8 @@ invoice_trails:
     - "2009-07-08"
     - 08004
     - Serravillo Giuseppe
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-07-08"
@@ -9186,7 +9186,7 @@ invoice_trails:
     - 20002
     - Sgandurra Alice
     - 62.03
-    - 62
+    - 62.00
     - 0.04
     - true
     - "2009-03-21"
@@ -9224,8 +9224,8 @@ invoice_trails:
     - "2009-02-11"
     - 11004
     - Singh Lakmbir
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-02-20"
@@ -9237,8 +9237,8 @@ invoice_trails:
     - "2008-12-19"
     - 19003
     - Siracusa Massimo
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-03-04"
@@ -9250,8 +9250,8 @@ invoice_trails:
     - "2009-06-24"
     - 24012
     - Siracusa Massimo
-    - 50
-    - 50
+    - 50.00
+    - 50.00
     - 0.00
     - true
     - "2009-06-24"
@@ -9263,8 +9263,8 @@ invoice_trails:
     - "2009-02-06"
     - 3076
     - Solarino Simona
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - true
     - "2009-02-06"
@@ -9276,8 +9276,8 @@ invoice_trails:
     - "2009-04-16"
     - 16007
     - Solarino Simona
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - false
     - 
@@ -9315,8 +9315,8 @@ invoice_trails:
     - "2009-06-13"
     - 13003
     - Solarino Simona
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -9328,8 +9328,8 @@ invoice_trails:
     - "2009-05-20"
     - 20001
     - Sortino Elisa
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-05-20"
@@ -9341,8 +9341,8 @@ invoice_trails:
     - "2009-05-30"
     - 30003
     - Spada Massimiliano
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-06-04"
@@ -9354,8 +9354,8 @@ invoice_trails:
     - "2009-06-12"
     - 12010
     - Spadaro Agnese
-    - 20
-    - 20
+    - 20.00
+    - 20.00
     - 0.00
     - true
     - "2009-06-18"
@@ -9367,8 +9367,8 @@ invoice_trails:
     - "2009-04-09"
     - 09005
     - Spadaro Cinzia
-    - 20
-    - 20
+    - 20.00
+    - 20.00
     - 0.00
     - true
     - "2009-04-16"
@@ -9381,7 +9381,7 @@ invoice_trails:
     - 28009
     - Spadaro Cinzia
     - "41.5"
-    - 41
+    - 41.00
     - 1.20
     - true
     - "2009-05-07"
@@ -9394,7 +9394,7 @@ invoice_trails:
     - 3074
     - Spadaro Milena
     - 41.35
-    - 41
+    - 41.00
     - 0.84
     - true
     - "2009-06-19"
@@ -9420,7 +9420,7 @@ invoice_trails:
     - 17008
     - Spadola Maria Veronica
     - 30.59
-    - 15
+    - 15.00
     - 50.96
     - true
     - "2009-04-20"
@@ -9433,7 +9433,7 @@ invoice_trails:
     - 2564
     - Spadola Maria Veronica
     - 36.79
-    - 37
+    - 37.00
     - 0.00
     - true
     - "2009-05-07"
@@ -9445,8 +9445,8 @@ invoice_trails:
     - "2009-06-26"
     - 26003
     - Stracquadanio Giovanna
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-06-26"
@@ -9472,7 +9472,7 @@ invoice_trails:
     - 16011
     - Sturniolo Francesca
     - 59.32
-    - 59
+    - 59.00
     - 0.53
     - true
     - "2009-04-09"
@@ -9485,7 +9485,7 @@ invoice_trails:
     - 12006
     - Sturniolo Francesca
     - 47.73
-    - 45
+    - 45.00
     - 5.71
     - true
     - "2009-05-22"
@@ -9498,7 +9498,7 @@ invoice_trails:
     - 16004
     - Sudano Antonio
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - "2009-02-17"
@@ -9511,7 +9511,7 @@ invoice_trails:
     - 514
     - Sudano Vincenzo
     - 68.69
-    - 69
+    - 69.00
     - 0.00
     - true
     - "2009-04-08"
@@ -9523,8 +9523,8 @@ invoice_trails:
     - "2009-04-08"
     - 08003
     - Sudato Sonia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-04-10"
@@ -9536,8 +9536,8 @@ invoice_trails:
     - "2009-04-08"
     - 08003
     - Sudato Sonia
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - true
     - "2009-04-10"
@@ -9550,11 +9550,11 @@ invoice_trails:
     - 30001
     - Sudato Sonia
     - 108
-    - 90
+    - 90.00
     - 16.66
     - true
     - "2009-08-03"
-    - 90
+    - 90.00
     - 
     - 
     - 2009-09-08 09:06:44
@@ -9563,7 +9563,7 @@ invoice_trails:
     - 13002
     - Tamburello Concetta
     - "49.5"
-    - 50
+    - 50.00
     - 0.00
     - true
     - "2009-03-17"
@@ -9576,7 +9576,7 @@ invoice_trails:
     - 11003
     - Termini Maurizio
     - 95.57
-    - 80
+    - 80.00
     - 16.29
     - true
     - "2009-04-14"
@@ -9602,11 +9602,11 @@ invoice_trails:
     - 31001
     - Terranova Michele
     - "51.6"
-    - 50
+    - 50.00
     - 3.10
     - true
     - "2009-02-04"
-    - 98
+    - 98.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -9615,7 +9615,7 @@ invoice_trails:
     - 26001
     - Terranova Michele
     - 22.27
-    - 22
+    - 22.00
     - 1.21
     - true
     - "2009-06-30"
@@ -9641,7 +9641,7 @@ invoice_trails:
     - 16002
     - Tosco Rosa
     - 36.43
-    - 36
+    - 36.00
     - 1.18
     - true
     - "2009-04-17"
@@ -9668,7 +9668,7 @@ invoice_trails:
     - Trigilia Giuseppe Davide
     - 230
     - 184
-    - 20
+    - 20.00
     - true
     - "2009-05-26"
     - 436
@@ -9693,7 +9693,7 @@ invoice_trails:
     - 26001
     - Trovato Guglielmo
     - 30.55
-    - 24
+    - 24.00
     - 21.44
     - true
     - "2009-03-27"
@@ -9822,8 +9822,8 @@ invoice_trails:
     - "2009-03-07"
     - 3591
     - Turello Concetto
-    - 70
-    - 70
+    - 70.00
+    - 70.00
     - 0.00
     - true
     - "2009-03-11"
@@ -9836,11 +9836,11 @@ invoice_trails:
     - 1025
     - Turnaturi Giuseppa
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-02-03"
-    - 91
+    - 91.00
     - 
     - 
     - 2009-09-08 15:50:02
@@ -9849,7 +9849,7 @@ invoice_trails:
     - 25002
     - Turnaturi Giuseppa
     - 9.69
-    - 7
+    - 7.00
     - 27.76
     - true
     - "2009-04-28"
@@ -9862,7 +9862,7 @@ invoice_trails:
     - 22001
     - Turnaturi Giuseppa
     - 105.72
-    - 93
+    - 93.00
     - 12.03
     - true
     - "2009-04-28"
@@ -9914,7 +9914,7 @@ invoice_trails:
     - 27005
     - Vaccaro Angela
     - "19.5"
-    - 18
+    - 18.00
     - 7.69
     - true
     - "2009-06-03"
@@ -9939,8 +9939,8 @@ invoice_trails:
     - "2009-02-17"
     - 17004
     - Vernuccio Antonio
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-02-20"
@@ -9953,7 +9953,7 @@ invoice_trails:
     - 27002
     - Vicari Giovanna
     - 11.11
-    - 11
+    - 11.00
     - 0.99
     - true
     - "2009-04-28"
@@ -9966,7 +9966,7 @@ invoice_trails:
     - 27012
     - Vicari Giuseppe
     - 12.16
-    - 12
+    - 12.00
     - 1.31
     - true
     - "2009-06-27"
@@ -9979,7 +9979,7 @@ invoice_trails:
     - 26006
     - Vicari Maria
     - 14.27
-    - 15
+    - 15.00
     - 0.00
     - true
     - "2009-03-27"
@@ -9992,7 +9992,7 @@ invoice_trails:
     - 10003
     - Vicari Rita
     - 40.97
-    - 40
+    - 40.00
     - 2.36
     - true
     - "2009-03-13"
@@ -10004,8 +10004,8 @@ invoice_trails:
     - "2009-03-17"
     - 3592
     - Vilardo Pina Rosa
-    - 38
-    - 38
+    - 38.00
+    - 38.00
     - 0.00
     - true
     - "2009-03-21"
@@ -10017,8 +10017,8 @@ invoice_trails:
     - "2009-09-02"
     - 1028
     - Vindigni  Vincenzo
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - true
     - "2009-09-02"
@@ -10044,7 +10044,7 @@ invoice_trails:
     - 25004
     - Vindigni Alessandra
     - 50.18
-    - 50
+    - 50.00
     - 0.35
     - true
     - "2009-06-03"
@@ -10057,11 +10057,11 @@ invoice_trails:
     - 26003
     - Viola Carmelo
     - 70.05
-    - 70
+    - 70.00
     - 0.07
     - true
     - "2009-01-28"
-    - 71
+    - 71.00
     - 
     - 
     - 2009-09-08 09:06:44
@@ -10070,7 +10070,7 @@ invoice_trails:
     - 26004
     - Viola Carmelo
     - 62.83
-    - 60
+    - 60.00
     - 4.50
     - true
     - "2009-06-03"
@@ -10082,8 +10082,8 @@ invoice_trails:
     - "2009-03-16"
     - 16005
     - Viola Francesco
-    - 12
-    - 12
+    - 12.00
+    - 12.00
     - 0.00
     - true
     - "2009-03-18"
@@ -10095,8 +10095,8 @@ invoice_trails:
     - "2009-04-01"
     - 519
     - Voi Rosanna
-    - 17
-    - 23
+    - 17.00
+    - 23.00
     - 0.00
     - true
     - "2009-04-30"
@@ -10109,7 +10109,7 @@ invoice_trails:
     - 28014
     - Voi Rosanna
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - true
     - "2009-04-30"
@@ -10134,12 +10134,12 @@ invoice_trails:
     - "2008-12-22"
     - 22005
     - Zaccaria Angelo
-    - 40
-    - 40
+    - 40.00
+    - 40.00
     - 0.00
     - true
     - "2009-01-30"
-    - 79
+    - 79.00
     - 
     - 
     - 2009-09-08 09:06:44
@@ -10148,7 +10148,7 @@ invoice_trails:
     - 10004
     - Zaccaria Giuseppe
     - 56.94
-    - 45
+    - 45.00
     - 20.96
     - true
     - "2009-02-11"
@@ -10173,8 +10173,8 @@ invoice_trails:
     - "2009-09-16"
     - 16004
     - CRUCETTA GIUSEPPINA
-    - 25
-    - 25
+    - 25.00
+    - 25.00
     - 0.00
     - false
     - 
@@ -10200,7 +10200,7 @@ invoice_trails:
     - 17001
     - FALLA FEDERICO
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - 
@@ -10213,7 +10213,7 @@ invoice_trails:
     - 17001
     - FALLA FEDERICO
     - 7.21
-    - 7
+    - 7.00
     - 2.91
     - true
     - 
@@ -10225,8 +10225,8 @@ invoice_trails:
     - "2009-09-23"
     - 23001
     - PATERNO' BARBARA
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -10238,8 +10238,8 @@ invoice_trails:
     - "2009-09-29"
     - 28008
     - PADUA SABINA
-    - 35
-    - 35
+    - 35.00
+    - 35.00
     - 0.00
     - false
     - 
@@ -10252,7 +10252,7 @@ invoice_trails:
     - 26002
     - BOUTAYEB ASMAA
     - 75.56
-    - 75
+    - 75.00
     - 0.74
     - false
     - 
@@ -10265,7 +10265,7 @@ invoice_trails:
     - 26001
     - MOLTISANTI DIONISIO
     - 18.64
-    - 19
+    - 19.00
     - 0.00
     - false
     - 
@@ -10278,7 +10278,7 @@ invoice_trails:
     - 25010
     - BUSCEMA ANTONINO
     - 78.27
-    - 60
+    - 60.00
     - 23.34
     - false
     - 
@@ -10291,7 +10291,7 @@ invoice_trails:
     - 25009
     - TROIA LUCIA
     - 89.99
-    - 90
+    - 90.00
     - 0.00
     - false
     - 
@@ -10304,7 +10304,7 @@ invoice_trails:
     - 29001
     - PUGLISI ANGELA
     - "31.7"
-    - 32
+    - 32.00
     - 0.00
     - false
     - 
@@ -10317,7 +10317,7 @@ invoice_trails:
     - 03001
     - FRASCA AURORA
     - 10.48
-    - 10
+    - 10.00
     - 4.58
     - false
     - 
@@ -10330,7 +10330,7 @@ invoice_trails:
     - 03002
     - SPADOLA MARTINA
     - 12.28
-    - 12
+    - 12.00
     - 2.28
     - false
     - 
@@ -10342,8 +10342,8 @@ invoice_trails:
     - "2009-10-05"
     - 05001
     - Salerno Viviana
-    - 32
-    - 32
+    - 32.00
+    - 32.00
     - 0.00
     - false
     - 
@@ -10356,7 +10356,7 @@ invoice_trails:
     - 07004
     - marino giovanni
     - "93.2"
-    - 93
+    - 93.00
     - 0.21
     - true
     - "2009-10-08"
@@ -10368,8 +10368,8 @@ invoice_trails:
     - "2009-10-10"
     - 10001
     - Colombo Maria
-    - 83
-    - 83
+    - 83.00
+    - 83.00
     - 0.00
     - false
     - 
@@ -10381,8 +10381,8 @@ invoice_trails:
     - "2009-10-10"
     - 10002
     - Pisana
-    - 19
-    - 19
+    - 19.00
+    - 19.00
     - 0.00
     - false
     - 
@@ -10407,8 +10407,8 @@ invoice_trails:
     - "2009-10-12"
     - 10001
     - colombo maria
-    - 83
-    - 84
+    - 83.00
+    - 84.00
     - 0.00
     - true
     - "2009-10-12"
@@ -10434,7 +10434,7 @@ invoice_trails:
     - 14002
     - Denaro Orazio
     - 23.48
-    - 10
+    - 10.00
     - 57.41
     - false
     - 
@@ -10446,8 +10446,8 @@ invoice_trails:
     - "2009-10-15"
     - 15004
     - Bregoli Dania
-    - 7
-    - 7
+    - 7.00
+    - 7.00
     - 0.00
     - false
     - 
@@ -10460,7 +10460,7 @@ invoice_trails:
     - 15002
     - Genovese Maria Gabriella
     - 25.37
-    - 25
+    - 25.00
     - 1.45
     - false
     - 
@@ -10486,7 +10486,7 @@ invoice_trails:
     - 09008
     - Meli Maria
     - 43.48
-    - 43
+    - 43.00
     - 1.10
     - false
     - 
@@ -10525,7 +10525,7 @@ invoice_trails:
     - 30002
     - Stracquadanio Vincenzo
     - 82.57
-    - 67
+    - 67.00
     - 18.85
     - false
     - 
@@ -10551,7 +10551,7 @@ invoice_trails:
     - 09007
     - Piazzese Graziella
     - 18.91
-    - 15
+    - 15.00
     - 20.67
     - false
     - 
@@ -10564,7 +10564,7 @@ invoice_trails:
     - 02005
     - Linzitto Rosellina
     - 18.91
-    - 19
+    - 19.00
     - 0.00
     - false
     - 
@@ -10577,7 +10577,7 @@ invoice_trails:
     - 02006
     - Pucci Grazia
     - 32.66
-    - 33
+    - 33.00
     - 0.00
     - false
     - 
@@ -10590,7 +10590,7 @@ invoice_trails:
     - 02001
     - Russo Vincenzo
     - 82.57
-    - 67
+    - 67.00
     - 18.85
     - false
     - 
@@ -10603,7 +10603,7 @@ invoice_trails:
     - 02003
     - Salerno Viviana
     - 47.66
-    - 48
+    - 48.00
     - 0.00
     - false
     - 
@@ -10616,7 +10616,7 @@ invoice_trails:
     - 05005
     - Pucci Grazia
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - false
     - 
@@ -10629,7 +10629,7 @@ invoice_trails:
     - 05001
     - Salerno Viviana
     - 32.66
-    - 32
+    - 32.00
     - 2.02
     - false
     - 
@@ -10642,7 +10642,7 @@ invoice_trails:
     - 05002
     - Alecci Orazia
     - 32.66
-    - 33
+    - 33.00
     - 0.00
     - false
     - 
@@ -10655,7 +10655,7 @@ invoice_trails:
     - 06003
     - Bracchitta Daniela
     - 32.66
-    - 33
+    - 33.00
     - 0.00
     - false
     - 
@@ -10668,7 +10668,7 @@ invoice_trails:
     - 24017
     - Guastella Concetta
     - 52.94
-    - 53
+    - 53.00
     - 0.00
     - false
     - 
@@ -10680,8 +10680,8 @@ invoice_trails:
     - "2009-10-01"
     - 01001
     - Solarino Simona\
-    - 17
-    - 17
+    - 17.00
+    - 17.00
     - 0.00
     - false
     - 
