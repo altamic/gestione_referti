@@ -15,10 +15,10 @@ ActiveRecord::Schema.define(:version => 20090907100024) do
     t.date     "admission_date"
     t.string   "admission_code"
     t.string   "full_name"
-    t.decimal  "gross_amount",      :precision => 3, :scale => 2, :default => 40.0
-    t.decimal  "discounted_amount", :precision => 3, :scale => 2, :default => 0.0
-    t.decimal  "discount",          :precision => 3, :scale => 2, :default => 0.0
-    t.boolean  "payed",                                           :default => false
+    t.decimal  "gross_amount"
+    t.decimal  "discounted_amount"
+    t.decimal  "discount"
+    t.boolean  "payed", :default => false
     t.date     "payment_date"
     t.integer  "invoice_number"
     t.text     "notes"
