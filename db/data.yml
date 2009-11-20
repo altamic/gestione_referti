@@ -22,7 +22,7 @@ invoice_trails:
     - Abbate Elvira
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-09"
     - "116"
@@ -48,7 +48,7 @@ invoice_trails:
     - Adamo Martello Salvatrice
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-14"
     - "133"
@@ -74,7 +74,7 @@ invoice_trails:
     - Agosta Barbara
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-23"
     - "428"
@@ -100,7 +100,7 @@ invoice_trails:
     - Agosta Chiara
     - "34.49"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-08"
     - "460"
@@ -113,7 +113,7 @@ invoice_trails:
     - Agosta Ignazio
     - "68.25"
     - "68.25"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -152,7 +152,7 @@ invoice_trails:
     - Alfano Ernesto Maria
     - "125.25"
     - "125.25"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -178,7 +178,7 @@ invoice_trails:
     - Alfieri Ignazio
     - "95"
     - "95"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-01"
     - "625"
@@ -204,7 +204,7 @@ invoice_trails:
     - Aliotta Simonetta
     - "50.18"
     - "50.18"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -217,7 +217,7 @@ invoice_trails:
     - Allegria Battaglia
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-06"
     - "376"
@@ -230,7 +230,7 @@ invoice_trails:
     - Allegria Rosaria
     - "0.75"
     - "18"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-21"
     - "150"
@@ -242,7 +242,7 @@ invoice_trails:
     - "10003"
     - Altamore Michelangelo
     - "61"
-    - "0"
+    - "0.00"
     - 
     - false
     - 
@@ -256,7 +256,7 @@ invoice_trails:
     - Alvarez  Sonia
     - "50"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -269,7 +269,7 @@ invoice_trails:
     - Alvarez Sonia
     - "120"
     - "120"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-23"
     - "499"
@@ -282,7 +282,7 @@ invoice_trails:
     - Amore Emanuela
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-05"
     - "456"
@@ -295,7 +295,7 @@ invoice_trails:
     - Amore Giorgio
     - "120"
     - "120"
-    - "0"
+    - "0.00"
     - true
     - "2009-08-07"
     - "615"
@@ -308,7 +308,7 @@ invoice_trails:
     - Amore Salvatore
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-24"
     - "339"
@@ -347,7 +347,7 @@ invoice_trails:
     - Aprile Salvatore
     - "80"
     - "80"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-27"
     - "587"
@@ -412,7 +412,7 @@ invoice_trails:
     - Arena Giovanna
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-15"
     - "307"
@@ -425,7 +425,7 @@ invoice_trails:
     - Arena Massimo
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-07"
     - "196"
@@ -438,7 +438,7 @@ invoice_trails:
     - Arestia Rosaria
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-18"
     - "413"
@@ -451,7 +451,7 @@ invoice_trails:
     - Armenia Gina
     - "42"
     - "42"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -464,7 +464,7 @@ invoice_trails:
     - Armenia Giorgia
     - "85.87"
     - "86"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-11"
     - "394"
@@ -477,7 +477,7 @@ invoice_trails:
     - Armenia Salvatore
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-16"
     - 
@@ -490,7 +490,7 @@ invoice_trails:
     - Armenia Veronica
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -503,7 +503,7 @@ invoice_trails:
     - Armenia Veronica
     - "33"
     - "33"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -516,7 +516,7 @@ invoice_trails:
     - Arruda Carlos
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-27"
     - "348"
@@ -542,7 +542,7 @@ invoice_trails:
     - Assenza Antonio
     - "16"
     - "16"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-24"
     - "240"
@@ -555,7 +555,7 @@ invoice_trails:
     - Assenza Antonio
     - "15.69"
     - "15.69"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -568,7 +568,7 @@ invoice_trails:
     - Assenza Antonio
     - "26"
     - "26"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-24"
     - "579"
@@ -581,7 +581,7 @@ invoice_trails:
     - Assenza Claudia
     - "44.66"
     - "45"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-27"
     - "70"
@@ -594,7 +594,7 @@ invoice_trails:
     - Assenza Claudia
     - "17"
     - "17"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-31"
     - 22/08/1901
@@ -607,7 +607,7 @@ invoice_trails:
     - Assenza Giorgio
     - "14.29"
     - "14.29"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -646,7 +646,7 @@ invoice_trails:
     - Assenza Parisi Valeria
     - "20.16"
     - "20.16"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -659,7 +659,7 @@ invoice_trails:
     - Assenza Valeria
     - "15.69"
     - "16"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-16"
     - "311"
@@ -698,7 +698,7 @@ invoice_trails:
     - Aurnia Francesca
     - "30"
     - "30"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-31"
     - "259"
@@ -711,7 +711,7 @@ invoice_trails:
     - Aurnia Irene
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -776,7 +776,7 @@ invoice_trails:
     - Ayadi Manel
     - "82.57"
     - "82.57"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -789,7 +789,7 @@ invoice_trails:
     - Azzolina Gaetana
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-11"
     - "546"
@@ -802,7 +802,7 @@ invoice_trails:
     - Azzolina Tania
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-09"
     - "286"
@@ -828,7 +828,7 @@ invoice_trails:
     - Baglieri Carmela
     - "24.02"
     - "24.02"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -841,7 +841,7 @@ invoice_trails:
     - Baglieri Lorenzo
     - "7.21"
     - "7.21"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -854,7 +854,7 @@ invoice_trails:
     - Ballaro' Debora
     - "42"
     - "42"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-16"
     - "480"
@@ -867,7 +867,7 @@ invoice_trails:
     - Bantayeb Asmaa
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-17"
     - sf
@@ -880,7 +880,7 @@ invoice_trails:
     - Barbagallo Salvatore
     - "52"
     - "52"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-30"
     - "252"
@@ -893,7 +893,7 @@ invoice_trails:
     - Barone Carmela
     - "46.46"
     - "46.46"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -906,7 +906,7 @@ invoice_trails:
     - Barone Daniela
     - "14.91"
     - "15"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-11"
     - "470"
@@ -932,7 +932,7 @@ invoice_trails:
     - Barone Salvatore
     - "71"
     - "71"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-11"
     - "471"
@@ -958,7 +958,7 @@ invoice_trails:
     - Barone Tommaso
     - "30"
     - "30"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-25"
     - "581"
@@ -971,7 +971,7 @@ invoice_trails:
     - Basile Concetta
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -984,7 +984,7 @@ invoice_trails:
     - Basile Giorgio
     - "82.57"
     - "82.57"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1023,7 +1023,7 @@ invoice_trails:
     - Battaglia Vincenzo
     - "23"
     - "23"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-02"
     - "528"
@@ -1062,7 +1062,7 @@ invoice_trails:
     - Belluardo Ausilia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1101,7 +1101,7 @@ invoice_trails:
     - Belluardo Maurizio
     - "14.63"
     - "15"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-09"
     - "198"
@@ -1114,7 +1114,7 @@ invoice_trails:
     - Benedetto Antonino
     - "53.57"
     - "53.57"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1179,7 +1179,7 @@ invoice_trails:
     - Blanco Giovanni
     - "130"
     - "130"
-    - "0"
+    - "0.00"
     - true
     - 
     - "883"
@@ -1231,7 +1231,7 @@ invoice_trails:
     - Blandizzi Maia Concetta
     - "16"
     - "16"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-12"
     - "472"
@@ -1257,7 +1257,7 @@ invoice_trails:
     - Blandizzi Maria Concetta
     - "105"
     - "105"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-17"
     - "313"
@@ -1270,7 +1270,7 @@ invoice_trails:
     - Blandizzi Maria Concetta
     - "15.96"
     - "16"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-13"
     - 
@@ -1283,7 +1283,7 @@ invoice_trails:
     - Blando Graziano
     - "17.16"
     - "17.16"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1296,7 +1296,7 @@ invoice_trails:
     - Blundetto Giovanni
     - "37.71"
     - "38"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -1374,7 +1374,7 @@ invoice_trails:
     - Blundetto Silvana
     - "18"
     - "18"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-10"
     - "200"
@@ -1413,7 +1413,7 @@ invoice_trails:
     - Bordonaro Chiara
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-02"
     - "631"
@@ -1439,7 +1439,7 @@ invoice_trails:
     - Boutayeb Asmaa
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-08-06"
     - "610"
@@ -1450,8 +1450,8 @@ invoice_trails:
     - "2009-07-15"
     - "15001"
     - Brafa Ersilia
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
@@ -1463,8 +1463,8 @@ invoice_trails:
     - "2009-07-28"
     - "28011"
     - Brafa Ersilia
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
@@ -1478,7 +1478,7 @@ invoice_trails:
     - Brancato Giovanni
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-02"
     - "526"
@@ -1530,7 +1530,7 @@ invoice_trails:
     - Burgio Nelluccia
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-29"
     - "75"
@@ -1543,7 +1543,7 @@ invoice_trails:
     - Calabrese Marco
     - "24.7"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-14"
     - "134"
@@ -1556,7 +1556,7 @@ invoice_trails:
     - Calvo Adelina
     - "164.79"
     - "164.79"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1595,7 +1595,7 @@ invoice_trails:
     - Campailla Giovanna
     - "55"
     - "55"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-06"
     - "108"
@@ -1608,7 +1608,7 @@ invoice_trails:
     - Campailla Giovanna
     - "20"
     - "20"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-14"
     - "214"
@@ -1634,7 +1634,7 @@ invoice_trails:
     - Campanella Salvatore
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - 
     - F
@@ -1647,7 +1647,7 @@ invoice_trails:
     - Campanella Salvatore
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-02"
     - "628"
@@ -1660,7 +1660,7 @@ invoice_trails:
     - Cannata Maria
     - "60"
     - "60"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-03"
     - "272"
@@ -1673,7 +1673,7 @@ invoice_trails:
     - Cannatella Maria
     - "50"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-03"
     - "271"
@@ -1686,7 +1686,7 @@ invoice_trails:
     - Cannatella Maria
     - "50"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-08-28"
     - "624"
@@ -1764,7 +1764,7 @@ invoice_trails:
     - Cappello Elisa
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-25"
     - "430"
@@ -1777,7 +1777,7 @@ invoice_trails:
     - Cappello Elisa
     - "20"
     - "20"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-22"
     - "575"
@@ -1803,7 +1803,7 @@ invoice_trails:
     - Cappello Giovanni
     - "61"
     - "61"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1816,7 +1816,7 @@ invoice_trails:
     - Caprio Luigi
     - "115.49"
     - "115.49"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1829,7 +1829,7 @@ invoice_trails:
     - Carbonaro Alessandro
     - "35.8"
     - "35.8"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1842,7 +1842,7 @@ invoice_trails:
     - Carbonaro Antonio
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1855,7 +1855,7 @@ invoice_trails:
     - Carbonaro Enza
     - "50"
     - "50"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1866,8 +1866,8 @@ invoice_trails:
     - "2009-09-02"
     - "1025"
     - Carbone M. Luisa
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
@@ -1879,8 +1879,8 @@ invoice_trails:
     - "2009-07-14"
     - "14003"
     - Carbone Mara Luisa
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
@@ -1894,10 +1894,10 @@ invoice_trails:
     - Carbone Maria Luisa
     - "53.23"
     - "53.23"
-    - "0"
+    - "0.00"
     - true
     - 
-    - "0"
+    - "0.00"
     - ""
     - 
     - 2009-09-15 09:37:04
@@ -1906,7 +1906,7 @@ invoice_trails:
     - "16001"
     - Carbone Maria Luisa
     - "57.39"
-    - "0"
+    - "0.00"
     - 
     - false
     - 
@@ -1920,7 +1920,7 @@ invoice_trails:
     - Carbone Salvatore
     - "37.71"
     - "37.71"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -1959,7 +1959,7 @@ invoice_trails:
     - Carnemolla Salvatore
     - "67"
     - "67"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-21"
     - "572"
@@ -1972,7 +1972,7 @@ invoice_trails:
     - Carpenzano Valentina
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-07"
     - "109"
@@ -1985,7 +1985,7 @@ invoice_trails:
     - Carpintieri Domenico
     - "35.91"
     - "36"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-25"
     - "506"
@@ -1998,7 +1998,7 @@ invoice_trails:
     - Cartia Gianpiero
     - "10"
     - "10"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-02"
     - "629"
@@ -2024,7 +2024,7 @@ invoice_trails:
     - Caruso Emanuele
     - "22.59"
     - "22.59"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2063,7 +2063,7 @@ invoice_trails:
     - Caruso Salvatore
     - "93"
     - "93"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2076,7 +2076,7 @@ invoice_trails:
     - Caruso Ti+Arruda Carlos
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-19"
     - "417"
@@ -2089,7 +2089,7 @@ invoice_trails:
     - Caruso Tiziana
     - "38.61"
     - "38.61"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2128,7 +2128,7 @@ invoice_trails:
     - Casa Franco
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-02"
     - "369"
@@ -2154,7 +2154,7 @@ invoice_trails:
     - Cassarino Cristina
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -2193,7 +2193,7 @@ invoice_trails:
     - Catania Massimo
     - "90"
     - "90"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2206,7 +2206,7 @@ invoice_trails:
     - Cataudella Gaia
     - "7"
     - "7"
-    - "0"
+    - "0.00"
     - true
     - 
     - f
@@ -2219,7 +2219,7 @@ invoice_trails:
     - Causarano Giovanni
     - "50.18"
     - "50.18"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2232,7 +2232,7 @@ invoice_trails:
     - Causarano Riccardo
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-06"
     - "107"
@@ -2245,7 +2245,7 @@ invoice_trails:
     - Causarano Riccardo
     - "20"
     - "20"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-14"
     - "214"
@@ -2271,7 +2271,7 @@ invoice_trails:
     - Cavallo Maria
     - "15.69"
     - "16"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-27"
     - "164"
@@ -2297,7 +2297,7 @@ invoice_trails:
     - Cavallo Maria
     - "16.7"
     - "17"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-01"
     - "445"
@@ -2310,7 +2310,7 @@ invoice_trails:
     - Cavallo Piero Antonio
     - "37.9"
     - "38"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-21"
     - "570"
@@ -2349,7 +2349,7 @@ invoice_trails:
     - Cerruto Andrea
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2362,7 +2362,7 @@ invoice_trails:
     - Cerruto Elisa
     - "49.92"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-13"
     - "130"
@@ -2375,7 +2375,7 @@ invoice_trails:
     - Cerruto Elisa
     - "63"
     - "63"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-23"
     - "576"
@@ -2388,7 +2388,7 @@ invoice_trails:
     - Cerruto Rosa
     - "37"
     - "37"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-27"
     - "246"
@@ -2401,7 +2401,7 @@ invoice_trails:
     - Chakir Jawad
     - "82"
     - "82"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2414,7 +2414,7 @@ invoice_trails:
     - Cicero M Concetta
     - "50"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-25"
     - "431"
@@ -2427,7 +2427,7 @@ invoice_trails:
     - Cicero Melania
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-27"
     - "69"
@@ -2453,7 +2453,7 @@ invoice_trails:
     - Cilia Lucia
     - "40"
     - "40"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-08"
     - "537"
@@ -2505,7 +2505,7 @@ invoice_trails:
     - Colombo Maria
     - "41.65"
     - "42"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-10"
     - "124"
@@ -2531,7 +2531,7 @@ invoice_trails:
     - Colombo Maria
     - "14.75"
     - "15"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-23"
     - "236"
@@ -2557,7 +2557,7 @@ invoice_trails:
     - Colombo Maria
     - "30.58"
     - "31"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-30"
     - "367"
@@ -2570,7 +2570,7 @@ invoice_trails:
     - Comisi Giovanni
     - "32.54"
     - "33"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-26"
     - "161"
@@ -2583,7 +2583,7 @@ invoice_trails:
     - Corallo Andrea
     - "48"
     - "48"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-21"
     - "327"
@@ -2609,7 +2609,7 @@ invoice_trails:
     - Corallo Lorefice
     - "319"
     - "319"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-27"
     - "517"
@@ -2622,7 +2622,7 @@ invoice_trails:
     - Crucetta Giuseppina
     - "55"
     - "55"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-28"
     - "592"
@@ -2661,7 +2661,7 @@ invoice_trails:
     - D Urso Federica
     - "7.21"
     - "7.21"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2687,7 +2687,7 @@ invoice_trails:
     - D'angelo Lucia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-07"
     - "25"
@@ -2713,7 +2713,7 @@ invoice_trails:
     - Denaro Sabrina Domenica
     - "7"
     - "7"
-    - "0"
+    - "0.00"
     - true
     - "2009-08-07"
     - "614"
@@ -2726,7 +2726,7 @@ invoice_trails:
     - Di Benedetto Giuseppe
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2752,7 +2752,7 @@ invoice_trails:
     - Di Grandi Linda
     - "20.44"
     - "20.44"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2804,7 +2804,7 @@ invoice_trails:
     - Di Gregorio Carmela
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - 
     - f
@@ -2817,7 +2817,7 @@ invoice_trails:
     - Di Lorenzo Vincenzo
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2843,7 +2843,7 @@ invoice_trails:
     - Di Marco Maria
     - "60"
     - "60"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-17"
     - "314"
@@ -2869,7 +2869,7 @@ invoice_trails:
     - Di Martino Gianfranco
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2882,7 +2882,7 @@ invoice_trails:
     - Di Martino Mirella
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-02"
     - "89"
@@ -2908,7 +2908,7 @@ invoice_trails:
     - Di Martino Russo Andrea
     - "73.16"
     - "73.16"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2934,7 +2934,7 @@ invoice_trails:
     - Di Martino Russo Carmelo
     - "7.21"
     - "7.21"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -2960,7 +2960,7 @@ invoice_trails:
     - Di Martino Russo Carmelo
     - "27"
     - "27"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-26"
     - "513"
@@ -2973,7 +2973,7 @@ invoice_trails:
     - Di Natale Valentina
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-04"
     - "452"
@@ -2986,7 +2986,7 @@ invoice_trails:
     - Di Pietro Arianna
     - "60"
     - "60"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-26"
     - "512"
@@ -2999,7 +2999,7 @@ invoice_trails:
     - Di Quattro Concetta
     - "67.44"
     - "100"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-29"
     - "594"
@@ -3038,7 +3038,7 @@ invoice_trails:
     - Di Raimondo Alessandra
     - "30"
     - "30"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-28"
     - "352"
@@ -3051,7 +3051,7 @@ invoice_trails:
     - Di Rosa Giuseppe
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-30"
     - "80"
@@ -3090,7 +3090,7 @@ invoice_trails:
     - Di Rosa Renato
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3116,7 +3116,7 @@ invoice_trails:
     - Donzella Grazia
     - "39"
     - "39"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-03"
     - "633"
@@ -3181,7 +3181,7 @@ invoice_trails:
     - D'urso Federica
     - "15"
     - "15"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-04"
     - "15"
@@ -3207,7 +3207,7 @@ invoice_trails:
     - Emilio Giulia
     - "78"
     - "78"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-02"
     - "527"
@@ -3220,7 +3220,7 @@ invoice_trails:
     - Emilio Giulia
     - "40"
     - "40"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3246,7 +3246,7 @@ invoice_trails:
     - Emilio Maria
     - "97.96"
     - "97.96"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3259,7 +3259,7 @@ invoice_trails:
     - Emilio Maria
     - "99.92"
     - "100"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-08"
     - "458"
@@ -3272,7 +3272,7 @@ invoice_trails:
     - Emmolo Isaura
     - "20.16"
     - "20.16"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3285,7 +3285,7 @@ invoice_trails:
     - Emmolo Rosario
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-12"
     - "209"
@@ -3298,7 +3298,7 @@ invoice_trails:
     - Falco Giovanna
     - "18.91"
     - "19"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-08"
     - "542"
@@ -3363,7 +3363,7 @@ invoice_trails:
     - Ferraro Evelina
     - "153.27"
     - "153.27"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3376,7 +3376,7 @@ invoice_trails:
     - Ferraro Evelina
     - "125.27"
     - "125.27"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3389,7 +3389,7 @@ invoice_trails:
     - Ferraro Evelina
     - "55"
     - "55"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3402,10 +3402,10 @@ invoice_trails:
     - Ferro Anna
     - "19.13"
     - "19.13"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -3415,10 +3415,10 @@ invoice_trails:
     - Ferro Anna
     - "33.02"
     - "33.02"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -3454,7 +3454,7 @@ invoice_trails:
     - Fidone Maria
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-24"
     - "239"
@@ -3467,7 +3467,7 @@ invoice_trails:
     - Figura Carmela
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-30"
     - "257"
@@ -3480,7 +3480,7 @@ invoice_trails:
     - Figura Carmela
     - "18.91"
     - "19"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-05"
     - "455"
@@ -3519,7 +3519,7 @@ invoice_trails:
     - Figura Carmela+ Puglisi
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-05"
     - "455"
@@ -3545,7 +3545,7 @@ invoice_trails:
     - Florid Ia Maria
     - "22.37"
     - "22.37"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3597,7 +3597,7 @@ invoice_trails:
     - Foresta Roberto
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-21"
     - "328"
@@ -3610,7 +3610,7 @@ invoice_trails:
     - Frasca Caccia Maria
     - "78.85"
     - "79"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-07"
     - "278"
@@ -3623,7 +3623,7 @@ invoice_trails:
     - Frasca Carmelo
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-22"
     - "331"
@@ -3636,7 +3636,7 @@ invoice_trails:
     - Frasca Maria Laura
     - "27"
     - "27"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-20"
     - "147"
@@ -3649,7 +3649,7 @@ invoice_trails:
     - Frasca Maria Laura
     - "15.69"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-01"
     - "446"
@@ -3675,7 +3675,7 @@ invoice_trails:
     - Frasca Maria Laura
     - "10.48"
     - "10.48"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3701,7 +3701,7 @@ invoice_trails:
     - Fusca  Valentina
     - "17.91"
     - "18"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-23"
     - "155"
@@ -3714,7 +3714,7 @@ invoice_trails:
     - Gagliano Maria Matilde
     - "31.85"
     - "31.85"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3740,7 +3740,7 @@ invoice_trails:
     - Galazzo Giuseppe
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3753,7 +3753,7 @@ invoice_trails:
     - Galfo M. Chiara
     - "96.72"
     - "96.72"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3805,7 +3805,7 @@ invoice_trails:
     - Galota Iolanda
     - "18.97"
     - "19"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-09"
     - "114"
@@ -3844,7 +3844,7 @@ invoice_trails:
     - Garaffa Silvana
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-20"
     - "148"
@@ -3857,7 +3857,7 @@ invoice_trails:
     - Garaffa Silvana
     - "32.66"
     - "32.66"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3870,7 +3870,7 @@ invoice_trails:
     - Garaffa Silvana
     - "32.66"
     - "32.66"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3896,7 +3896,7 @@ invoice_trails:
     - Garofalo Claudio
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-25"
     - "159"
@@ -3909,7 +3909,7 @@ invoice_trails:
     - Garofalo Claudio
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-01"
     - "261"
@@ -3922,7 +3922,7 @@ invoice_trails:
     - Garofalo Fabio
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-21"
     - "571"
@@ -3935,7 +3935,7 @@ invoice_trails:
     - Garofalo Paolo
     - "36"
     - "36"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3948,7 +3948,7 @@ invoice_trails:
     - Garofalo Paolo
     - "42.54"
     - "42.54"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -3961,7 +3961,7 @@ invoice_trails:
     - Gatto Maurizio
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-22"
     - "330"
@@ -4026,7 +4026,7 @@ invoice_trails:
     - Gerratana Maria
     - "18.96"
     - "18.96"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4052,7 +4052,7 @@ invoice_trails:
     - Gerratana Maria
     - "46.46"
     - "46.46"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4065,7 +4065,7 @@ invoice_trails:
     - Gerratana Maria
     - "32.66"
     - "32.66"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4091,7 +4091,7 @@ invoice_trails:
     - Gerratana Maria
     - "52"
     - "52"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-09"
     - "287"
@@ -4104,7 +4104,7 @@ invoice_trails:
     - Gerratana Maria
     - "125"
     - "125"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-22"
     - "573"
@@ -4117,7 +4117,7 @@ invoice_trails:
     - Gianni  Giorgio
     - "42.81"
     - "43"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-12"
     - "128"
@@ -4143,7 +4143,7 @@ invoice_trails:
     - Gianni Alice
     - "35.16"
     - "40"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-27"
     - "350"
@@ -4182,7 +4182,7 @@ invoice_trails:
     - "Giann\xC3\xAC Alice"
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-02"
     - "167"
@@ -4195,7 +4195,7 @@ invoice_trails:
     - "Giann\xC3\xAC Alice"
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-06"
     - "188"
@@ -4208,7 +4208,7 @@ invoice_trails:
     - "Giann\xC3\xAC Alice"
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-06"
     - "188"
@@ -4234,7 +4234,7 @@ invoice_trails:
     - "Giann\xC3\xAC David"
     - "29.92"
     - "29.92"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4338,7 +4338,7 @@ invoice_trails:
     - Gianni Marinella
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-14"
     - "132"
@@ -4351,7 +4351,7 @@ invoice_trails:
     - "Giann\xC3\xAC Marinella"
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-07"
     - "110"
@@ -4364,7 +4364,7 @@ invoice_trails:
     - "Giann\xC3\xAC Marinella"
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-08"
     - "284"
@@ -4390,7 +4390,7 @@ invoice_trails:
     - Giannone Dalila
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-02"
     - "524"
@@ -4403,7 +4403,7 @@ invoice_trails:
     - Giannone Giovanni
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-27"
     - "68"
@@ -4416,7 +4416,7 @@ invoice_trails:
     - Giannone Giovanni
     - "37.71"
     - "37.71"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4429,7 +4429,7 @@ invoice_trails:
     - Giannone Lorena
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-13"
     - "131"
@@ -4442,7 +4442,7 @@ invoice_trails:
     - Giannone Vincenza
     - "7"
     - "7"
-    - "0"
+    - "0.00"
     - true
     - "2009-08-01"
     - "603"
@@ -4455,7 +4455,7 @@ invoice_trails:
     - Giaquinta Giovanni
     - "265.06"
     - "265.06"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4520,7 +4520,7 @@ invoice_trails:
     - Gintoli Irene
     - "41.74"
     - "42"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-10"
     - "294"
@@ -4533,7 +4533,7 @@ invoice_trails:
     - Gintoli Irene
     - "42"
     - "42"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-10"
     - "294"
@@ -4546,7 +4546,7 @@ invoice_trails:
     - Gintoli Irene
     - "41.74"
     - "42"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-10"
     - "294"
@@ -4559,7 +4559,7 @@ invoice_trails:
     - Giordanella  Maria
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-03"
     - "450"
@@ -4598,7 +4598,7 @@ invoice_trails:
     - Giordanella Maria
     - "18.91"
     - "18.91"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4611,7 +4611,7 @@ invoice_trails:
     - Girasa Carmelo
     - "35.91"
     - "36"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-30"
     - "255"
@@ -4637,7 +4637,7 @@ invoice_trails:
     - Gisana Simona
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-17"
     - "218"
@@ -4650,7 +4650,7 @@ invoice_trails:
     - Giudice Maria
     - "49.02"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-30"
     - "81"
@@ -4663,7 +4663,7 @@ invoice_trails:
     - Giuliana Rita
     - "48.75"
     - MOGLIE DI PETTINEO ROCCO
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -4676,7 +4676,7 @@ invoice_trails:
     - Giuliana Rita
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4689,7 +4689,7 @@ invoice_trails:
     - Giunta Ferdinando
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-26"
     - "66"
@@ -4715,7 +4715,7 @@ invoice_trails:
     - Giunta Salvatore
     - "10.43"
     - "10.43"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4728,7 +4728,7 @@ invoice_trails:
     - Giurdanella  Loredana
     - "118.88"
     - "118.88"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4754,7 +4754,7 @@ invoice_trails:
     - Giurdanella Giorgia
     - "7.42"
     - "8"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-23"
     - "154"
@@ -4793,10 +4793,10 @@ invoice_trails:
     - Giurdanella Loredana
     - "23"
     - "23"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -4819,7 +4819,7 @@ invoice_trails:
     - Greco Marco
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-19"
     - "416"
@@ -4832,7 +4832,7 @@ invoice_trails:
     - Grimaldi Antonino
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-16"
     - "308"
@@ -4858,7 +4858,7 @@ invoice_trails:
     - Guarrasi Giovanna
     - "45.19"
     - "45.19"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4884,7 +4884,7 @@ invoice_trails:
     - Guarrasi Maria Ausilia (Esami 2007)
     - "156"
     - "156"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4897,7 +4897,7 @@ invoice_trails:
     - Guglielmino M. Paola
     - "41.43"
     - "41.43"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -4923,7 +4923,7 @@ invoice_trails:
     - Gulino Antonia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-12"
     - "399"
@@ -4936,7 +4936,7 @@ invoice_trails:
     - Gurrieri Annalisa
     - "58"
     - "58"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-05"
     - "454"
@@ -4975,7 +4975,7 @@ invoice_trails:
     - Gurrieri Lucia
     - "30"
     - "30"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-15"
     - "559"
@@ -4988,7 +4988,7 @@ invoice_trails:
     - Gurrieri Lucia
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-08"
     - "281"
@@ -5014,7 +5014,7 @@ invoice_trails:
     - Gurrieri Lucia+Termini Maur.
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-10"
     - "467"
@@ -5027,7 +5027,7 @@ invoice_trails:
     - Gurrieri Luigi
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5040,7 +5040,7 @@ invoice_trails:
     - Herrera Juana
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-17"
     - "318"
@@ -5053,7 +5053,7 @@ invoice_trails:
     - Iacono Daniela
     - "127.96"
     - "127.96"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5066,7 +5066,7 @@ invoice_trails:
     - Iacono M. Concetta
     - "20.16"
     - "20.16"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5079,7 +5079,7 @@ invoice_trails:
     - Iacono Raffaele
     - "32.92"
     - "32.92"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5092,7 +5092,7 @@ invoice_trails:
     - Iemmolo Concetta
     - "69"
     - "69"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-01"
     - "263"
@@ -5131,7 +5131,7 @@ invoice_trails:
     - Iemmolo Rosa
     - "18.91"
     - "18.91"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5144,7 +5144,7 @@ invoice_trails:
     - Iemmolo Rosa
     - "32.66"
     - "32.66"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5157,7 +5157,7 @@ invoice_trails:
     - Iemmolo Rosa
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -5222,7 +5222,7 @@ invoice_trails:
     - Intoci Giovanni
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-06"
     - "275"
@@ -5248,7 +5248,7 @@ invoice_trails:
     - Iozzia Giorgio
     - "35.76"
     - "36"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-28"
     - "441"
@@ -5274,7 +5274,7 @@ invoice_trails:
     - Iozzia Giuseppa
     - "48"
     - "48"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-15"
     - "305"
@@ -5287,7 +5287,7 @@ invoice_trails:
     - Iozzia Giuseppa
     - "258.49"
     - "258.49"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5326,7 +5326,7 @@ invoice_trails:
     - Iozzia Gianni      Aih
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-09"
     - "121"
@@ -5352,7 +5352,7 @@ invoice_trails:
     - Italia Paolina
     - "64"
     - "64"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-16"
     - "479"
@@ -5378,7 +5378,7 @@ invoice_trails:
     - Iudici Francesca
     - "16.48"
     - "20"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-18"
     - "321"
@@ -5391,7 +5391,7 @@ invoice_trails:
     - Iudici Francesca
     - "9.74"
     - "9.74"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5417,7 +5417,7 @@ invoice_trails:
     - Iurato Gaetano
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5430,7 +5430,7 @@ invoice_trails:
     - Iurato Giorgia
     - "18.91"
     - "18.91"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5443,7 +5443,7 @@ invoice_trails:
     - Iurato Giorgia
     - "18.91"
     - "18.91"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5456,7 +5456,7 @@ invoice_trails:
     - Iurato Giorgia
     - "90.06"
     - "90.06"
-    - "0"
+    - "0.00"
     - false
     - "2009-09-15"
     - 
@@ -5482,7 +5482,7 @@ invoice_trails:
     - Karbowniczek Marzena
     - "49.86"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-08-06"
     - "611"
@@ -5495,7 +5495,7 @@ invoice_trails:
     - Karbowniczek Marzena Mal
     - "44.65"
     - "45"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-26"
     - "435"
@@ -5573,7 +5573,7 @@ invoice_trails:
     - Karbowniczek Marzena Malgorzata
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-30"
     - "79"
@@ -5599,7 +5599,7 @@ invoice_trails:
     - Karbowniczek Marzena Malgorzata
     - "18.91"
     - "19"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-23"
     - "234"
@@ -5612,7 +5612,7 @@ invoice_trails:
     - Karbowniczek Marzena Malgorzata
     - "32.66"
     - "33"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-23"
     - "234"
@@ -5625,7 +5625,7 @@ invoice_trails:
     - Karbowniczek Marzena Malgorzata
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-23"
     - "234"
@@ -5638,7 +5638,7 @@ invoice_trails:
     - Karbowniczek Marzena Malgorzata
     - "18.91"
     - "19"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-30"
     - "365"
@@ -5677,7 +5677,7 @@ invoice_trails:
     - La Ferla Giuseppina
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-10"
     - "123"
@@ -5703,7 +5703,7 @@ invoice_trails:
     - La Ferla Giuseppina
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-10"
     - "123"
@@ -5742,7 +5742,7 @@ invoice_trails:
     - La Terra Ippolito
     - "186.12"
     - "186.12"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5755,7 +5755,7 @@ invoice_trails:
     - La Terra Ippolito
     - "98.78"
     - "98.78"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5807,7 +5807,7 @@ invoice_trails:
     - Lentini Elisa
     - "15.69"
     - "16"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-30"
     - "596"
@@ -5846,7 +5846,7 @@ invoice_trails:
     - Leocata Corrado
     - "34.78"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-07"
     - "112"
@@ -5898,7 +5898,7 @@ invoice_trails:
     - Leocata Irene
     - "31.38"
     - "31.38"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -5950,7 +5950,7 @@ invoice_trails:
     - Leocata Michele
     - "30.23"
     - "55"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-15"
     - "303"
@@ -5963,7 +5963,7 @@ invoice_trails:
     - Leocata Michele
     - "30.23"
     - "30.23"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6002,7 +6002,7 @@ invoice_trails:
     - Lero Marta
     - "7.21"
     - "7.21"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6015,7 +6015,7 @@ invoice_trails:
     - Linzitto Roselina
     - "35"
     - "37"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-09"
     - "199"
@@ -6054,7 +6054,7 @@ invoice_trails:
     - Linzitto Roselina
     - "30"
     - "30"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-29"
     - "422"
@@ -6080,7 +6080,7 @@ invoice_trails:
     - Linzitto Roselina
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-29"
     - "422"
@@ -6106,7 +6106,7 @@ invoice_trails:
     - Linzitto Roselina
     - "32.66"
     - "32.66"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6119,7 +6119,7 @@ invoice_trails:
     - Livia Rosa
     - "40"
     - "40"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-02"
     - "626"
@@ -6132,7 +6132,7 @@ invoice_trails:
     - Lombardo Gaetana
     - "37.86"
     - "38"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-09"
     - "463"
@@ -6145,7 +6145,7 @@ invoice_trails:
     - Lonatica  Riccardo
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6223,7 +6223,7 @@ invoice_trails:
     - Lorefice Barbara
     - "319"
     - "319"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-27"
     - "518"
@@ -6236,7 +6236,7 @@ invoice_trails:
     - Lucenti Marco
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-17"
     - 
@@ -6249,7 +6249,7 @@ invoice_trails:
     - Lupo Antonino
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-09"
     - "464"
@@ -6262,7 +6262,7 @@ invoice_trails:
     - Luziani Rosalbina
     - "54.46"
     - "54.46"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6275,7 +6275,7 @@ invoice_trails:
     - Luziani Rosalbina
     - "91"
     - "91"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6301,7 +6301,7 @@ invoice_trails:
     - Macauda Michele
     - "47.96"
     - "48"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-25"
     - "160"
@@ -6314,7 +6314,7 @@ invoice_trails:
     - Macauda Salvatore
     - "88.54"
     - "88.54"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6325,8 +6325,8 @@ invoice_trails:
     - "2009-07-28"
     - "28008"
     - Magro Alessandro
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
@@ -6338,8 +6338,8 @@ invoice_trails:
     - "2009-08-31"
     - "31015"
     - Magro Annalisa
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
@@ -6351,12 +6351,12 @@ invoice_trails:
     - "2009-02-24"
     - "24011"
     - Magro Guglielmo
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 
@@ -6392,7 +6392,7 @@ invoice_trails:
     - Mallia Rosanna
     - "28"
     - "28"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-07"
     - "193"
@@ -6405,7 +6405,7 @@ invoice_trails:
     - Mallia Rosanna
     - "15.69"
     - "28"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-07"
     - "193"
@@ -6418,7 +6418,7 @@ invoice_trails:
     - Maltese Marcella
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-18"
     - "411"
@@ -6444,7 +6444,7 @@ invoice_trails:
     - Manenti Liliana
     - "148"
     - "148"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6483,7 +6483,7 @@ invoice_trails:
     - Marina Salvatore
     - "218.8"
     - "230"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-09"
     - "290"
@@ -6496,7 +6496,7 @@ invoice_trails:
     - Marina Salvatore
     - "85.89"
     - "85.89"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6522,7 +6522,7 @@ invoice_trails:
     - Martorina Rossana
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-25"
     - "159"
@@ -6587,7 +6587,7 @@ invoice_trails:
     - Martorina Rossana
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-20"
     - "420"
@@ -6613,7 +6613,7 @@ invoice_trails:
     - Martorina Rossana
     - "31"
     - "31"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-20"
     - "420"
@@ -6639,7 +6639,7 @@ invoice_trails:
     - Martorina Rossana
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-25"
     - "429"
@@ -6652,7 +6652,7 @@ invoice_trails:
     - Martorina Rossana
     - "150"
     - "150"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-13"
     - "556"
@@ -6704,7 +6704,7 @@ invoice_trails:
     - Mazza De Leva Bruno
     - "140"
     - "140"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6730,7 +6730,7 @@ invoice_trails:
     - Melzi Elena
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-06"
     - "377"
@@ -6743,7 +6743,7 @@ invoice_trails:
     - Messina Benedetta
     - "36"
     - "36"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-17"
     - "317"
@@ -6756,7 +6756,7 @@ invoice_trails:
     - Migliore Carla
     - "74"
     - "74"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6834,7 +6834,7 @@ invoice_trails:
     - Migliorino Loredana
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-03"
     - "273"
@@ -6860,7 +6860,7 @@ invoice_trails:
     - Modica Antonio
     - "49"
     - "49"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-16"
     - "479"
@@ -6873,7 +6873,7 @@ invoice_trails:
     - Modica Cannatella Emanuela
     - "17"
     - "17"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-03"
     - "93"
@@ -6951,7 +6951,7 @@ invoice_trails:
     - Modica Diego
     - "148"
     - "148"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -6964,7 +6964,7 @@ invoice_trails:
     - Modica Giovanna
     - "45"
     - "45"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-10"
     - "201"
@@ -6990,7 +6990,7 @@ invoice_trails:
     - Modica  Romano Aih
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-14"
     - "302"
@@ -7003,7 +7003,7 @@ invoice_trails:
     - Moltisanti Dionisio
     - "290.77"
     - "331"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-13"
     - "402"
@@ -7042,7 +7042,7 @@ invoice_trails:
     - Monaco Gabriella
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-26"
     - "63"
@@ -7055,7 +7055,7 @@ invoice_trails:
     - Morana Vincenza
     - "93.95"
     - "94"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-16"
     - "312"
@@ -7068,7 +7068,7 @@ invoice_trails:
     - Morana Vincenza
     - "94"
     - "94"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-16"
     - "312"
@@ -7120,7 +7120,7 @@ invoice_trails:
     - Musso Sergio
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -7133,7 +7133,7 @@ invoice_trails:
     - Musso+Iemmolo
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7172,7 +7172,7 @@ invoice_trails:
     - Napolitano Giorgia
     - "61"
     - "61"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-20"
     - "568"
@@ -7198,7 +7198,7 @@ invoice_trails:
     - Nicastro Lucia
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-05"
     - "187"
@@ -7250,7 +7250,7 @@ invoice_trails:
     - Nicastro Lucia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-05"
     - "187"
@@ -7302,7 +7302,7 @@ invoice_trails:
     - Nitta Maria
     - "21.65"
     - "22"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-04"
     - "99"
@@ -7328,7 +7328,7 @@ invoice_trails:
     - Nitta Maria
     - "21.65"
     - "22"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-11"
     - "204"
@@ -7354,7 +7354,7 @@ invoice_trails:
     - Nitta Maria
     - "25.05"
     - "25.05"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7367,7 +7367,7 @@ invoice_trails:
     - Nitta Maria
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-15"
     - "408"
@@ -7380,7 +7380,7 @@ invoice_trails:
     - Nitta Maria
     - "4"
     - "4"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7393,7 +7393,7 @@ invoice_trails:
     - Noto Maria
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-26"
     - "245"
@@ -7432,7 +7432,7 @@ invoice_trails:
     - Occhipinti Daniele
     - "90.11"
     - "90.11"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7445,7 +7445,7 @@ invoice_trails:
     - Occhipinti Enrico
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-08"
     - "382"
@@ -7458,7 +7458,7 @@ invoice_trails:
     - Occhipinti Enrico
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-17"
     - "564"
@@ -7510,7 +7510,7 @@ invoice_trails:
     - Ofierski Isabella
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-04"
     - "533"
@@ -7523,7 +7523,7 @@ invoice_trails:
     - Ofierski Krzysztof
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-21"
     - "425"
@@ -7549,7 +7549,7 @@ invoice_trails:
     - Ottaviano Giuseppe
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-07"
     - "638"
@@ -7588,7 +7588,7 @@ invoice_trails:
     - Palermo Giorgio
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-11"
     - "389"
@@ -7601,7 +7601,7 @@ invoice_trails:
     - Palermo Maria
     - "10.16"
     - "10.16"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7627,7 +7627,7 @@ invoice_trails:
     - Palumbo Marzia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-29"
     - "74"
@@ -7653,7 +7653,7 @@ invoice_trails:
     - Paolino Maria Giusi
     - "52.39"
     - "53"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-11"
     - "205"
@@ -7666,7 +7666,7 @@ invoice_trails:
     - Parisi Francesco
     - "99.69"
     - "100"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-27"
     - "247"
@@ -7705,7 +7705,7 @@ invoice_trails:
     - Pellegrino Enrico
     - "99.54"
     - "99.54"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7718,7 +7718,7 @@ invoice_trails:
     - Pellegrino Enrico
     - "52"
     - "52"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7731,7 +7731,7 @@ invoice_trails:
     - Pellegrino Giovanna
     - "55"
     - "55"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-08"
     - "282"
@@ -7757,7 +7757,7 @@ invoice_trails:
     - Petillo Rachele
     - "30"
     - "30"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7770,7 +7770,7 @@ invoice_trails:
     - Petriliggieri Simona
     - "32.6"
     - "33"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-11"
     - "206"
@@ -7783,7 +7783,7 @@ invoice_trails:
     - Petrolo Massimo
     - "37.71"
     - "37.71"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -7796,7 +7796,7 @@ invoice_trails:
     - Petrolo Pisana
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -7809,7 +7809,7 @@ invoice_trails:
     - Pettineo Rocco
     - "32"
     - MARITO DI GIULIANA RITA
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -7913,7 +7913,7 @@ invoice_trails:
     - Piazzese Graziella
     - "360"
     - "360"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-07"
     - "280"
@@ -7952,7 +7952,7 @@ invoice_trails:
     - Piccitto Mauro
     - "60"
     - "80"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-24"
     - "345"
@@ -8004,7 +8004,7 @@ invoice_trails:
     - Pisana Giuseppina
     - "12.8"
     - "72"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-11"
     - "395"
@@ -8017,7 +8017,7 @@ invoice_trails:
     - Pisana Giuseppina
     - "78.44"
     - "78.44"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8030,7 +8030,7 @@ invoice_trails:
     - Pisana Marinella
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-14"
     - "135"
@@ -8056,7 +8056,7 @@ invoice_trails:
     - Pisana Marinella
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-04"
     - "372"
@@ -8069,7 +8069,7 @@ invoice_trails:
     - Piscopo Carmelo
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-28"
     - "591"
@@ -8082,7 +8082,7 @@ invoice_trails:
     - Pistola Eleonora
     - "15"
     - "15"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-03"
     - "632"
@@ -8121,7 +8121,7 @@ invoice_trails:
     - Pitino Francesco
     - "54"
     - "54"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-04"
     - "635"
@@ -8186,7 +8186,7 @@ invoice_trails:
     - Pitrolo Bartolomeo
     - "37.71"
     - "37.71"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8225,7 +8225,7 @@ invoice_trails:
     - Poidomani Anita
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-11"
     - "469"
@@ -8238,7 +8238,7 @@ invoice_trails:
     - Profetto Veronica
     - "77"
     - "77"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-05"
     - "636"
@@ -8251,7 +8251,7 @@ invoice_trails:
     - Prossimo Alessio
     - "7.21"
     - "7.21"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8264,7 +8264,7 @@ invoice_trails:
     - Puccia Chiara
     - "31.38"
     - "31.38"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8277,7 +8277,7 @@ invoice_trails:
     - Puccia Paolo
     - "37.71"
     - "37.71"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8290,7 +8290,7 @@ invoice_trails:
     - Puglisi Francesco
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-30"
     - "32"
@@ -8303,7 +8303,7 @@ invoice_trails:
     - Puglisi Gabriele
     - "7.21"
     - "7.21"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8316,7 +8316,7 @@ invoice_trails:
     - Puglisi Paola
     - "56.98"
     - "57"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-18"
     - "319"
@@ -8329,7 +8329,7 @@ invoice_trails:
     - Puglisi Paola
     - "75"
     - "75"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-05"
     - "637"
@@ -8355,7 +8355,7 @@ invoice_trails:
     - Puma Rosario
     - "29.92"
     - "30"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-03"
     - "94"
@@ -8368,7 +8368,7 @@ invoice_trails:
     - Purromedi Francesco
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-02"
     - "266"
@@ -8381,7 +8381,7 @@ invoice_trails:
     - Purromedi Azzolina
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -8407,7 +8407,7 @@ invoice_trails:
     - Quaquero Chiara
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-15"
     - "306"
@@ -8420,7 +8420,7 @@ invoice_trails:
     - Quaquero Chiara
     - "45"
     - "45"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-28"
     - "589"
@@ -8433,7 +8433,7 @@ invoice_trails:
     - Quartarone Francesca
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -8459,7 +8459,7 @@ invoice_trails:
     - Ragusa Rosario
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -8472,7 +8472,7 @@ invoice_trails:
     - Raniolo Danilo
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-20"
     - "323"
@@ -8485,7 +8485,7 @@ invoice_trails:
     - Raniolo Danilo
     - "57.5"
     - "57.5"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8537,7 +8537,7 @@ invoice_trails:
     - Ricca Pietro
     - "30.25"
     - "30.25"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8550,10 +8550,10 @@ invoice_trails:
     - Ricca Pietro
     - "34.51"
     - "34.51"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -8589,7 +8589,7 @@ invoice_trails:
     - Rizza Giorgia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-23"
     - "153"
@@ -8602,7 +8602,7 @@ invoice_trails:
     - Rizza Giorgia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-03"
     - "168"
@@ -8706,7 +8706,7 @@ invoice_trails:
     - Romilla Katia
     - "163.09"
     - "163.09"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8719,7 +8719,7 @@ invoice_trails:
     - Rosa Gioele
     - "17.91"
     - "18"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-23"
     - "156"
@@ -8745,7 +8745,7 @@ invoice_trails:
     - Rosa Gioele
     - "256.6"
     - "256.6"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8758,7 +8758,7 @@ invoice_trails:
     - Rossitto Monica
     - "169.83"
     - "169.83"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8771,7 +8771,7 @@ invoice_trails:
     - Ruffino Rosario
     - "10.79"
     - "11"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-02"
     - "90"
@@ -8784,7 +8784,7 @@ invoice_trails:
     - Runza Francesca
     - "31.7"
     - "39"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-31"
     - "86"
@@ -8797,7 +8797,7 @@ invoice_trails:
     - Runza Francesca
     - "25"
     - "29"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-31"
     - "597"
@@ -8810,7 +8810,7 @@ invoice_trails:
     - Russino Enrico
     - "99.62"
     - "99.62"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8823,7 +8823,7 @@ invoice_trails:
     - Russino Enrico
     - "40.23"
     - "40.23"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8836,7 +8836,7 @@ invoice_trails:
     - Ruta Lina
     - "10"
     - "10"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-25"
     - "583"
@@ -8862,7 +8862,7 @@ invoice_trails:
     - Saitta Manuela
     - "27"
     - "27"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8875,7 +8875,7 @@ invoice_trails:
     - Sallemi Sergio
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-28"
     - "356"
@@ -8888,7 +8888,7 @@ invoice_trails:
     - Salsetta Crocefisso
     - "33.54"
     - "33.54"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -8901,7 +8901,7 @@ invoice_trails:
     - Sammito  Maria
     - "40"
     - "40"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-19"
     - "488"
@@ -8940,7 +8940,7 @@ invoice_trails:
     - "Sav\xC3\xA0 Giuseppe"
     - "40"
     - "40"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-26"
     - "433"
@@ -8953,7 +8953,7 @@ invoice_trails:
     - Scapellaro Rosario
     - "60"
     - "200"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -8979,7 +8979,7 @@ invoice_trails:
     - Scarso Carmelo
     - "50"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-25"
     - "580"
@@ -9018,7 +9018,7 @@ invoice_trails:
     - Scarso Giovanna
     - "16"
     - "16"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-07"
     - "194"
@@ -9031,7 +9031,7 @@ invoice_trails:
     - Scarso Giovanna
     - "15"
     - "15"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-13"
     - "475"
@@ -9044,7 +9044,7 @@ invoice_trails:
     - Scarso Maria
     - "32.66"
     - "32.66"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9083,7 +9083,7 @@ invoice_trails:
     - Scivoletto Maria Teresa
     - "27"
     - "27"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-29"
     - "73"
@@ -9096,7 +9096,7 @@ invoice_trails:
     - Scivoletto Maria Teresa
     - "7.21"
     - "7.21"
-    - "0"
+    - "0.00"
     - false
     - "2009-03-06"
     - 
@@ -9161,7 +9161,7 @@ invoice_trails:
     - Serravillo Giuseppe
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-07-08"
     - "540"
@@ -9226,7 +9226,7 @@ invoice_trails:
     - Singh Lakmbir
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-20"
     - 
@@ -9239,7 +9239,7 @@ invoice_trails:
     - Siracusa Massimo
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-04"
     - "176"
@@ -9252,7 +9252,7 @@ invoice_trails:
     - Siracusa Massimo
     - "50"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-24"
     - "502"
@@ -9265,7 +9265,7 @@ invoice_trails:
     - Solarino Simona
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-06"
     - "105"
@@ -9278,7 +9278,7 @@ invoice_trails:
     - Solarino Simona
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9291,7 +9291,7 @@ invoice_trails:
     - Solarino Simona
     - "18.91"
     - "18.91"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9304,7 +9304,7 @@ invoice_trails:
     - Solarino Simona
     - "32.66"
     - "32.66"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9317,7 +9317,7 @@ invoice_trails:
     - Solarino Simona
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9330,7 +9330,7 @@ invoice_trails:
     - Sortino Elisa
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-20"
     - "421"
@@ -9343,7 +9343,7 @@ invoice_trails:
     - Spada Massimiliano
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-04"
     - "453"
@@ -9356,7 +9356,7 @@ invoice_trails:
     - Spadaro Agnese
     - "20"
     - "20"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-18"
     - "481"
@@ -9369,7 +9369,7 @@ invoice_trails:
     - Spadaro Cinzia
     - "20"
     - "20"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-16"
     - "310"
@@ -9408,7 +9408,7 @@ invoice_trails:
     - Spadaro Teresa
     - "153.65"
     - "154"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-11"
     - "391"
@@ -9434,7 +9434,7 @@ invoice_trails:
     - Spadola Maria Veronica
     - "36.79"
     - "37"
-    - "0"
+    - "0.00"
     - true
     - "2009-05-07"
     - "379"
@@ -9447,7 +9447,7 @@ invoice_trails:
     - Stracquadanio Giovanna
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-06-26"
     - "515"
@@ -9460,7 +9460,7 @@ invoice_trails:
     - Stracquadanio Maria Francesca
     - "59.6"
     - "59.6"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9512,7 +9512,7 @@ invoice_trails:
     - Sudano Vincenzo
     - "68.69"
     - "69"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-08"
     - "283"
@@ -9525,7 +9525,7 @@ invoice_trails:
     - Sudato Sonia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-10"
     - "297"
@@ -9538,7 +9538,7 @@ invoice_trails:
     - Sudato Sonia
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-10"
     - "297"
@@ -9564,7 +9564,7 @@ invoice_trails:
     - Tamburello Concetta
     - "49.5"
     - "50"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-17"
     - "220"
@@ -9590,7 +9590,7 @@ invoice_trails:
     - Terranova Daniela
     - "15.16"
     - "15.16"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9629,7 +9629,7 @@ invoice_trails:
     - Terribile Monia
     - "47.02"
     - "47.02"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9655,7 +9655,7 @@ invoice_trails:
     - Travaglio Cannatella
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - 
     - 
@@ -9681,7 +9681,7 @@ invoice_trails:
     - Trovato  Roberta
     - "62.31"
     - "62.31"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9707,10 +9707,10 @@ invoice_trails:
     - Trovato Michele
     - "23.16"
     - "23.16"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -9720,10 +9720,10 @@ invoice_trails:
     - Trovato Michele
     - "16.42"
     - "16.42"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -9733,10 +9733,10 @@ invoice_trails:
     - Trovato Michele
     - "58.77"
     - "58.77"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -9746,10 +9746,10 @@ invoice_trails:
     - Trovato Michele
     - "12.95"
     - "12.95"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -9757,8 +9757,8 @@ invoice_trails:
     - "2009-06-22"
     - "22008"
     - Trovato Michele
-    - "0"
-    - "0"
+    - "0.00"
+    - "0.00"
     - 
     - false
     - 
@@ -9772,7 +9772,7 @@ invoice_trails:
     - Trovato Michele
     - "34.31"
     - "34.31"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9785,10 +9785,10 @@ invoice_trails:
     - Trovato Roberta
     - "342.76"
     - "342.76"
-    - "0"
+    - "0.00"
     - false
     - 
-    - "0"
+    - "0.00"
     - 
     - 
     - 2009-09-15 09:37:04
@@ -9798,7 +9798,7 @@ invoice_trails:
     - Trovato Roberta
     - "122.53"
     - "122.53"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9811,7 +9811,7 @@ invoice_trails:
     - Tue Giuseppe
     - "52.85"
     - "52.85"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9824,7 +9824,7 @@ invoice_trails:
     - Turello Concetto
     - "70"
     - "70"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-11"
     - "207"
@@ -9876,7 +9876,7 @@ invoice_trails:
     - Turnaturi Giuseppa
     - "146"
     - "146"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9889,7 +9889,7 @@ invoice_trails:
     - Turnaturi Giuseppa
     - "145"
     - "145"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9928,7 +9928,7 @@ invoice_trails:
     - Vaccaro Angela
     - "21.27"
     - "21.27"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -9941,7 +9941,7 @@ invoice_trails:
     - Vernuccio Antonio
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-02-20"
     - "146"
@@ -9980,7 +9980,7 @@ invoice_trails:
     - Vicari Maria
     - "14.27"
     - "15"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-27"
     - 
@@ -10006,7 +10006,7 @@ invoice_trails:
     - Vilardo Pina Rosa
     - "38"
     - "38"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-21"
     - "228"
@@ -10019,7 +10019,7 @@ invoice_trails:
     - Vindigni  Vincenzo
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - true
     - "2009-09-02"
     - "630"
@@ -10084,7 +10084,7 @@ invoice_trails:
     - Viola Francesco
     - "12"
     - "12"
-    - "0"
+    - "0.00"
     - true
     - "2009-03-18"
     - "224"
@@ -10097,7 +10097,7 @@ invoice_trails:
     - Voi Rosanna
     - "17"
     - "23"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-30"
     - "364"
@@ -10123,7 +10123,7 @@ invoice_trails:
     - Voi Rosanna  Ugo Francesco
     - "300"
     - "300"
-    - "0"
+    - "0.00"
     - true
     - "2009-04-30"
     - "364"
@@ -10136,7 +10136,7 @@ invoice_trails:
     - Zaccaria Angelo
     - "40"
     - "40"
-    - "0"
+    - "0.00"
     - true
     - "2009-01-30"
     - "79"
@@ -10175,7 +10175,7 @@ invoice_trails:
     - CRUCETTA GIUSEPPINA
     - "25"
     - "25"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10188,7 +10188,7 @@ invoice_trails:
     - AGOSTA CARMELA
     - "109.7"
     - "109.7"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10227,7 +10227,7 @@ invoice_trails:
     - PATERNO' BARBARA
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10240,7 +10240,7 @@ invoice_trails:
     - PADUA SABINA
     - "35"
     - "35"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10266,7 +10266,7 @@ invoice_trails:
     - MOLTISANTI DIONISIO
     - "18.64"
     - "19"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10292,7 +10292,7 @@ invoice_trails:
     - TROIA LUCIA
     - "89.99"
     - "90"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10305,7 +10305,7 @@ invoice_trails:
     - PUGLISI ANGELA
     - "31.7"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10344,7 +10344,7 @@ invoice_trails:
     - Salerno Viviana
     - "32"
     - "32"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10370,7 +10370,7 @@ invoice_trails:
     - Colombo Maria
     - "83"
     - "83"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10383,7 +10383,7 @@ invoice_trails:
     - Pisana
     - "19"
     - "19"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10409,7 +10409,7 @@ invoice_trails:
     - colombo maria
     - "83"
     - "84"
-    - "0"
+    - "0.00"
     - true
     - "2009-10-12"
     - "728"
@@ -10448,7 +10448,7 @@ invoice_trails:
     - Bregoli Dania
     - "7"
     - "7"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10474,7 +10474,7 @@ invoice_trails:
     - Meli Maria
     - "43.48"
     - "43.5"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10565,7 +10565,7 @@ invoice_trails:
     - Linzitto Rosellina
     - "18.91"
     - "19"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10578,7 +10578,7 @@ invoice_trails:
     - Pucci Grazia
     - "32.66"
     - "33"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10604,7 +10604,7 @@ invoice_trails:
     - Salerno Viviana
     - "47.66"
     - "48"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10643,7 +10643,7 @@ invoice_trails:
     - Alecci Orazia
     - "32.66"
     - "33"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10656,7 +10656,7 @@ invoice_trails:
     - Bracchitta Daniela
     - "32.66"
     - "33"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10669,7 +10669,7 @@ invoice_trails:
     - Guastella Concetta
     - "52.94"
     - "53"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
@@ -10682,7 +10682,7 @@ invoice_trails:
     - Solarino Simona\
     - "17"
     - "17"
-    - "0"
+    - "0.00"
     - false
     - 
     - 
