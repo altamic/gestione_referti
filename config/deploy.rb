@@ -1,3 +1,4 @@
+
 #dreamhost stuff
 set :user, 'converge'  # Your dreamhost account's username
 set :domain, 'convergent.it'  # Dreamhost servername where your account is located 
