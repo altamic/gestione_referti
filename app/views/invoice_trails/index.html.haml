@@ -8,11 +8,11 @@
       = t(:search_criteria)
 
     %p
-      = f.label :admission_date_after, t(:admission_date_after)
-      = f.calendar_date_select :admission_date_after, :month_year => true, :size => 10  
+      = f.label :admission_date_greater_than_or_equal_to, t(:admission_date_after)
+      = f.calendar_date_select :admission_date_greater_than_or_equal_to, :month_year => true, :size => 10  
       \&nbsp;
-      = f.label :admission_date_before, t(:admission_date_before)
-      = f.calendar_date_select :admission_date_before, :month_year => true, :size => 10
+      = f.label :admission_date_less_than_or_equal_to, t(:admission_date_before)
+      = f.calendar_date_select :admission_date_less_than_or_equal_to, :month_year => true, :size => 10
       \&nbsp;&nbsp;&nbsp;&nbsp;
 
       = f.label :payment_status, t(:payment_status)
