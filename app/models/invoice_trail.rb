@@ -63,7 +63,7 @@ class InvoiceTrail < ActiveRecord::Base
   end
   
   def remove_payment_date_when_unpayed
-    payment_date = '' if not payed
+    self.payment_date = nil if not self.payed
     true
   end
   
