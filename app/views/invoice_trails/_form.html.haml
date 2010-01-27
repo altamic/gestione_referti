@@ -1,5 +1,5 @@
 - form_for @invoice_trail do |f|
-  = f.error_messages
+  = f.error_messages :object_name => 'modulo accettazione'
   %p
     %strong= f.label :full_name, t(:full_name)
     &nbsp;
